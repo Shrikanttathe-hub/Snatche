@@ -1,0 +1,121 @@
+.accountPage {
+    width: 100%;
+}
+.accountPage .yourAccount {
+    width: 80%;
+    margin: 0 auto;
+}
+.accountContainer {
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 60px;
+    margin-bottom: 256px;
+}
+.accountContainer .accountinfo {
+    width: 100%;
+}
+.accountinfoRows a .yourorderImg img {
+    width: 100%;
+}
+.accountContainer ul {
+    width: 100%;
+    list-style-type: none;
+}
+.accountContainer ul li {
+    width: 100%;
+}
+.accountContainer ul li a {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+.accountContainer ul li a .accountContent {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000;
+    border-bottom: 2px solid rgba(139, 139, 139, 0.1);
+    padding: 21px 0px;
+}
+.accountContainer ul li a .accountContent h2 {
+    font-size: 24px;
+    line-height: 29px;
+    font-family: 'Montserrat-Bold';
+}
+.accountContainer ul li a .accountContent span {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(139, 139, 139, 1);
+}
+.accountContainer ul li a .yourOrderImg img {
+    width: 37px;
+    height: 32px;
+}
+.accountContainer ul li a .nextImg img {
+    width: 8px;
+    height: 15px;
+}
+@media only screen and (max-width: 1024px) {
+    .accountPage .yourAccount {
+        width: 100%;
+    }
+    .accountContainer {
+        box-shadow: 0px 4px 15px 5px rgba(0, 0, 0, 0.25);
+        padding: 30px;
+        margin-bottom: 40px;
+    }
+    .accountinfoRows a .yourorderImg img {
+        width: 25px;
+        height: 30px;
+    }
+    .accountContainer ul li a .accountContent {
+        width: 90%;
+        padding: 20px 0px;
+    }
+    .accountContainer ul li a .accountContent h2 {
+        font-size: 15px;
+        line-height: 12px;
+    }
+    .accountContainer ul li a .accountContent span {
+        font-size: 12px;
+    }
+    .accountContainer ul li a .nextImg img {
+        width: 7px;
+        height: 12px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .accountPage .yourAccount {
+        width: 100%;
+    }
+    .accountContainer {
+        box-shadow: 0px 4px 15px 5px rgba(0, 0, 0, 0.25);
+        padding: 20px;
+        margin-bottom: 25px;
+    }
+    .accountinfoRows a .yourorderImg img {
+        width: 20px;
+        height: 18px;
+    }
+    .accountContainer ul li a .accountContent {
+        width: 85%;
+        display: block;
+        padding: 15px 0px;
+    }
+    .accountContainer ul li a .accountContent h2 {
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .accountContainer ul li a .accountContent span {
+        font-size: 10px;
+    }
+    .accountContainer ul li a .nextImg img {
+        width: 5px;
+        height: 10px;
+    }
+}

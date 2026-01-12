@@ -1,0 +1,911 @@
+#portfolio {
+    width: 100%;
+}
+#portfolio .port {
+    width: 100%;
+    max-width: 1436px;
+    margin: 0 auto;
+}
+.utilityRight button {
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 13px 20px;
+    border: none;
+    font-size: 14px;
+    line-height: 1;
+    font-family: 'Montserrat-SemiBold';
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.utilityRight button img {
+    width: 14px;
+    margin-left: 7px;
+}
+.listSelect {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.listSelect .listSelectLeft {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 31px;
+}
+.listSelect .listSelectRight {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 31px;
+}
+.listSelect label {
+    padding-right: 12px;
+    font-size: 13px;
+    line-height: 1.35;
+    font-family: 'Montserrat-Bold';
+}
+.listSelect select {
+    font-family: 'Montserrat-Medium';
+    padding: 8px 50px 8px 14px;
+    border: none;
+    font-size: 18px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.addedPro {
+    width: 100%;
+    margin-bottom: 100px;
+}
+.addedPro ul {
+    width: 100%;
+    list-style-type: none;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+}
+.addedPro ul li {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 35px 35px 67px;
+}
+.addedPro ul li .addProdRight .addRightBottom .addvalues:nth-last-child(2) {
+    width: 25%;
+}
+.addedPro ul li .addProdRight .addRightBottom .addvalues:last-child {
+    width: 41.66%;
+}
+.addedPro ul li .addProdLeft {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 47%;
+    gap: 46px;
+}
+.addedPro ul li:nth-child(even) {
+    background-color: #FFFFFF;
+}
+.addedPro ul li:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.addedPro ul li .addProdLeft .addImg {
+    width: 30%;
+}
+.addedPro ul li .addProdLeft .addImg img {
+    width: 100%;
+    mix-blend-mode: multiply;
+}
+.addedPro ul li .addProdLeft .addContent {
+    width: 70%;
+}
+.addedPro ul li .addProdLeft .addContent h2 {
+    font-family: 'Montserrat-Bold';
+    font-size: 20px;
+    line-height: 1.30;
+    padding-bottom: 11px;
+}
+.addedPro ul li .addProdLeft .addContent h2 img {
+    width: 34px;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+.addedPro ul li .addProdLeft .addContent p {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 13px;
+    color: rgba(80, 80, 80, 1);
+    line-height: 1.35;
+    display: inline;
+    padding-right: 35px;
+}
+/* new  code */
+.addedPro ul li .addProdLeft .addContent .auth {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 25px;
+    margin-top: 13px;
+}
+.addedPro ul li .addProdLeft .addContent button {
+    font-family: 'Montserrat-Bold';
+    font-size: 13px;
+    line-height: 1.35;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.addedPro ul li .addProdRight {
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    row-gap: 31px;
+}
+.addedPro ul li .addProdRight .addRightBottom {
+    width: 100%;
+    display: flex;
+    text-align: right;
+    align-items: center;
+}
+.addedPro ul li .addProdRight .addRightBottom .addvalues {
+    width: 33.33%;
+}
+.addedPro ul li .addProdRight .addRightBottom .addvalues h5 {
+    font-family: 'Montserrat-Regular';
+    font-size: 11px;
+    line-height: 1;
+    text-align: right;
+    padding-bottom: 5px;
+}
+.addedPro ul li .addProdRight .addRightBottom .addvalues p {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 30px;
+    line-height: 1;
+}
+.addedPro ul li .addProdRight .addRightTop .favRemove {
+    font-size: 13px;
+    line-height: 1.35;
+    font-family: 'Montserrat-Bold';
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    display: flex;
+    column-gap: 5px;
+    background-color: transparent;
+}
+.addedPro ul li .addProdRight .addRightTop .favRemove img {
+    width: 10px;
+}
+.addedPro ul li .addProdRight .addRightBottom .addvalues .up {
+    color: rgba(0, 137, 14, 1);
+}
+.addedPro ul li .addProdRight .addRightBottom .addvalues .down {
+    color: rgba(189, 66, 66, 1);
+}
+/*Intro of portfolio .*/ 
+.listPagePopUp .message {
+    width: 100%;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1)
+}
+.message .messBox {
+    max-width: 100%;
+    background: rgba(255, 255, 255, 1);
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 71px 73px 38px 67px;
+    background-image: url('../Images/SnatcheList/snatcheList_Message.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.message .messBox .introduction {
+    font-size: 15px;
+    line-height: 1.35;
+    font-family: 'Montserrat-SemiBold';
+}
+.message .messBox h2 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 35px;
+    line-height: 1.35;
+    padding-bottom: 31px;
+    color: rgba(0, 128, 245, 1);
+}
+.message .messBox .portInfo {
+    font-family: 'Montserrat-Bold';
+    font-size: 16px;
+    padding-bottom: 19px;
+}
+.message .messBox p {
+    font-family: 'Montserrat-Medium';
+    font-size: 10px;
+    line-height: 1.78;
+}
+.message .messBox .messBtn {
+    text-align: right;
+    padding-top: 30px;
+}
+.message .messBox button {
+    border: none;
+    border: 2px solid#FFFFFF;
+    font-size: 16px;
+    line-height: 1.78;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 12px 61px;
+    cursor: pointer;
+}
+/* Add Product */
+.addpro .addMain {
+    padding: 40px 50px 85px 50px;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-height: 80vh;
+    overflow-y: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.addpro .addMain .addproClose {
+    outline: none;
+    border: none;
+    font-size: 16px;
+    line-height: 1;
+    font-family: 'Montserrat-Bold';
+    background-color: #fff;
+    cursor: pointer;
+    margin-left: auto;
+}
+.addpro .addMain .proContain {
+    width: 100%;
+    max-width: 866px;
+    margin: 0% auto;
+}
+.addpro .addMain .proContain h2 {
+    font-family: 'Montserrat-Bold';
+    padding-bottom: 43px;
+    text-align: center;
+    font-size: 35px;
+    line-height: 1;
+}
+.addMain .searchRes {
+    min-height: 203px;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+    padding: 26px 32px 43px 25px;
+}
+.addMain .proSearch {
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 100%;
+}
+.addMain label {
+    padding: 8px 0px 3px 13px;
+    position: absolute;
+    z-index: 1;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 11px;
+    line-height: 14px;
+    font-family: 'Montserrat-SemiBold';
+}
+.addMain .proSearch select {
+    font-family: 'Montserrat-SemiBold';
+    position: relative;
+    width: 100%;
+    height: 52px;
+    background: #fff;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    line-height: 26px;
+    padding: 10px 0px 0px 10px;
+}
+.addMain .proSearch input {
+    width: 100%;
+    padding: 17px 0px 17px 26px;
+    border: none;
+    font-size: 12px;
+    line-height: 17px;
+    font-family: 'Montserrat-SemiBold';
+}
+.addMain .proSearch button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0px;
+    right: 0px;
+    border: none;
+    background-color: transparent;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 16px 50px;
+    font-family: 'Montserrat-Regular';
+    cursor: pointer;
+}
+.addMain input::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+}
+.addMain button img {
+    margin-right: 10px;
+    object-fit: cover;
+    margin-top: 3px;
+    width: 18px;
+    height: 18px;
+}
+.addMain .searchRes span {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 13px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.addMain .searchRes .searchRe::after {
+    content: "";
+    flex: 1;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.searchRight select {
+    font-family: 'Montserrat-SemiBold';
+    position: relative;
+    max-width: 206px;
+    width: 100%;
+    min-height: 53px;
+    background: #fff;
+    border: none;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    line-height: 26px;
+    padding: 10px 0px 0px 10px;
+}
+.searchRes .prod_search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.searchRes .prod_search .productName{
+  font-family: 'Montserrat-Medium' !important;
+   font-size: 14px;
+   color: #000000;
+   opacity: 50%;
+   padding-top: 50px;
+}
+
+.prod_search .noResultFound{
+   font-family: 'Montserrat-Medium' !important;
+   font-size: 14px;
+   color: #000000;
+   opacity: 50%;
+   padding-top: 50px;
+}
+
+.searchRes .prod_search .searchLeft {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+.searchRes .prod_search .searchLeft .searImg {
+    width: 30%;
+}
+.searchRes .prod_search .searchLeft .searImg img {
+    width: 100%;
+}
+.searchRes .prod_search .searchLeft .searContent {
+    width: 70%;
+}
+.searchRes .prod_search .searchLeft .searContent h3 {
+    font-family: 'Montserrat-Bold';
+    font-size: 18px;
+    line-height: 1.40;
+}
+.searchRes .prod_search .searchLeft .searContent p {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 10px;
+    line-height: 1.40;
+    padding-top: 11px;
+}
+.searchRes .prod_search .searchLeft .searContent p span {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 10px;
+    line-height: 1.40;
+    display: inline;
+    color: #000000;
+}
+.searchRes .prod_search .searchRight {
+    width: 40%;
+    text-align: right;
+    position: relative;
+}
+.searchRes .prod_search .searchRight button {
+    font-family: 'Montserrat-SemiBold';
+    box-shadow: 0px 0px 13.83px -0.53px rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+    padding: 11px 46px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 13px;
+    line-height: 1.35;
+    margin-top: 10px;
+}
+/* add Product popUp */
+body {
+    overflow: hidden;
+}
+.portFolioActive {
+    filter: blur(10px);
+    pointer-events: none;
+    user-select: none;
+}
+.addpro {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 1030px;
+    z-index: 100;
+}
+.addproClose {
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+/*Ends Intro of portfolio */
+/* popUp CSS */
+.portfolioPopUp {
+    width: 100%;
+    max-width: 803px;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    z-index: 100;
+    max-height: 80vh;
+    overflow-y: auto;
+    transform: translate(-50%, -50%);
+}
+#addProdRight_mobileView {
+    display: none;
+}
+@media only screen and (max-width:1320px) {
+    .addedPro ul li .addProdLeft .addContent h2 {
+        font-size: 18px;
+    }
+    .addedPro ul li .addProdRight .addRightBottom .addvalues p {
+        font-size: 28px
+    }
+    .addedPro ul li .addProdLeft {
+        gap: 33px;
+    }
+    .listSelect select {
+        padding: 8px 40px 8px 14px;;
+    }
+}
+@media only screen and (max-width:1280px) {
+    .addedPro ul li .addProdLeft .addContent h2 {
+        font-size: 16px;
+    }
+    .addedPro ul li .addProdRight .addRightBottom .addvalues p {
+        font-size: 26px
+    }
+    .listSelect select {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:1024px) {
+    .addedPro ul li .addProdLeft .addContent .auth {
+        margin-top: 23px;
+    }
+    .addedPro ul li .addProdLeft .addContent h2 {
+        font-size: 20px;
+    }
+    .addedPro ul li .addProdRight .addRightBottom .addvalues p {
+        font-size: 30px;
+    }
+    .addedPro ul li .addProdRight {
+        display: none;
+    }
+    .addedPro ul li .addProdLeft,
+    .addedPro ul li .addProdRight {
+        width: 100%;
+    }
+    .addedPro ul li .addProdRight .addRightBottom .addvalues:nth-last-child(2),
+    .addedPro ul li .addProdRight .addRightBottom .addvalues:last-child {
+        width: 33.33%;
+    }
+    #addProdRight_mobileView {
+        display: block;
+    }
+    #addProdRight_mobileView .addRightBottom {
+        padding-top: 10px;
+    }
+    .addedPro ul li {
+        position: relative;
+        flex-direction: column;
+        padding: 25px;
+    }
+    .addedPro ul li .addProdRight .addRightBottom .addvalues h5,
+    .addedPro ul li .addProdRight .addRightBottom {
+        text-align: unset;
+    }
+    .addRightTop {
+        text-align: right;
+    }
+    .addedPro ul li .addProdLeft .addContent button {
+        font-size: 18px;
+    }
+      .addedPro ul li .addProdRight .addRightTop .favRemove {
+        position: absolute;
+        top: 7px;
+        right: 11px;
+    }
+    /* filter */
+    .listSelect,.listSelect .listSelectLeft,.list,
+    .listSelect .listSelectRight {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: unset;
+        gap: unset;
+    }
+    .list {
+        padding: 26px 0px 0px 0px;
+    }
+    .list label {
+        font-size: 21px;
+    }
+    .list select {
+        padding: 12px;
+        margin-top: 20px;
+    }
+    .port {
+        position: relative;
+    }
+    .filterImg {
+        display: block;
+        position: absolute;
+        right: 180px;
+        top: 31px;
+    }
+    .filterImg img {
+        width: 40px;
+        margin-top: -3px;
+    }
+    .filterImg button,
+    .filterContent button {
+        padding: 5px;
+        border: none;
+        position: absolute;
+        top: 1px;
+        right: 0px;
+        background-color: transparent;
+    }
+    .filterContent {
+        display: block;
+        position: relative;
+        width: 100%;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(139, 139, 139, 0.3);
+    }
+    .filterContent h2 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 1.35;
+        font-family: 'Montserrat-Bold';
+    }
+    .filterContent button img {
+        width: 20px;
+    }
+    .listSelect {
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-color: #fff;
+        width: 100vw;
+        height: 100vh;
+        z-index: 10000;
+        padding: 25px;
+        overflow-y: scroll;
+        backdrop-filter: blur(10px);
+        display: none;
+    }
+    .listSelect label{
+        padding: 0;
+    }
+    /* Add Product */
+    .addpro .addMain {
+        padding: 30px 40px 70px 40px;
+    }
+    .addpro .addMain .proContain h2 {
+        padding-bottom: 20px;
+        font-size: 28px;
+    }
+    .addMain .searchRes {
+        padding: 25px;
+    }
+    .searchRes .prod_search {
+        display: block;
+    }
+    .searchRes .prod_search .searchLeft,
+    .searchRes .prod_search .searchRight {
+        width: 100%;
+        text-align: unset;
+        align-items: center;
+    }
+    .searchRes .prod_search .searchLeft {
+        gap: 15px;
+    }
+    .searchRes .prod_search .searchRight {
+        padding-top: 15px;
+        display: flex;
+        gap: 15px;
+    }
+    .searchRes .prod_search .searchRight button {
+        width: 50%;
+        margin-top: 0;
+        padding: 16px 0;
+    }
+    .searchSize {
+        width: 50%;
+    }
+    .searchRight select {
+        font-size: 15px;
+        max-width: 100%;
+    }
+    /* intro of portfolio*/
+    .message .messBox .messBtn {
+        padding-top: 25px;
+    }
+    .message .messBox button {
+        padding: 8px 40px;
+    }
+}
+@media only screen and (max-width:991px) {
+    /* Add product */
+    .addpro .addMain {
+        padding: 23px 30px;
+    }
+}
+@media only screen and (max-width:767px) {
+    .utilityRight button img {
+        width: 10px;
+    }
+    /* remove button */
+    .addedPro ul li .addProdRight .addRightTop .favRemove {
+        display: none;
+    }
+    #removeImg {
+        padding: 5px;
+        display: block;
+    }
+    #removeImg img {
+        width: 10px;
+    }
+    #removeImg p {
+        display: none;
+    }
+    .utilityRight button {
+        padding: 10px;
+        font-size: 10px;
+    }
+    .addedPro ul li {
+        padding: 15px;
+    }
+    #addProdRight_mobileView {
+        padding-top: 0px;
+    }
+    .addedPro ul li .addProdRight .addRightTop .favRemove {
+        padding-bottom: 10px;
+        font-size: 10px;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+    .addedPro ul li .addProdLeft .addContent h2 {
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
+    .addedPro ul li .addProdLeft .addContent p {
+        font-size: 9px;
+        display: block;
+        padding: 5px 0px 0px 0px;
+    }
+    .addedPro ul li .addProdLeft .addContent button {
+        font-size: 12px;
+        padding: 0px;
+    }
+    .addedPro ul li .addProdRight .addRightBottom .addvalues p {
+        font-size: 13px;
+    }
+    .addedPro ul li .addProdRight .addRightBottom .addvalues h5 {
+        font-size: 9px;
+    }
+    .addedPro ul {
+        box-shadow: 0px 0px 11.9px 0px rgba(0, 0, 0, 0.25);
+    }
+    .addedPro {
+        margin-bottom: 25px;
+    }
+    .addedPro ul li .addProdLeft .addContent h2 img {
+        width: 15px;
+        margin-left: 10px;
+    }
+    .addedPro ul li .addProdLeft .addContent .auth {
+        margin-left: 0px;
+        gap: 7px;
+        margin-top: 10px;
+    }
+    .addedPro ul li .addProdLeft {
+        gap: 15px;
+    }
+ /* filter options */
+    .filterImg img {
+        width: 15px;
+    }
+    .listSelect {
+        padding: 15px;
+    }
+    .filterContent{
+        padding-bottom: 15px;
+    }
+    .filterContent h2 {
+        font-size: 14px;
+    }
+    .filterContent button img {
+        width: 14px;
+        object-position: center;
+    }
+    .list {
+        padding-top: 20px;
+    }
+
+    .listSelect label {
+        padding: 0;
+        font-size: 12px;
+    }
+    .list select {
+        font-size: 13px;
+        margin-top: 10px;
+        padding: 7px;
+    }
+
+    .filterImg button img {
+        width: 15px;
+    }
+   .filterImg {
+        right: 126px;
+        top: 40px;
+    }
+    .filterContent button {
+        padding: 0px; 
+    }
+    /* Intro of portfolio*/
+    .message .messBox {
+        padding: 15px;
+    }
+    .message .messBox .introduction {
+        font-size: 9px;
+        line-height: 1.35;
+        padding-bottom: 10px;
+    }
+    .message .messBox h2 {
+        font-size: 16px;
+        line-height: 1;
+        padding-bottom: 10px;
+    }
+    .message .messBox .portInfo {
+        font-size: 9px;
+        line-height: 1.78;
+        padding-bottom: 20px;
+    }
+    .message .messBox p {
+        font-size: 8px;
+        line-height: 1.78;
+    }
+    .snatcheList span img {
+        width: 21px;
+    }
+    .message .messBox .messBtn {
+        padding-top: 15px;
+    }
+    .message .messBox button {
+        font-size: 9px;
+        line-height: 1;
+        padding: 8px 30px;
+    }
+    /* Add product */
+    .searchRes .prod_search .searchLeft .searContent {
+        width: 66%;
+    }
+    .searchRes .prod_search .searchLeft .searImg {
+        width: 35%;
+    }
+    .searchRes .prod_search .searchLeft {
+        gap: 10px;
+    }
+    .addpro .addMain {
+        padding: 15px 15px 25px 15px
+    }
+    .addpro .addMain .proContain h2 {
+        font-size: 16px;
+        padding-bottom: 17px;
+    }
+
+    .addpro .addMain .addproClose {
+        font-size: 10px;
+        padding: 0px 0px 10px 0px;
+    }
+    .addMain .searchRes {
+        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
+        padding: 15px;
+    }
+   .searchRes .prod_search{
+        margin-top: 0px;
+    }
+    .searchRes .prod_search .searchRight {
+        display: block;
+    }
+    .searchSize,.searchRes .prod_search .searchRight button {
+        width: 100%;
+    }
+    .searchRight select {
+        box-shadow: 0px 0px 10.04px 0.5px rgba(0, 0, 0, 0.1);
+        font-size: 11px;
+        min-height: 33px;
+    }
+    .addMain label {
+        padding: 3px 0px 3px 13px;
+        font-size: 9px;
+    }
+    .searchRes .prod_search .searchRight button {
+        margin-top: 15px;
+        box-shadow: 0px 0px 10.04px 0.5px rgba(0, 0, 0, 0.1);
+        padding: 10px 0;
+    }
+    .addMain .proSearch input {
+        box-shadow: 0px 1.98px 14.86px 0px rgba(0, 0, 0, 0.25);
+        padding: 10px 0px 10px 15px;
+        font-size: 10px;
+    }
+    .addMain .proSearch button {
+        padding: 8px 10px;
+        font-size: 10px;
+    }
+    .addMain button img {
+        margin-right: 6px;
+        width: 15px;
+    }
+    .addMain .searchRes span {
+        font-size: 9px;
+        padding-bottom: 10px;
+    }
+    .searchRes .prod_search .searchLeft .searContent p span {
+        padding: 0;
+    }
+    .searchRes .prod_search .searchLeft .searContent h3 {
+        font-size: 15px;
+    }
+    .searchRes .prod_search .searchLeft .searContent p {
+        font-size: 9px;
+        padding-top: 8px;
+    }
+}
+
+.listadd .empty-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 20vh;
+    margin-top: 40px;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 30px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1) !important;
+    color: #000000;
+    transition: 0.3s ease;
+}

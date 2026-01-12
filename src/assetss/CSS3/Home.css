@@ -1,0 +1,2405 @@
+.Home-page .homePageMain .container {
+  width: 100%;
+  max-width: 1930px;
+  padding: 0px 15px;
+  margin: 0px auto;
+}
+.breadcrumb ul {
+  padding-left: 11.5%;
+}
+.owl .owl-carousel .owl-dots {
+  text-align: left;
+  position: absolute;
+  left: 100px;
+  bottom: 80px;
+}
+.owl .owl-carousel .owl-dots .owl-dot span {
+  margin-right: 15px;
+  padding: 10px;
+}
+.owl .owl-carousel .owl-dots .owl-dot.active span {
+  opacity: 70%;
+}
+/*Large Image owl corosoul css End */
+/*NewArrivals Card Section css start*/
+.newArrivals {
+  position: relative;
+  width: 100%;
+  padding-bottom: 45px;
+}
+.newArrivalsInnerContent {
+  padding: 60px 33px 20px 33px;
+}
+.newArrivals .owlNewArrival {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.newArrivals .owlNewArrival h2 {
+  padding-left: 10px;
+  font-family: "Montserrat-Bold";
+  font-size: 40px;
+}
+.newArrivals .owlNewArrival a {
+  font-family: "Montserrat-SemiBold";
+  font-size: 20px;
+  color: #000000;
+}
+
+.newArrivals .product-box {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.3s ease;
+}
+
+.newArrivals .product-box img {
+  max-width: 100% !important;
+}
+
+/*card section*/
+.newArrivalsSliderNew {
+  position: relative;
+  padding-top: 45px;
+  width: 100%;
+}
+
+/*prev and next*/
+.newArrivalsSliderNew .owl-nav {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px;
+  top: 50%;
+  transform: translate(0%, -50%);
+  cursor: pointer !important;
+  pointer-events: none !important;
+}
+
+.newArrivalsSliderNew .owl-next,
+.newArrivalsSliderNew .owl-prev {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  width: 69px;
+  height: 69px;
+  border-radius: 50% !important;
+  font-size: 30px !important;
+  border: none !important;
+  pointer-events: auto !important;
+}
+
+.newArrivalsSliderNew .owl-prev {
+  left: 0px;
+  top: 50%;
+  transform: translateX(-30%);
+}
+
+.newArrivalsSliderNew .owl-next {
+  right: 0px;
+  top: 50%;
+  transform: translateX(-12%);
+}
+
+/*NewArrivals Card Section css End*/
+
+/*hottestDrops Card Section css Start*/
+.hottestDrops {
+  position: relative;
+  width: 100%;
+}
+
+.hottestDrops .product-box {
+  display: block;
+  width: 100%;
+}
+
+.hottestDrops .owlHottestDrops {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  /* padding-top: 55px */
+}
+
+.hottestDrops .owlHottestDrops h2 {
+  padding-left: 10px;
+  font-family: "Montserrat-Bold";
+  font-size: 40px;
+}
+
+.hottestDrops .owlHottestDrops a {
+  font-family: "Montserrat-SemiBold";
+  font-size: 20px;
+  color: #000000;
+}
+
+.hottestDrops .item {
+  height: auto;
+}
+
+.ONN .item {
+  height: auto;
+}
+
+/*card*/
+.hottestDropsSliderNew {
+  position: relative;
+  padding-top: 45px;
+}
+
+/*prev and next*/
+.hottestDropsSliderNew .owl-nav {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px;
+  top: 50%;
+  transform: translate(0%, -50%);
+  cursor: pointer;
+  pointer-events: none;
+}
+
+.ONN .item .bidButton span {
+  font-family: "Montserrat-SemiBold";
+  font-size: 16px;
+  word-spacing: 2px !important;
+}
+
+.hottestDropsSliderNew .owl-next,
+.hottestDropsSliderNew .owl-prev {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  width: 69px;
+  height: 69px;
+  border-radius: 50% !important;
+  font-size: 30px !important;
+  border: none !important;
+  pointer-events: auto;
+}
+
+.hottestDropsSliderNew .owl-prev {
+  left: 0px;
+  top: 50%;
+  transform: translateX(-30%);
+}
+
+.hottestDropsSliderNew .owl-next {
+  right: 0px;
+  top: 50%;
+  transform: translateX(-12%);
+}
+
+/* Trendig css  start*/
+.trending {
+  padding-top: 62px;
+  padding-bottom: 49px;
+  display: flex;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.trending img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  display: block;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.trending .trendingImgContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.trending .trendingImgContent span {
+  position: absolute;
+  top: 7%;
+  left: 5%;
+  padding: 4px 10px;
+  background-color: #ebebed;
+  border-radius: 3px;
+  font-family: "Montserrat-SemiBold";
+  font-size: 14px;
+  color: #bcbebf;
+}
+
+/*Budget Picks css start*/
+.budgetPicks {
+  position: relative;
+  width: 100%;
+  padding-bottom: 49px;
+  /* padding-top: 49px; */
+}
+
+.budgetPicksInnerContent {
+  padding: 60px 33px 20px 33px;
+}
+
+.budgetPicks .owlBudgetPicks {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.budgetPicks .owlBudgetPicks h2 {
+  padding-left: 10px;
+  font-family: "Montserrat-Bold";
+  font-size: 40px;
+}
+
+.budgetPicks .owlBudgetPicks a {
+  font-family: "Montserrat-SemiBold";
+  font-size: 20px;
+  color: #000000;
+}
+
+.budgetPicks .product-box {
+  display: block;
+  width: 100%;
+}
+
+/*card*/
+.budgetPicksSliderNew {
+  position: relative;
+  padding-top: 45px;
+}
+
+/* 
+remove
+.owl-stage-outer {
+    padding: 0px 0px 0px 5px;
+    overflow: hidden;
+} */
+
+/*
+remove
+.owl-stage-outer .owl-stage {
+    display: flex;
+} */
+
+.budgetPicks .item .item-card .item-cardSmall {
+  padding-right: 10px;
+}
+
+.budgetPicks .item .item-card {
+  box-shadow: 1px 1px 1px 1px #e5e5e54d;
+  position: relative;
+}
+
+.budgetPicks .item .item-card .item-cardSmall .item-card-img img {
+  padding: 9px 1px 1px 22px;
+}
+
+.owl-stage-outer .owl-stage .item .item-card h3 {
+  padding: 0px 40px 18px 28px;
+  font-family: "Montserrat-SemiBold";
+  font-size: 17px;
+}
+
+.budgetPicksSliderNew a {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Montserrat-SemiBold";
+  font-size: 17px;
+}
+
+.budgetPicksSliderNew .item-card-img .item-card-sold {
+  position: absolute;
+  top: 12px;
+  right: 17px;
+  background-color: #d9d9d9;
+  font-family: "Montserrat-SemiBold";
+  font-size: 11px;
+  padding: 4px 11px;
+  border-radius: 2px;
+  color: #8b8b8b;
+}
+
+.budgetPicksSliderNew .item .bidButton {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Montserrat-SemiBold";
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 28px 20px 28px;
+  align-items: center;
+}
+
+.budgetPicksSliderNew .item .bidButton span {
+  word-spacing: 10px;
+}
+
+.budgetPicksSliderNew .item .bidButton button {
+  color: #ffffff;
+  background: transparent;
+  border: none;
+}
+
+/*prev and next*/
+.budgetPicksSliderNew .owl-nav {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px;
+  top: 50%;
+  transform: translate(0%, -50%);
+  cursor: pointer;
+  pointer-events: none;
+}
+
+.budgetPicksSliderNew .owl-next,
+.budgetPicksSliderNew .owl-prev {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  width: 69px;
+  height: 69px;
+  border-radius: 50% !important;
+  font-size: 30px !important;
+  border: none !important;
+  pointer-events: auto;
+}
+
+.budgetPicksSliderNew .owl-prev {
+  left: 0px;
+  top: 50%;
+  transform: translateX(-30%);
+}
+
+.budgetPicksSliderNew .owl-next {
+  right: 0px;
+  top: 50%;
+  transform: translateX(-12%);
+}
+
+/* Top Brands Css*/
+.topBrands {
+  position: relative;
+  width: 100%;
+  margin-bottom: 43px;
+  margin-top: 49px;
+  background-color: #e5eff1;
+}
+
+.topBrands .owlTopBrands {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  /* padding-top: 51px; */
+}
+
+.topBrands .owlTopBrands h2 {
+  padding-left: 15px;
+  font-family: "Montserrat-Bold";
+  font-size: 40px;
+}
+
+.topBrands .owlTopBrands a {
+  font-family: "Montserrat-SemiBold";
+  font-size: 20px;
+  color: #000000;
+}
+
+.topBrandsInnerContent {
+  padding: 51px 35px;
+}
+
+.topBrandsSliderNew .owl-item {
+  padding-right: 30px !important;
+}
+
+.topBrands .owl-stage-outer .owl-stage a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: inherit;
+}
+.topBrands .owl-stage-outer .owl-stage .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  background-color: #ffffff;
+  padding: 15px 0px;
+}
+
+.topBrands .owl-stage-outer .owl-stage .item:hover {
+  transform: scale(1.1);
+  border: none;
+}
+
+.topBrands .owl-stage-outer .owl-stage .item img {
+  display: block;
+  object-fit: contain;
+}
+
+/*card*/
+.topBrandsSliderNew {
+  position: relative;
+  margin-top: 33px;
+  padding-bottom: 43px;
+}
+
+.topBrandsSliderNew .item {
+  box-shadow: none;
+}
+
+.topBrandsSliderNew .owl-stage-outer {
+  position: relative;
+}
+
+.topBrandsSliderNew .owl-stage-outer::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -21px;
+  width: 200px;
+  height: calc(100% - 0px);
+  pointer-events: none;
+  background: linear-gradient(
+    269.56deg,
+    #e6f0f2 30.36%,
+    rgba(242, 242, 242, 0) 79.67%
+  );
+  transform: translateY(-49%);
+}
+
+/*prev and next*/
+.topBrandsSliderNew .owl-nav {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px;
+  top: 40%;
+  transform: translate(0%, -50%);
+  cursor: pointer;
+  border: none !important;
+  pointer-events: none !important;
+}
+
+.topBrandsSliderNew .owl-next,
+.topBrandsSliderNew .owl-prev {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  width: 60px;
+  height: 60px;
+  border-radius: 50% !important;
+  font-size: 30px !important;
+  border: none;
+  pointer-events: auto !important;
+}
+
+.topBrandsSliderNew .owl-prev {
+  left: 0px;
+  top: 50%;
+  transform: translateX(-32%);
+}
+
+.topBrandsSliderNew .owl-next {
+  right: 0px;
+  top: 50%;
+  transform: translateX(20%);
+}
+
+/*Our collections css*/
+.ourCollections {
+  position: relative;
+  width: 100%;
+  /* margin-top: 45px; */
+}
+
+.ourCollections .owlOurCollecions {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.ourCollectionsInnerContent {
+  padding: 60px 33px 20px 33px;
+}
+
+.ourCollections .owlOurCollecions h2 {
+  padding-left: 15px;
+  font-family: "Montserrat-Bold";
+  font-size: 40px;
+}
+
+.ourCollections .owlOurCollecions a {
+  font-family: "Montserrat-SemiBold";
+  font-size: 20px;
+  color: #000000;
+}
+
+.hottestDropsSliderNew .owl-nav {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px;
+  top: 50%;
+  transform: translate(0%, -50%);
+  cursor: pointer;
+  border: none !important;
+}
+
+/*card*/
+
+/*prev and next*/
+.ourCollectionsSliderNew {
+  position: relative;
+  padding-top: 43px;
+}
+
+.ourCollectionsSliderNew .owl-stage-outer {
+  padding: 0px 15px !important;
+}
+
+.ourCollectionsSliderNew .owl-nav {
+  position: absolute !important;
+  display: flex !important;
+  justify-content: space-between;
+  width: 100% !important;
+  margin: 0px !important;
+  top: 50% !important;
+  cursor: pointer;
+  border: none !important;
+  pointer-events: none;
+}
+
+.ourCollectionsSliderNew .owl-next,
+.ourCollectionsSliderNew .owl-prev {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  width: 69px;
+  height: 69px;
+  border-radius: 50% !important;
+  font-size: 40px !important;
+  border: none !important;
+  pointer-events: auto;
+}
+
+.ourCollectionsSliderNew .owl-prev {
+  left: 0px !important;
+  top: 50% !important;
+  transform: translateX(-20%) !important;
+}
+
+.ourCollectionsSliderNew .owl-next {
+  right: 0px !important;
+  top: 50% !important;
+  transform: translateX(0%) !important;
+}
+
+.ourCollectionsSliderNew .item {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s ease;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+}
+
+.ourCollectionsSliderNew .item:hover {
+  transform: scale(1.05) !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
+}
+
+.ourCollectionsSliderNew .item img {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+/* .ourCollectionsSliderNew .owl-item {
+    max-width: 611px;
+} */
+.ourCollectionsSliderNew .item .blurText {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  backdrop-filter: blur(20px);
+  padding: 28px 44px;
+  transform: translateY(0%);
+}
+
+.ourCollectionsSliderNew .item .blurText h3 {
+  color: #1c2931;
+  font-family: "Montserrat-SemiBold";
+  font-size: 31px;
+}
+
+.ourCollectionsSliderNew .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+}
+
+.ourCollectionsSliderNew .owl-stage-outer::after {
+  content: "";
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  width: 227px;
+  height: calc(100% + 4px);
+  background: linear-gradient(
+    269.56deg,
+    #ffffff 30.36%,
+    rgba(255, 255, 255, 0) 79.67%
+  );
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+
+.swiper-container {
+  width: 80%;
+  height: 50%;
+}
+
+.swiper-slide {
+  /* text-align: center; */
+  /* font-size: 18px; */
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  width: 30%;
+}
+
+.swiper-slide:nth-child(2n) {
+  width: 20%;
+}
+
+.swiper-slide:nth-child(3n) {
+  width: 50%;
+}
+
+/*Snatch E It css start*/
+.snatchEIt {
+  width: 100%;
+  padding-bottom: 63px;
+  position: relative;
+}
+
+.snatchEIt .owlSnatchEIt {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 76px;
+}
+
+.snatchEItInnerContent {
+  padding: 60px 33px 20px 43px;
+}
+
+.snatchEIt .owlSnatchEIt h2 {
+  padding-left: 15px;
+  font-family: "Montserrat-Bold";
+  font-size: 40px;
+}
+
+.snatchEIt .owlSnatchEIt a {
+  font-family: "Montserrat-SemiBold";
+  font-size: 20px;
+  color: #000000;
+}
+
+/*card*/
+.snatchEItSliderNew {
+  padding-top: 46px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.snatchEItSliderNew .item {
+  position: relative;
+  background-color: #ffffff;
+  transition: 0.3s ease;
+}
+
+.snatchEItSliderNew .owl-item {
+  padding: 15px 45px 20px 10px !important;
+}
+
+.snatchEItSliderNew .item:hover {
+  transform: scale(1.09);
+  overflow: visible;
+}
+
+.snatchEItSliderNew .item img {
+  width: 100%;
+}
+
+/*prev and next*/
+.snatchEItSliderNew .owl-nav {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px;
+  top: 50%;
+  transform: translate(0%, -50%);
+  cursor: pointer;
+  pointer-events: none !important;
+}
+
+.snatchEItSliderNew .owl-next,
+.snatchEItSliderNew .owl-prev {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  width: 69px;
+  height: 69px;
+  border-radius: 50% !important;
+  font-size: 30px !important;
+  border: none;
+  border: none !important;
+  pointer-events: auto !important;
+}
+
+.snatchEItSliderNew .owl-prev {
+  left: 0px;
+  top: 50%;
+  transform: translateX(25%);
+}
+
+.snatchEItSliderNew .owl-next {
+  right: 0px;
+  top: 50%;
+  transform: translateX(0%);
+}
+
+.snatchEItSliderNew .item .blurText {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  backdrop-filter: blur(285px);
+  padding: 33px 38px 33px 38px !important;
+  border-top: 2px solid transparent;
+  color: #ffffff;
+  font-family: "Montserrat-SemiBold";
+  font-size: 22px;
+}
+
+.snatchEItSliderNew .item .black {
+  font-family: "Montserrat-SemiBold" !important;
+  font-size: 22px !important;
+  color: #2a292f !important;
+}
+
+.snatchEItSliderNew .owl-stage-outer {
+  position: relative;
+}
+
+.snatchEItSliderNew .owl-stage {
+  padding-left: 0px !important;
+}
+
+.snatchEItSliderNew .owl-stage-outer::after {
+  content: "";
+  position: absolute;
+  right: -5px;
+  top: 50%;
+  width: 200px;
+  height: calc(100% + 4px);
+  background: linear-gradient(
+    269.56deg,
+    #ffffff 0.36%,
+    rgba(255, 255, 255, 0) 79.67%
+  );
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+
+/*Upcoming Releases css start*/
+.upComingReleases {
+  position: relative;
+  width: 100%;
+  padding-bottom: 51px;
+  /* padding-top: 63px; */
+}
+
+.upComingRealeasesInnerContent {
+  padding: 60px 33px 20px 33px;
+}
+
+.upComingReleases .product-box {
+  display: block;
+  width: 100%;
+}
+
+.upComingReleases .owlUpComingReleases {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.upComingReleases .owlUpComingReleases h2 {
+  padding-left: 10px;
+  font-family: "Montserrat-Bold";
+  font-size: 40px;
+}
+
+.upComingReleases .owlUpComingReleases a {
+  font-family: "Montserrat-SemiBold";
+  font-size: 20px;
+  color: #000000;
+}
+
+.upComingReleasesSliderNew .owl-nav {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px;
+  top: 50%;
+  transform: translate(0%, -50%);
+  cursor: pointer;
+  pointer-events: none !important;
+}
+
+.upComingReleasesSliderNew .owl-next,
+.upComingReleasesSliderNew .owl-prev {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  width: 69px;
+  height: 69px;
+  border-radius: 50% !important;
+  font-size: 30px !important;
+  border: none;
+  border: none !important;
+  pointer-events: auto;
+}
+
+.upComingReleasesSliderNew .owl-prev {
+  left: 0px;
+  top: 50%;
+  transform: translateX(10%);
+}
+
+.upComingReleasesSliderNew .owl-next {
+  right: 0px;
+  top: 50%;
+  transform: translateX(-10%);
+}
+
+/*card*/
+.upComingReleasesSliderNew {
+  position: relative;
+  padding-top: 59px;
+}
+
+/*Back To Top css Start*/
+.backToTop {
+  position: relative;
+  margin-top: 60px;
+  margin-bottom: 121px;
+}
+
+.backToTop .backToTopButtonA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backToTopButtonA button {
+  font-family: "Montserrat-SemiBold";
+  font-size: 17px;
+  color: #808080;
+  border: none;
+  background: transparent;
+  text-decoration: underline;
+}
+
+/* .Home-page .backToTopButtonA::before {
+  content: " ";
+  height: 1px;
+  width: 15%;
+  background-color: #000000;
+  opacity: 70%;
+  position: absolute;
+  top: 52%;
+  left: 23%;
+  transform: translateX(50%);
+} */
+
+/*Back to Top CSS End Here*/
+
+.hottestDrops {
+  position: relative;
+  width: 100%;
+  padding-bottom: 52px;
+}
+
+.hottestDropsContent {
+  padding: 60px 33px 20px 33px;
+}
+
+/*card*/
+.hottestDropsSliderNewOne {
+  position: relative;
+  margin-top: 55px;
+}
+
+.hottestDropsSliderNewOne .owl-item {
+  padding: 10px 15px;
+}
+
+.sliderSec .owl-item {
+  padding: 0px !important;
+}
+
+.sliderSec .owl-stage-outer {
+  padding: 0px !important;
+}
+
+/*Responsive CSS Start*/
+@media only screen and (max-width: 1600px) {
+  .sliderSec .owl-item {
+    padding-right: 0px !important;
+  }
+
+  .newArrivalsSliderNew .owl-prev {
+    transform: translateX(-8px) !important;
+  }
+
+  .newArrivalsSliderNew .owl-next {
+    transform: translateX(26px) !important;
+  }
+
+  .hottestDropsSliderNew .owl-prev {
+    transform: translateX(-10px) !important;
+  }
+
+  .hottestDropsSliderNew .owl-next {
+    transform: translateX(26px) !important;
+  }
+
+  .budgetPicksSliderNew .owl-prev {
+    transform: translateX(-10px);
+  }
+
+  .budgetPicksSliderNew .owl-next {
+    transform: translateX(26px);
+  }
+
+  .topBrandsSliderNew .owl-prev {
+    transform: translateX(-10px);
+  }
+
+  .topBrandsSliderNew .owl-next {
+    transform: translateX(15px) !important;
+  }
+
+  .ourCollectionsSliderNew .owl-prev {
+    transform: translateX(-10px) !important;
+  }
+
+  .ourCollectionsSliderNew .owl-next {
+    transform: translateX(10px) !important;
+  }
+
+  .snatchEItSliderNew .owl-prev {
+    transform: translateX(-20px) !important;
+  }
+
+  .snatchEItSliderNew .owl-next {
+    transform: translateX(5px) !important;
+  }
+
+  .upComingReleasesSliderNew .owl-prev {
+    transform: translateX(-10px) !important;
+  }
+
+  .upComingReleasesSliderNew .owl-next {
+    transform: translateX(16px) !important;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .newArrivalsSliderNew {
+    padding-top: 35px;
+  }
+
+  .hottestDrops .owlHottestDrops {
+    padding-top: 0px;
+  }
+
+  .hottestDropsSliderNew {
+    padding-top: 40px;
+  }
+
+  .upComingReleases {
+    padding-bottom: 0px;
+  }
+
+  .trending {
+    margin-top: 65px;
+    margin-bottom: 34px;
+  }
+
+  /* .budgetPicks .owlBudgetPicks {
+    /* padding-top: 30px; */
+}
+*/ .budgetPicksSliderNew {
+  padding-top: 30px;
+}
+
+.budgetPicks {
+  padding-bottom: 60px;
+}
+
+.topBrands {
+  margin-bottom: 36px;
+}
+
+.topBrandsSliderNew {
+  margin-top: 20px;
+  padding-bottom: 43px;
+}
+
+.ourCollections .owlOurCollecions {
+  padding-top: 0px;
+}
+
+.snatchEIt .owlSnatchEIt {
+  padding-top: 0px;
+}
+
+.snatchEIt {
+  padding-bottom: 48px;
+}
+
+.upComingReleases .owlUpComingReleases {
+  padding-top: 0px;
+}
+
+.upComingReleasesSliderNew {
+  padding-top: 40px;
+}
+
+.backToTop {
+  margin-top: 30px;
+  margin-bottom: 65px;
+}
+
+.owl-next,
+.owl-prev {
+  width: 49px !important;
+  height: 49px !important;
+  font-size: 25px !important;
+}
+
+.newArrivalsSliderNew .owl-prev {
+  transform: translateX(-3px) !important;
+}
+
+.newArrivalsSliderNew .owl-next {
+  transform: translateX(13px) !important;
+}
+
+.hottestDropsSliderNew .owl-prev {
+  transform: translateX(-5px) !important;
+}
+
+.hottestDropsSliderNew .owl-next {
+  transform: translateX(12px) !important;
+}
+
+.budgetPicksSliderNew .owl-prev {
+  transform: translateX(-5px);
+}
+
+.budgetPicksSliderNew .owl-next {
+  transform: translateX(12px);
+}
+
+.topBrandsSliderNew .owl-prev {
+  transform: translateX(-5px);
+}
+
+.topBrandsSliderNew .owl-next {
+  transform: translateX(0px) !important;
+}
+
+.upComingReleasesSliderNew .owl-prev {
+  transform: translateX(-5px) !important;
+}
+
+.upComingReleasesSliderNew .owl-next {
+  transform: translateX(12px) !important;
+}
+
+.ourCollectionsSliderNew .owl-next,
+.ourCollectionsSliderNew .owl-prev {
+  font-size: 35px !important;
+}
+
+.snatchEItSliderNew .owl-prev {
+  transform: translateX(-12px) !important;
+}
+
+.ONN .item .bidButton span {
+  font-size: 14px;
+}
+
+.budgetPicksSliderNew .item .bidButton {
+  font-size: 15px;
+  padding: 16px 18px 16px 18px;
+}
+
+.budgetPicksSliderNew .item .bidButton span {
+  word-spacing: 5px;
+}
+
+.item .bidButton {
+  padding: 16px 18px 16px 18px;
+}
+/* } */
+
+@media only screen and (max-width: 1320px) {
+  .newArrivals .owlNewArrival h2,
+  .hottestDrops .owlHottestDrops h2,
+  .budgetPicks .owlBudgetPicks h2,
+  .topBrands .owlTopBrands h2,
+  .ourCollections .owlOurCollecions h2,
+  .snatchEIt .owlSnatchEIt h2,
+  .upComingReleases .owlUpComingReleases h2 {
+    font-size: 35px;
+  }
+
+  .newArrivals .owlNewArrival a,
+  .hottestDrops .owlHottestDrops a,
+  .budgetPicks .owlBudgetPicks a,
+  .topBrands .owlTopBrands a,
+  .ourCollections .owlOurCollecions a,
+  .snatchEIt .owlSnatchEIt a,
+  .upComingReleases .owlUpComingReleases a {
+    font-size: 17px;
+  }
+
+  .ourCollectionsSliderNew .owl-stage-outer .owl-stage .item h3 {
+    font-size: 20px;
+    padding: 0px;
+  }
+
+  .owl-stage-outer .owl-stage .item h3 {
+    padding: 0px 12px 18px 18px;
+    font-size: 14px;
+  }
+
+  .item .bidButton span {
+    word-spacing: 5px;
+  }
+
+  .item .bidButton {
+    font-size: 15px;
+    padding: 16px 18px 16px 18px;
+  }
+
+  .snatchEItSliderNew .item .blurText {
+    padding: 25px 15px 25px 15px !important;
+  }
+
+  .snatchEItSliderNew .item .blurText {
+    font-size: 19px;
+  }
+
+  .snatchEItSliderNew .owl-stage-outer::after {
+    right: -14px;
+  }
+
+  .ONN .item .bidButton {
+    padding: 13px 14px 13px 14px;
+  }
+
+  .ONN .item .bidButton span {
+    font-size: 14px;
+  }
+
+  .owl-next,
+  .owl-prev {
+    width: 49px !important;
+    height: 49px !important;
+  }
+
+  .newArrivalsSliderNew .owl-prev {
+    transform: translateX(-8px) !important;
+  }
+
+  .newArrivalsSliderNew .owl-next {
+    transform: translateX(10px) !important;
+  }
+
+  .hottestDropsSliderNew .owl-prev {
+    transform: translateX(-10px) !important;
+  }
+
+  .hottestDropsSliderNew .owl-next {
+    transform: translateX(10px) !important;
+  }
+
+  .budgetPicksSliderNew .owl-prev {
+    transform: translateX(-10px);
+  }
+
+  .budgetPicksSliderNew .owl-next {
+    transform: translateX(10px);
+  }
+
+  .topBrandsSliderNew .owl-nav {
+    transform: translateY(-60%);
+  }
+
+  .topBrandsSliderNew .owl-prev {
+    transform: translateX(-10px);
+  }
+
+  .topBrandsSliderNew .owl-next {
+    transform: translateX(2px) !important;
+  }
+
+  .ourCollectionsSliderNew .owl-prev {
+    transform: translateX(-8px) !important;
+  }
+
+  .ourCollectionsSliderNew .owl-next {
+    transform: translateX(0px) !important;
+  }
+
+  .snatchEItSliderNew .owl-prev {
+    transform: translateX(-22px) !important;
+  }
+
+  .snatchEItSliderNew .owl-next {
+    transform: translateX(0px) !important;
+  }
+
+  .upComingReleasesSliderNew .owl-prev {
+    transform: translateX(-10px) !important;
+  }
+
+  .upComingReleasesSliderNew .owl-next {
+    transform: translateX(12px) !important;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .newArrivalsSliderNew .owl-prev {
+    transform: translateX(-14px) !important;
+  }
+
+  .newArrivalsSliderNew .owl-next {
+    transform: translateX(17px) !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .item .bidButton {
+    font-size: 15px;
+    padding: 15px 15px 15px 18px;
+  }
+
+  .budgetPicksSliderNew .item .bidButton {
+    padding: 15px 15px 15px 18px;
+    font-size: 15px;
+  }
+
+  .snatchEItSliderNew .item .blurText {
+    font-size: 18px;
+  }
+
+  .backToTopButtonA::before {
+    left: 22%;
+  }
+
+  .backToTopButtonA::after {
+    right: 22%;
+  }
+
+  .ONN .item .bidButton span {
+    font-size: 12px;
+  }
+
+  .upComingReleasesSliderNew .product-bottom {
+    padding: 7px 8px;
+    font-size: 13px;
+  }
+
+  .upComingReleasesSliderNew .product-box .product-bottom .bid-price {
+    font-size: 14px;
+  }
+
+  .upComingRealeasesInnerContent {
+    padding: 30px 10px 20px 10px;
+  }
+
+  .hottestDrops {
+    padding-bottom: 20px;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .newArrivalsSliderNew .owl-next,
+    .newArrivalsSliderNew .owl-prev {
+      font-size: 26px !important;
+    }
+
+    .newArrivalsSliderNew .owl-prev {
+      transform: translateX(-10px) !important;
+    }
+
+    .newArrivalsSliderNew .owl-next {
+      transform: translateX(10px) !important;
+    }
+
+    .newArrivals .owlNewArrival h2 {
+      font-size: 35px;
+    }
+
+    .newArrivals .owlNewArrival a {
+      font-size: 15px;
+    }
+
+    .trending {
+      margin-bottom: 0;
+    }
+
+    .hottestDrops .owlHottestDrops h2 {
+      font-size: 35px;
+    }
+
+    .hottestDrops .owlHottestDrops a {
+      font-size: 15px;
+    }
+
+    .budgetPicks .owlBudgetPicks h2 {
+      font-size: 35px;
+    }
+
+    .budgetPicks .owlBudgetPicks a {
+      font-size: 15px;
+    }
+
+    .topBrands .owlTopBrands h2 {
+      font-size: 35px;
+    }
+
+    .topBrands .owlTopBrands a {
+      font-size: 15px;
+    }
+
+    .topBrands .owl-stage-outer .owl-stage .item {
+      margin: 0px 0px 0px 9px;
+    }
+
+    .topBrands .owl-item {
+      padding-right: 5px;
+    }
+
+    .topBrandsSliderNew .owl-nav {
+      top: 40% !important;
+    }
+
+    .ourCollections .owlOurCollecions h2 {
+      font-size: 35px;
+    }
+
+    .ourCollections .owlOurCollecions a {
+      font-size: 15px;
+    }
+
+    .ourCollectionsSliderNew .item .blurText {
+      padding: 20px 22px;
+    }
+
+    .ourCollectionsSliderNew .owl-stage-outer::after {
+      right: -12px;
+    }
+
+    .ourCollectionsSliderNew .owl-prev {
+      transform: translateX(-4px) !important;
+    }
+
+    .ourCollectionsSliderNew .owl-next,
+    .ourCollectionsSliderNew .owl-prev {
+      font-size: 26px !important;
+    }
+
+    .snatchEIt .owlSnatchEIt h2 {
+      font-size: 35px;
+    }
+
+    .snatchEIt .owlSnatchEIt a {
+      font-size: 15px;
+    }
+
+    /* .snatchEItSliderNew .item .blurText {
+        padding: 13px 28px 13px 28px !important;
+        font-size: 16px;
+    } */
+
+    .upComingReleases .owlUpComingReleases h2 {
+      font-size: 35px;
+    }
+
+    .upComingReleases .owlUpComingReleases a {
+      font-size: 15px;
+    }
+
+    .backToTopButtonA::before {
+      left: 21%;
+    }
+
+    .backToTopButtonA::after {
+      right: 21%;
+    }
+
+    .owl-nav {
+      font-size: 25px !important;
+    }
+
+    .owl-next,
+    .owl-prev {
+      width: 40px !important;
+      height: 40px !important;
+      font-size: 20px !important;
+    }
+
+    .snatchEItSliderNew .owl-prev {
+      transform: translateX(-12px) !important;
+    }
+
+    .snatchEItSliderNew .item .blurText {
+      padding: 20px 25px 20px 25px !important;
+      font-size: 13px;
+    }
+
+    .upComingReleasesSliderNew {
+      padding-top: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .owl .owl-carousel .owl-dots {
+      left: 30px !important;
+      bottom: 20px !important;
+    }
+
+    .owl .owl-carousel .owl-dots .owl-dot span {
+      margin-right: 8px !important;
+      padding: 6px !important;
+    }
+
+    .newArrivals .owlNewArrival h2,
+    .hottestDrops .owlHottestDrops h2,
+    .budgetPicks .owlBudgetPicks h2,
+    .topBrands .owlTopBrands h2,
+    .ourCollections .owlOurCollecions h2,
+    .snatchEIt .owlSnatchEIt h2,
+    .upComingReleases .owlUpComingReleases h2 {
+      font-size: 30px;
+    }
+
+    .newArrivals .owlNewArrival a,
+    .hottestDrops .owlHottestDrops a,
+    .budgetPicks .owlBudgetPicks a,
+    .topBrands .owlTopBrands a,
+    .ourCollections .owlOurCollecions a,
+    .snatchEIt .owlSnatchEIt a,
+    .upComingReleases .owlUpComingReleases a {
+      font-size: 14px !important;
+    }
+
+    .newArrivalsInnerContent {
+      padding: 30px 10px 20px 10px !important;
+    }
+
+    .newArrivalsSliderNew {
+      padding-top: 15px;
+    }
+
+    .snatchEItSliderNew .item .blurText {
+      padding: 5px !important;
+    }
+
+    .snatchEItSliderNew .item .blurText p {
+      font-size: 15px;
+    }
+
+    .ourCollectionsSliderNew .owl-stage-outer::after {
+      width: 200px;
+    }
+
+    .snatchEItSliderNew .owl-prev {
+      transform: translateX(-20px) !important;
+    }
+
+    .snatchEItSliderNew .item .blurText {
+      padding: 20px 5px 20px 5px !important;
+    }
+
+    .snatchEItSliderNew .owl-item-active {
+      margin-right: 0px;
+    }
+
+    .backToTopButtonA::before {
+      left: 19%;
+      opacity: 50%;
+    }
+
+    .backToTopButtonA::after {
+      right: 19%;
+      opacity: 50% !important;
+    }
+
+    .backToTopButtonA button {
+      font-size: 14px;
+    }
+
+    footer .main {
+      padding-top: 55px;
+    }
+
+    footer .main .logo #brandLogo {
+      width: 200px;
+      height: 20px;
+    }
+
+    footer .footerIcon {
+      padding-top: 130px;
+    }
+
+    footer .main ul a {
+      font-size: 15px;
+    }
+
+    footer .main .nike a,
+    footer .main .puma a {
+      font-size: 15px;
+    }
+
+    footer .main ul li {
+      padding-bottom: 20px;
+    }
+
+    footer .paragraph p {
+      font-size: 14px;
+    }
+
+    footer .paragraph {
+      padding-bottom: 65px;
+      padding-top: 65px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    /* .owl-nav .prev,
+    .owl-nav .next {
+    } */
+
+    /* .ourCollectionsSliderNew .owl-nav {
+      /* display: none !important; */
+  }
+  */ .newArrivals .owlNewArrival h2 {
+    font-size: 25px;
+  }
+
+  .newArrivals .owlNewArrival a {
+    font-size: 12px;
+  }
+
+  /* .trending{
+        margin-bottom: 0;
+    } */
+  .hottestDrops .owlHottestDrops h2 {
+    font-size: 25px;
+  }
+
+  .hottestDrops .owlHottestDrops a {
+    font-size: 12px;
+  }
+
+  .budgetPicks .owlBudgetPicks h2 {
+    font-size: 25px;
+  }
+
+  .budgetPicks .owlBudgetPicks a {
+    font-size: 12px;
+  }
+
+  .topBrands .owlTopBrands h2 {
+    font-size: 25px;
+  }
+
+  .topBrands .owlTopBrands a {
+    font-size: 12px;
+  }
+
+  .topBrands .owl-stage-outer .owl-stage .item {
+    margin: 0px 0px 0px 9px;
+  }
+
+  .ourCollections .owlOurCollecions h2 {
+    font-size: 25px;
+  }
+
+  .ourCollections .owlOurCollecions a {
+    font-size: 12px;
+  }
+
+  .snatchEIt .owlSnatchEIt h2 {
+    font-size: 25px;
+  }
+
+  .snatchEIt .owlSnatchEIt a {
+    font-size: 12px;
+  }
+
+  .upComingReleases .owlUpComingReleases h2 {
+    font-size: 22px;
+  }
+
+  .upComingReleases .owlUpComingReleases a {
+    font-size: 12px;
+  }
+
+  .snatchEItSliderNew .owl-item .active .item {
+    margin-right: 0px !important;
+  }
+
+  .newArrivalsSliderNew .owl-prev {
+    transform: translateX(-5px) !important;
+  }
+
+  .newArrivals {
+    padding-bottom: 0px;
+  }
+
+  .snatchEIt {
+    padding-bottom: 20px !important;
+  }
+
+  .upComingRealeasesInnerContent {
+    padding: 15px 10px 10px 10px;
+  }
+
+  .snatchEItSliderNew .item .blurText {
+    padding: 20px 25px 20px 20px !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .ourCollectionsSliderNew .item .blurText {
+    padding: 10px 10px 10px 10px;
+  }
+
+  .owl .owl-carousel .owl-dots {
+    left: 18px !important;
+    bottom: 15px !important;
+  }
+
+  .owl .owl-carousel .owl-dots .owl-dot span {
+    margin-right: 3px !important;
+    padding: 5px !important;
+  }
+
+  .breadCrumbs ul li:last-child a {
+    font-size: 10px;
+  }
+
+  .owl-theme .owl-dots .owl-dot span {
+    width: 4px;
+    height: 4px;
+    margin: 5px 7px;
+  }
+
+  .owl .owl-carousel .owl-dots .owl-dot span {
+    margin-right: 3px;
+    padding: 3px;
+  }
+
+  .owl-stage-outer .owl-stage .item h3 {
+    padding: 0px 10px 9px 10px;
+    font-size: 10px;
+  }
+
+  .item .bidButton {
+    font-size: 10px;
+    padding: 11px 10px 11px 10px;
+  }
+
+  .budgetPicksSliderNew .item .bidButton {
+    font-size: 10px;
+    padding: 11px 10px 11px 10px;
+  }
+
+  .newArrivals .owlNewArrival h2 {
+    font-size: 14px;
+  }
+
+  .newArrivals .owlNewArrival a {
+    font-size: 12px !important;
+  }
+
+  /* .trending{
+        margin-bottom: 0;
+    } */
+  /* .hottestDropsSliderNew .owl-item {
+        padding-right: 10px 10px;
+    } */
+  .hottestDrops .owlHottestDrops h2 {
+    font-size: 14px;
+  }
+
+  .hottestDrops .owlHottestDrops a {
+    font-size: 12px !important;
+  }
+
+  .budgetPicks .owlBudgetPicks h2 {
+    font-size: 14px;
+  }
+
+  .budgetPicks .owlBudgetPicks a {
+    font-size: 12px !important;
+  }
+
+  .topBrands .owlTopBrands h2 {
+    font-size: 14px;
+  }
+
+  .topBrands .owlTopBrands a {
+    font-size: 12px !important;
+  }
+
+  .topBrands .owl-stage-outer .owl-stage .item {
+    margin: 0px 0px 0px 9px;
+  }
+
+  .ourCollections .owlOurCollecions h2 {
+    font-size: 14px;
+  }
+
+  .ourCollections .owlOurCollecions a {
+    font-size: 12px !important;
+  }
+
+  .ourCollectionsSliderNew .owl-stage-outer .owl-stage .item h3 {
+    font-size: 13px !important;
+  }
+
+  .ourCollectionsSliderNew .item .blurText {
+    padding: 10px 10px 10px 10px !important;
+  }
+
+  .snatchEIt .owlSnatchEIt h2 {
+    font-size: 14px;
+  }
+
+  .snatchEIt .owlSnatchEIt a {
+    font-size: 12px !important;
+  }
+
+  .upComingReleases .owlUpComingReleases h2 {
+    font-size: 14px;
+  }
+
+  .upComingReleases .owlUpComingReleases a {
+    font-size: 12px !important;
+  }
+
+  /*Top Bottom padding Section*/
+  .newArrivals .owlNewArrival {
+    padding-top: 0px;
+  }
+
+  .newArrivalsSliderNew {
+    padding-top: 8px;
+  }
+
+  .hottestDrops .owlHottestDrops {
+    padding-top: 0px;
+  }
+
+  .hottestDropsSliderNew {
+    padding-top: 5px;
+  }
+
+  .trending {
+    margin-top: 15px;
+    margin-bottom: 12px;
+  }
+
+  .budgetPicks .owlBudgetPicks {
+    padding-top: 0px;
+  }
+
+  .budgetPicksSliderNew {
+    padding-top: 5px;
+  }
+
+  .budgetPicks {
+    padding-bottom: 5px;
+  }
+
+  .topBrands .owlTopBrands {
+    padding-top: 15px;
+  }
+
+  .topBrandsSliderNew {
+    margin-top: 15px;
+    padding-bottom: 5px;
+  }
+
+  .topBrands {
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  .ourCollections {
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  .ourCollections .owlOurCollecions {
+    padding-top: 0px;
+  }
+
+  .ourCollectionsSliderNew {
+    padding-top: 15px;
+  }
+
+  /*Top left Text Section*/
+  .item-card-img .item-card-sold {
+    top: 5px;
+    right: 5px;
+    font-size: 8px;
+    padding: 4px 7px;
+  }
+
+  .budgetPicksSliderNew .item-card-img .item-card-sold {
+    top: 5px;
+    right: 5px;
+    font-size: 8px;
+    padding: 4px 7px;
+  }
+
+  .ourCollections .owlOurCollecions h2 {
+    padding-left: 0px;
+  }
+
+  .newArrivalsInnerContent {
+    padding: 25px 0px 10px 0px !important;
+  }
+
+  .hottestDropsContent {
+    padding: 10px 0px 10px 0px !important;
+  }
+
+  .budgetPicksInnerContent {
+    padding: 10px 0px 10px 0px !important;
+  }
+
+  .ourCollectionsInnerContent {
+    padding: 10px 10px 10px 10px !important;
+  }
+
+  .topBrandsInnerContent {
+    padding: 10px 0px 10px 0px !important;
+  }
+
+  .snatchEItInnerContent {
+    padding: 10px 10px 10px 10px !important;
+  }
+
+  .upComingRealeasesInnerContent {
+    padding: 10px 0px 10px 0px !important;
+  }
+
+  .upComingReleasesSliderNew .product-box .bid-price {
+    font-size: 9px !important;
+  }
+
+  .ourCollectionsSliderNew .owl-next {
+    transform: translateX(10px) !important;
+  }
+
+  .ourCollectionsSliderNew .owl-prev {
+    transform: translateX(-15px) !important;
+  }
+
+  .snatchEIt .owlSnatchEIt h2 {
+    padding-left: 0px;
+  }
+
+  .snatchEItSliderNew .owl-prev {
+    transform: translateX(-15px) !important;
+  }
+
+  .upComingReleases .owlUpComingReleases h2 {
+    padding-left: 10px;
+  }
+
+  /* .newArrivalsSliderNew .owl-item{
+        padding: 10px 15px;
+    } */
+  /* .budgetPicksSliderNew .owl-item {
+        padding: 10px 10px;
+    } */
+  .owl-stage-outer {
+    padding: 0px;
+  }
+
+  .item .item-cardSmall .item-card-img {
+    padding: 4px 1px 5px 11px;
+  }
+
+  .item .bidButton button img {
+    max-width: 14px;
+    max-height: 14px;
+  }
+
+  .budgetPicksSliderNew .item .bidButton img {
+    max-width: 14px;
+    max-height: 14px;
+  }
+
+  .ourCollectionsSliderNew .owl-item {
+    max-width: 278px;
+  }
+
+  .ourCollectionsSliderNew .owl-stage-outer {
+    padding: 0px 0px 0px 0px !important;
+  }
+
+  .ourCollectionsSliderNew .owl-stage-outer::after {
+    width: 100px;
+  }
+
+  .ourCollectionsSliderNew .item .blurText {
+    padding: 14px 0px 5px 0px;
+  }
+
+  .snatchEIt .owlSnatchEIt {
+    padding-top: 0px;
+  }
+
+  .snatchEItSliderNew {
+    padding-top: 15px;
+    padding-left: 0px;
+  }
+
+  .snatchEItSliderNew .item {
+    max-width: 237px;
+    height: auto;
+  }
+
+  .snatchEItSliderNew .item .blurText p {
+    font-size: 14px;
+  }
+
+  .snatchEItSliderNew .item .blurText {
+    font-size: 12px !important;
+    padding: 11px 22px 11px 22px !important;
+  }
+
+  .snatchEItSliderNew .item img {
+    width: 100%;
+  }
+
+  .snatchEIt {
+    padding-bottom: 12px;
+  }
+
+  .snatchEItSliderNew .owl-next {
+    transform: translateX(10px) !important;
+  }
+
+  .upComingReleases .owlUpComingReleases {
+    padding-top: 0px;
+  }
+
+  .upComingReleasesSliderNew {
+    padding-top: 5px;
+  }
+
+  .ONN .item .bidButton {
+    padding: 8px 7px 8px 7px;
+  }
+
+  .ONN .item .bidButton span {
+    font-size: 10px;
+  }
+
+  .upComingReleases .item .item-cardSmall {
+    padding-right: 0px;
+  }
+
+  .upComingReleases {
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+  }
+
+  .backToTop {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .backToTopButtonA::after {
+    right: -8%;
+    width: 30%;
+  }
+
+  .backToTopButtonA::before {
+    left: -8%;
+    width: 30%;
+  }
+
+  .newArrivalsSliderNew .owl-prev {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 20px !important;
+  }
+
+  .newArrivalsSliderNew .owl-next {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 20px !important;
+    transform: translateX(5px) !important;
+  }
+
+  .hottestDropsSliderNew .owl-prev {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 20px !important;
+  }
+
+  .hottestDropsSliderNew .owl-next {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 20px !important;
+    transform: translateX(5px) !important;
+  }
+
+  .budgetPicksSliderNew .owl-prev {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 20px !important;
+  }
+
+  .budgetPicksSliderNew .owl-next {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 20px !important;
+    transform: translateX(5px) !important;
+  }
+
+  .topBrandsSliderNew .owl-prev {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 20px !important;
+  }
+
+  .topBrandsSliderNew .owl-next {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 20px !important;
+    transform: translateX(0px) !important;
+  }
+
+  .topBrandsSliderNew .owl-nav {
+    transform: translateY(-40%);
+  }
+
+  .ourCollectionsSliderNew .owl-prev {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 20px !important;
+  }
+
+  .ourCollectionsSliderNew .owl-next {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 20px !important;
+  }
+
+  .ourCollectionsSliderNew .owl-nav {
+    top: 45% !important;
+  }
+
+  .snatchEItSliderNew .owl-prev {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 20px !important;
+  }
+
+  .snatchEItSliderNew .owl-next {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 20px !important;
+  }
+
+  .snatchEItSliderNew .owl-prev {
+    transform: translateX(-15px) !important;
+  }
+
+  .upComingReleasesSliderNew .owl-prev {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 20px !important;
+    transform: translateX(-5px) !important;
+  }
+
+  .upComingReleasesSliderNew .owl-next {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 20px !important;
+    transform: translateX(5px) !important;
+  }
+
+  .snatchEItSliderNew .owl-item .active .item {
+    margin-right: 0px !important;
+  }
+}
+
+/* @media only screen and (max-width: 1024px) {
+    header .container {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .breadCrumbs .container {
+        max-width: 1230px;
+    }
+
+    .nav-left>ul>li {
+        margin: 0px 15px;
+        display: inline-block;
+    }
+
+    .nav-left>ul>li:nth-child(2) {
+        margin-left: 0px;
+    } */
+
+/* .nav-right .sell {
+        margin-left: 21px;
+    }
+
+    .newArrivalsSliderNew .owl-prev {
+        transform: translateX(-20%);
+    }
+
+    .newArrivalsSliderNew .owl-next {
+        transform: translateX(20%);
+    }
+
+    .hottestDropsSliderNew .owl-prev {
+        transform: translateX(-20%);
+    }
+
+    .hottestDropsSliderNew .owl-next {
+        transform: translateX(20%);
+    }
+
+    .budgetPicksSliderNew .owl-prev {
+        transform: translateX(-20%);
+    }
+
+    .budgetPicksSliderNew .owl-next {
+        transform: translateX(20%);
+    }
+
+    .topBrandsSliderNew .owl-prev {
+        transform: translateX(-20%);
+    }
+
+    .topBrandsSliderNew .owl-next {
+        transform: translateX(20%) !important;
+    }
+
+    .snatchEItSliderNew .owl-prev {
+        transform: translateX(-30%);
+    }
+
+    .snatchEItSliderNew .owl-next {
+        transform: translateX(0%);
+    }
+} */
+
+/*06/05/2025*/
+.hottestDrops .product-box {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.budgetPicks .product-box {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.upComingReleases .product-box {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  /* .owl .owl-carousel .owl-dots {
+        left: 50px;
+        bottom: 40px;
+    }
+    .owl .owl-carousel .owl-dots .owl-dot span {
+        margin-right: 10px;
+        padding: 8px;
+    } */
+  .snatchEItInnerContent {
+    padding: 30px 10px 20px 24px;
+  }
+
+  .topBrandsSliderNew {
+    margin-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .budgetPicks {
+    padding-bottom: 20px;
+  }
+
+  .topBrandsInnerContent {
+    padding: 20px 10px 10px 10px;
+  }
+
+  .topBrands {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .budgetPicksInnerContent {
+    padding: 30px 10px 10px 10px;
+  }
+
+  .trending {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .newArrivals {
+    padding-bottom: 10px !important;
+  }
+
+  .trending {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 22px;
+    padding-bottom: 19px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .owl .owl-carousel .owl-dots {
+    left: 50px !important;
+    bottom: 40px !important;
+  }
+
+  .owl .owl-carousel .owl-dots .owl-dot span {
+    margin-right: 12px !important;
+    padding: 9px !important;
+  }
+
+  .product-box {
+    display: block;
+    margin: 10px;
+    width: calc(100% - 5px) !important;
+  }
+
+  .newArrivalsInnerContent {
+    padding: 30px 10px 10px 10px;
+  }
+
+  .hottestDropsContent {
+    padding: 30px 10px 10px 10px;
+  }
+
+  .budgetPicksInnerContent {
+    padding: 30px 10px 10px 10px;
+  }
+
+  .upComingRealeasesInnerContent {
+    padding: 30px 10px 10px 10px;
+  }
+
+  .owl-item {
+    padding-right: 15px;
+  }
+
+  .ourCollectionsSliderNew .owl-item {
+    padding-right: 20px;
+  }
+
+  .topBrandsInnerContent {
+    padding: 30px 10px 20px 10px;
+  }
+
+  .ourCollectionsInnerContent {
+    padding: 30px 10px 20px 10px;
+  }
+
+  .snatchEIt {
+    padding-bottom: 30px;
+  }
+}
+
+.sliderSec .owl-item {
+  padding-right: 0px;
+}
+
+.sliderSec .owl-stage-outer {
+  padding: 0px;
+}
+
+.sliderSec {
+  padding-bottom: 20px;
+}
+/* } */
+
+/*updated code today*/
+main {
+  position: relative;
+}
+
+main.active {
+  transition: 0.4s ease-in-out all !important;
+  background-color: #eaeaea !important;
+  filter: blur(10px) !important;
+}

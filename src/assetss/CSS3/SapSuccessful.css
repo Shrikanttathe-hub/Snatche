@@ -1,0 +1,318 @@
+.SAP_successful {
+    width: 100%;
+    margin: 102px 0px 96px 0px;
+}
+.SAP_successful_main {
+    width: 100%;
+    max-width: 1434px;
+    margin: 0 auto;
+}
+.SAP_successful .SAP_successfulTop {
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 40px;
+}
+.SAP_successful .SAP_successfulTop img {
+    width: 191px;
+    height: 191px;
+    object-fit: contain;
+}
+.SAP_successful .SAP_successfulTop h2 {
+    font-size: 32px;
+    line-height: 58px;
+    font-weight: 700;
+    font-family: 'Montserrat-Bold';
+}
+.SAP_successful .SAP_successfulTop p,
+.SAP_successfulTop strong {
+    max-width: 940px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: 'Montserrat-SemiBold';
+    color: rgba(0, 0, 0, 0.5);
+}
+.SAP_successful .SAP_successfulTop strong {
+    color: rgba(0, 0, 0, 0.7);
+}
+.SAP_successfulbottom {
+    width: 82%;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.SAP_successfulbottom h2 {
+    color: #000000;
+    font-size: 32px;
+    line-height: 38px;
+    font-family: 'Montserrat-Bold';
+}
+.youProduct {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0px 60px 0px;
+    padding: 40px 50px;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+}
+.youProduct .yourProduct_Left {
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+.youProduct .yourProduct_Left .selectProduct #selectedSize {
+    color: #000000;
+    padding-bottom: 0px;
+}
+.youProduct .yourProduct_Left h3 {
+    font-size: 30px;
+    line-height: 1.30;
+    font-family: 'Montserrat-Bold';
+}
+.youProduct .yourProduct_Right {
+    width: 35%;
+    text-align: right;
+}
+.sellingPrice {
+    font-size: 20px;
+    line-height: 1;
+    color: #000000 !important;
+    font-family: 'Montserrat-SemiBold';
+    padding-bottom: 80px;
+}
+.sellingPrice span {
+    color: #000000;
+    font-size: 40px;
+    line-height: 1;
+    font-family: 'Montserrat-ExtraBold';
+}
+.youProduct .yourProduct_Right a {
+    color: #000000;
+    font-size: 13px;
+    line-height: 1;
+    font-family: 'Montserrat-SemiBold';
+}
+.youProduct .yourProduct_Right .youproduct_button {
+    gap: 5px;
+    margin-top: 15px;
+}
+.youProduct .yourProduct_Right .youproduct_button button {
+    font-size: 10px;
+    line-height: 1;
+    padding: 10px 15px;
+    font-family: 'Montserrat-SemiBold';
+    border: 1px solid #000000;
+    background: #FFFFFF;
+    color: #000000;
+    cursor: pointer;
+}
+.youProduct .yourProduct_Right .youproduct_button .change_listing {
+    background: #000000;
+    color: #FFFFFF;
+}
+.SAP_successfulbottom .reviewDetails {
+    text-align: center;
+}
+.SAP_successfulbottom .reviewDetails p {
+    font-size: 16px;
+    line-height: 21px;
+    font-family: "Montserrat-Medium";
+    padding-bottom: 134px;
+}
+.SAP_successfulbottom .reviewDetails button {
+    font-size: 16px;
+    line-height: 21px;
+    font-family: "Montserrat-Medium";
+    border: none;
+    background: transparent;
+}
+.SAP_successfulbottom .reviewDetails p strong {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.SAP_successfulbottom .reviewDetails a {
+    text-align: center;
+    position: relative;
+    color: #000000;
+    font-size: 17px;
+    line-height: 24px;
+    font-family: "Montserrat-Medium";
+    padding: 0px 15px 0px 15px;
+}
+.SAP_successfulbottom .reviewDetails a::before {
+    content: "";
+    width: 263px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 100%;
+}
+.SAP_successfulbottom .reviewDetails a::after {
+    content: "";
+    width: 263px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+}
+@media only screen and (max-width: 1024px) {
+    .SAP_successful {
+        margin: 80px 0px 70px 0px;
+    }
+    .SAP_successful .SAP_successfulTop {
+        padding-bottom: 30px;
+    }
+    .SAP_successful .SAP_successfulTop h2,.SAP_successfulbottom h2 {
+        font-size: 23px;
+    }
+    .youProduct .yourProduct_Left h3 {
+        font-size: 20px;
+    }
+    .youProduct .yourProduct_Right p span {
+        font-size: 28px;
+    }
+    .SAP_successful .SAP_successfulTop p,.SAP_successfulTop strong,.youProduct .yourProduct_Right p {
+        font-size: 16px;
+    }
+    .SAP_successfulbottom .reviewDetails p {
+        font-size: 15px;
+        padding-bottom: 90px;
+    }
+    .youProduct .yourProduct_Right p {
+        padding-bottom: 40px;
+    }
+    .youProduct .yourProduct_Right .youproduct_button button {
+        font-size: 7px;
+        padding: 7px 12px;
+    }
+    .SAP_successfulbottom {
+        padding-top: 40px;
+    }
+    .youProduct {
+        padding: 30px 20px;
+        margin: 12px 0px 40px 0px;
+    }
+    .SAP_successfulbottom .reviewDetails a {
+        font-size: 15px;
+    }
+    .SAP_successfulbottom .reviewDetails a::after {
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .SAP_successful {
+        margin: 24px 0px 25px 0px;
+    }
+    .SAP_successful_main {
+        width: 100%;
+    }
+    .SAP_successful .SAP_successfulTop img {
+        width: 78px;
+        height: 78px;
+        margin-bottom: 15px;
+    }
+    .SAP_successful .SAP_successfulTop {
+        padding-bottom: 15px;
+    }
+    .SAP_successfulbottom {
+        width: 100%;
+        padding-top: 15px;
+    }
+    .youProduct {
+        box-shadow: 0px 0px 8.37px -0.32px rgba(0, 0, 0, 0.1);
+        display: block;
+        padding: 25px 10px;
+        margin: 15px 0px;
+    }
+    .youProduct .yourProduct_Left,.youProduct .yourProduct_Right {
+        width: 100%;
+        text-align: unset;
+    }
+    .youProduct .yourProduct_Right {
+        text-align: center;
+    }
+    .SAP_successfulbottom .reviewDetails {
+        overflow: hidden;
+    }
+    .SAP_successful .SAP_successfulTop h2,.SAP_successfulbottom h2 {
+        font-size: 15px;
+        line-height: 1.80;
+    }
+    .SAP_successful .SAP_successfulTop p,.SAP_successfulTop strong,.youProduct .yourProduct_Right p {
+        font-size: 10px;
+        line-height: 22px;
+        padding-bottom: 0px;
+    }
+    .youProduct .yourProduct_Left h3,.youProduct .yourProduct_Right p span {
+        font-size: 14px;
+    }
+    .youProduct .yourProduct_Left .selectProduct #selectedSize {
+        position: absolute;
+        padding-bottom: 5px;
+    }
+    .yourProduct_Right p,.youProduct .yourProduct_Right a {
+        font-size: 9px !important;
+    }
+    .youProduct .yourProduct_Right a {
+        padding-top: 8px;
+        display: flex;
+        justify-content: right;
+    }
+    .youProduct .yourProduct_Right .youproduct_button {
+        margin-top: 11px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .youProduct .yourProduct_Right .youproduct_button button {
+        width: 50%;
+        padding: 10px 0;
+        font-size: 10px;
+    }
+    .SAP_successfulbottom .reviewDetails p {
+        font-size: 12px;
+        padding-bottom: 25px;
+    }
+    .SAP_successfulbottom .reviewDetails a {
+        font-size: 12px;
+        padding: 0;
+    }
+    #sellingPriceRight {
+        display: none;
+    }
+    .sellingPrice {
+        flex-direction: column;
+    }
+    .sellingPrice span {
+        font-size: 14px;
+    }
+    .selectProduct .product_Img img {
+        width: 117px;
+        height: 125px !important;
+        object-fit: contain !important;
+    }
+    .SAP_successfulbottom .reviewDetails a:after {
+        content: "";
+        display: inline-block;
+        vertical-align: bottom;
+        width: 395px;
+        margin-right: -100%;
+        margin-left: 10px;
+        height: 0px;
+        background: none;
+        border-top: 1px solid rgba(0, 0, 0, 0.3);
+    }
+    .SAP_successfulbottom .reviewDetails a:before {
+        content: "";
+        display: inline-block;
+        height: 0.8em;
+        vertical-align: bottom;
+        width: 100%;
+        margin-left: -100%;
+        margin-right: 10px;
+        border-top: 1px solid rgba(0, 0, 0, 0.3);
+    }
+}

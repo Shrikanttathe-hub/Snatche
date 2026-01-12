@@ -1,0 +1,1356 @@
+/*Verifies css*/
+.breadcrumb ul {
+    padding-left: 5% !important;
+}
+
+ main .container {
+    width: 100%;
+    max-width: 1480px;
+    padding: 0px 15px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.breadCrumbs .container {
+    max-width: 1440px !important;
+    padding: 11px 30px !important;
+}
+
+.snatchVerified {
+    position: relative;
+    background-color: #000000;
+    padding-bottom: 120px;
+}
+
+.snatchVerified::before {
+    background-image: url('../Images/Authenticity/background.svg');
+    background-size: cover;
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 15;
+}
+
+.verifiedImg {
+    justify-self: center;
+    padding: 116px 0px 97px 0px;
+}
+
+.verifiedImg img {
+    padding: 23px;
+}
+
+.videoCardSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 120px 0px;
+    width: 100%;
+    gap: 120px;
+}
+
+.videoCardSection .videoCardSectionMain {
+    width: 50%;
+}
+
+.videoCardSection .videoCardSectionMain h2 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 46px;
+    color: #FFFFFF;
+    /* isolation: isolate; */
+}
+
+.videoCardSection .videoCardSectionMain p {
+    text-align: start;
+    padding: 10px 0px 5px 0px;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 25px;
+    color: #FFFFFF;
+    line-height: 165%;
+    width: 100%;
+}
+
+.videoCard {
+    position: relative;
+    width: 50%;
+}
+
+.videoCard img {
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.videoCard .circleImg img {
+    background: transparent;
+}
+
+.videoCard .playButton {
+    position: absolute;
+    top: 44%;
+    right: 35%;
+}
+
+.videoCard .playButton button {
+    padding: 9px 26px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 22px;
+}
+
+.videoCard .playButton .videoButton {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    transform: translate(-80%, -30%);
+}
+
+.videoCard .playButton .videoButton img {
+    background: transparent;
+    cursor: pointer;
+}
+
+.videoCard span {
+    position: absolute;
+    bottom: -38px;
+    left: 0;
+    transform: translatex(-57%);
+}
+
+.crossImg {
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    object-fit: cover;
+}
+
+.crossImg img {
+    width: 100%;
+}
+
+.snatchVerifiedWorks {
+    background-image: url(../Images/Authenticity/horizonSecond.svg),
+        url(../Images/Authenticity/backgroundImageBottomLeft.svg);
+    background-repeat: no-repeat;
+    background-position: top right, bottom left;
+    position: relative;
+    padding-bottom: 105px;
+}
+
+.snatchVerifiedWorks .triangle-topleft {
+    border-top: solid 70px #000000;
+    border-right: solid 100vw transparent;
+}
+
+.snatchVerifiedWorks::before {
+    content: "";
+    background-image: url(../Images/Authenticity/horizontalGroup.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2000000;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    max-height: 500px;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.snatchVerifiedGurantees .triangle-bottomRight {
+    border-bottom: solid 165px #000000;
+    border-right: solid 100vw transparent;
+    position: absolute;
+    top: 2px;
+    transform: translate(0%, -100%);
+}
+
+.snatchVerifiedGurantees::before {
+    content: "";
+    background-image: url(../Images/Authenticity/horiZontalBottomCross.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    z-index: 2000000000;
+    width: 100%;
+    height: 100%;
+    max-height: 452px;
+    left: 0;
+    top: 0;
+    transform: translateY(-50%);
+}
+
+.snatchVerifiedWorks h2 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 46px;
+    color: #000000;
+    padding: 111px 0px 40px 0px;
+}
+
+.snatchVerifiedWorks p {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 25px;
+    line-height: 42px;
+    padding-bottom: 28px;
+}
+
+/*card*/
+.snatchVerifiedWorksSlider {
+    position: relative;
+    padding: 56px 20px 52px 20px !important;
+}
+
+.snatchVerifiedWorksSliderNew {
+    position: relative;
+    padding: 56px 20px 162px 20px !important;
+}
+
+.snatchVerifiedWorksSliderNew .owl-stage-outer {
+    padding: 10px 10px 10px 0px;
+}
+
+.snatchVerifiedWorksSliderNew .owl-stage-outer .owl-stage {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.snatchVerifiedWorksSlider .item {
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 30%) !important;
+    background-color: rgba(255, 255, 255, 1);
+    height: 233px;
+    /* margin: 10px !important; */
+}
+
+.snatchVerifiedWorksSlider .owl-stage-outer {
+    padding: 10px 10px 10px 0px !important;
+}
+
+.snatchVerifiedWorksSliderNew .item {
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 30%) !important;
+    background-color: rgba(255, 255, 255, 1);
+    height: 233px;
+}
+
+.snatchVerifiedWorksSlider .owl-nav {
+    display: none !important;
+}
+
+.snatchVerifiedWorksSliderNew .owl-nav {
+    display: none !important;
+}
+
+.snatchVerifiedGurantees {
+    position: relative;
+    background-color: #000000;
+}
+
+.snatchVerifiedGurantees {
+    background-image: url(../Images/Authenticity/Group\ 430.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.snatchVerifiedGurantees h2 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 46px;
+    color: #FFFFFF;
+    padding: 111px 0px 40px 0px;
+}
+
+.snatchVerifiedGurantees p {
+    font-family: 'Montserrat-SemiBold';
+    color: #FFFFFF;
+    font-size: 25px;
+    line-height: 42px;
+    padding-bottom: 28px;
+}
+
+.snatchVerifiedGurantees .trust {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 43px;
+}
+
+.snatchVerifiedGurantees .trust h3 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 87px;
+    color: #0080F5;
+}
+
+.snatchVerifiedGurantees .trust span {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 31px;
+    color: #FFFFFF;
+}
+
+.snatchVerifiedGurantees .snatchVerifiedGuranteesBottom {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 147px;
+
+}
+
+.snatchVerifiedGurantees .snatchVerifiedGuranteesContent {
+    width: 60%;
+}
+
+.snatchVerifiedGurantees .snatchVerifiedGuranteesBottomImg {
+    width: 32%;
+    max-width: 453px;
+    display: flex;
+    justify-content: space-between;
+    object-fit: cover;
+    align-items: center;
+    padding-top: 62px;
+}
+
+.snatchVerifiedProducts {
+    position: relative;
+    width: 100%;
+    padding-bottom: 140px;
+}
+
+.snatchVerifiedProducts .snatchVerifiedProductsNew {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 128px;
+}
+
+.snatchVerifiedProducts .snatchVerifiedProductsNew h2 {
+    padding-left: 15px;
+    font-family: 'Montserrat-Bold';
+    font-size: 40px;
+}
+
+.snatchVerifiedProducts .snatchVerifiedProductsNew a {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 20px;
+    color: #000000;
+}
+
+/*card*/
+.snatchVerifiedProductsSlider {
+    position: relative !important;
+    padding: 55px 28px 30px 28px !important;
+}
+
+.snatchVerifiedProductsSlider .product-box {
+    display: block;
+    width: 100%;
+}
+
+
+.snatchVerifiedProductsSlider .owl-item {
+    height: auto;
+    margin: 0px 0px;
+}
+
+/* .owl-stage-outer{
+    position: relative;
+    overflow: hidden; 
+} */
+
+/* .snatchVerifiedProducts .item .item-card .item-cardSmall{
+    padding-right: 0px !important;
+}
+.snatchVerifiedProducts .item .item-card{
+     position: relative; 
+}
+.snatchVerifiedProducts .item .item-card .item-cardSmall .item-card-img img{
+       padding:  9px 1px 1px 22px !important;
+
+} */
+
+.snatchVerifiedProductsSlider .item-card a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 17px;
+}
+
+.snatchVerifiedProductsSlider .item .bidButton {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 26px 21px 26px 28px;
+    align-items: center;
+}
+
+.snatchVerifiedProductsSlider .item .bidButton span {
+    word-spacing: 10px !important;
+}
+
+/*prev and next*/
+.snatchVerifiedProductsSlider .owl-nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px;
+    top: 55%;
+    transform: translateY(-50%);
+}
+
+.snatchVerifiedProductsSlider .owl-next,
+.snatchVerifiedProductsSlider .owl-prev {
+    background-color: #000000 !important;
+    color: #FFFFFF !important;
+    width: 69px;
+    height: 69px;
+    border-radius: 50% !important;
+    font-size: 30px !important;
+    cursor: pointer;
+    border: none;
+}
+
+.snatchVerifiedProductsSlider .owl-prev {
+    left: 0px;
+    top: 50%;
+    transform: translateX(-35%);
+}
+
+.snatchVerifiedProductsSlider .owl-next {
+    right: 0px;
+    top: 50%;
+    transform: translateX(-9%);
+}
+
+/*Footer css*/
+.footerSection {
+    background-color: #000000;
+}
+
+.footerSection .main {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 96px;
+    border: 1px solid black;
+
+}
+
+.footerSection .main .logo {
+    color: #FFFFFF;
+}
+
+.footerSection .main .logo #brandLogo {
+    width: 253px;
+    height: 27px;
+}
+
+.footerSection .main ul {
+    list-style: none;
+}
+
+.footerSection .main ul a {
+    text-decoration: none;
+    font-family: 'Montserrat-Medium';
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.footerSection .main ul li {
+    padding-bottom: 26px;
+}
+
+.footerSection .main .nike a,
+.footerSection .main .puma a {
+    text-decoration: none;
+    font-family: 'Montserrat-Medium';
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.footerSection .footerIcon {
+    padding-top: 144px;
+}
+
+.footerSection .footerIcon h4 {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-bottom: 22px;
+}
+
+.footerSection .footerIcon img {
+    padding-right: 10px;
+}
+
+.footerPara {
+    text-align: center;
+    padding-bottom: 107px;
+    color: #767676;
+    padding-top: 82px;
+}
+
+.footerPara h3 {
+    font-family: 'Montserrat-Medium';
+    font-size: 20px;
+}
+
+.footerPara p {
+    padding-top: 16px;
+    text-justify: start;
+    padding-left: 379px;
+    padding-right: 379px;
+    font-family: 'Montserrat-Medium';
+    font-size: 16px;
+}
+
+/*responsive css*/
+@media only screen and (max-width:2022px) {
+    .snatchVerifiedWorks::before {
+        max-height: 239px;
+    }
+
+    .snatchVerifiedGurantees::before {
+        max-height: 350px;
+    }
+}
+
+@media only screen and (max-width:1600px) {
+    .snatchVerifiedWorks::before {
+        transform: translateY(-115px);
+    }
+
+    .snatchVerifiedProductsSlider .owl-next {
+        transform: translateX(20%);
+    }
+
+    .snatchVerifiedProductsSlider .owl-prev {
+        transform: translateX(-10%);
+    }
+}
+
+@media only screen and (max-width:1440px) {
+    .snatchVerifiedWorks::before {
+        transform: translateY(-50%);
+    }
+
+    .snatchVerifiedGurantees::before {
+        transform: translateY(-50%);
+    }
+
+    .snatchVerifiedGurantees .triangle-bottomRight {
+        border-bottom: solid 140px #000000;
+    }
+
+    .videoCardSection .videoCardSectionMain h2 {
+        font-size: 40px;
+    }
+
+    .videoCardSection .videoCardSectionMain p {
+        font-size: 22px;
+    }
+
+    .videoCard .playButton {
+        top: 40%;
+        right: 25%;
+    }
+
+    .snatchVerifiedProductsSlider .owl-next,
+    .snatchVerifiedProductsSlider .owl-prev {
+        width: 59px;
+        height: 59px;
+    }
+
+    .snatchVerifiedProductsSlider .owl-next {
+        transform: translateX(5%);
+    }
+
+    .snatchVerifiedProductsSlider .owl-prev {
+        transform: translateX(-15%);
+    }
+
+}
+
+
+@media only screen and (max-width:1320px) {
+    .snatchVerifiedProductsSlider .owl-next {
+        transform: translateX(-22%);
+    }
+
+    .snatchVerifiedProductsSlider .owl-prev {
+        transform: translateX(-16%);
+    }
+
+    .snatchVerifiedProductsSlider .owl-next,
+    .snatchVerifiedProductsSlider .owl-prev {
+        width: 49px;
+        height: 49px;
+    }
+
+    .snatchVerifiedProductsSlider .owl-next,
+    .snatchVerifiedProductsSlider .owl-prev {
+        width: 49px;
+        height: 49px;
+    }
+
+    .snatchVerifiedProductsSlider .owl-prev {
+        transform: translateX(-15%);
+    }
+
+    .snatchVerifiedProductsSlider .owl-next {
+        transform: translateX(-12%);
+    }
+
+    .videoCardSection .videoCardSectionMain h2 {
+        font-size: 33px;
+    }
+
+    .videoCardSection .videoCardSectionMain p {
+        font-size: 17px;
+    }
+
+    .snatchVerifiedGurantees .snatchVerifiedGuranteesBottomImg {
+        width: 37%;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .snatchVerifiedGurantees::before {
+        transform: translateY(-50%);
+        max-height: 250px;
+    }
+
+    .snatchVerifiedGurantees .triangle-bottomRight {
+        border-bottom: solid 118px #000000;
+    }
+}
+
+@media only screen and (max-width: 1235px) {
+    .snatchVerifiedGurantees::before {
+        transform: translateY(-50%);
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .videoCard span {
+        position: absolute;
+        bottom: -58px;
+        left: 0;
+        transform: translatex(-48%);
+        width: 30%;
+    }
+
+    .videoCard .playButton .videoButton {
+        width: 40%;
+        transform: translate(-77%, -18%);
+    }
+
+    .videoCard .playButton {
+        right: 20%;
+    }
+
+    .videoCard .playButton button {
+        font-size: 20px;
+    }
+
+    .snatchVerifiedWorks::before {
+        max-height: 210px;
+        transform: translateY(-50%);
+    }
+
+    .snatchVerifiedGuranteesBottomImg img {
+        width: 45%;
+    }
+
+    .snatchVerifiedGurantees .trust h3 {
+        font-size: 70px;
+    }
+
+    .snatchVerifiedGurantees .trust span {
+        font-size: 23px;
+    }
+
+    .snatchVerifiedGurantees h2 {
+        font-size: 34px;
+    }
+
+    .snatchVerifiedGurantees p {
+        font-size: 17px;
+    }
+
+    .snatchVerifiedGurantees::before {
+        transform: translateY(-50%);
+    }
+
+    .snatchVerifiedGurantees .triangle-bottomRight {
+        border-bottom: solid 110px #000000;
+    }
+
+    .snatchVerifiedProducts .snatchVerifiedProductsNew h2 {
+        font-size: 35px;
+    }
+
+    .snatchVerifiedProducts .snatchVerifiedProductsNew a {
+        font-size: 18px;
+    }
+
+    .snatchVerifiedWorks h2 {
+        font-size: 34px;
+        padding: 60px 0px 20px 0px;
+    }
+
+    .snatchVerifiedWorks p {
+        font-size: 17px;
+    }
+
+    .snatchVerifiedWorksSlider .owl-item {
+        height: 200px;
+    }
+
+    .snatchVerifiedWorksSliderNew .owl-item {
+        height: 170px;
+
+    }
+}
+
+@media only screen and (max-width:1078px) {
+    .snatchVerifiedGurantees::before {
+        max-height: 210px;
+        transform: translateY(-50%);
+    }
+
+    .snatchVerifiedGurantees .triangle-bottomRight {
+        border-bottom: solid 100px #000000;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .snatchVerifiedGurantees .trust h3 {
+        font-size: 55px;
+    }
+
+    .snatchVerifiedGurantees .trust span {
+        font-size: 16px;
+    }
+
+    .snatchVerifiedGurantees h2 {
+        font-size: 33px;
+    }
+
+    .snatchVerifiedGurantees p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .snatchVerifiedGurantees h2 {
+        padding: 70px 0px 30px 0px;
+    }
+
+    .verifiedImg {
+        padding: 80px 0px 70px 0px;
+    }
+
+    .videoCardSection .videoCardSectionMain h2 {
+        font-size: 33px;
+    }
+
+    .videoCardSection .videoCardSectionMain p {
+        font-size: 16px;
+    }
+
+    .videoCard .playButton button {
+        font-size: 13px;
+    }
+
+    .videoCard .playButton .videoButton {
+        transform: translate(-70%, -13%);
+    }
+
+    .videoCard span {
+        bottom: -55px;
+    }
+
+    .videoCard .playButton button {
+        padding: 8px 20px;
+    }
+
+    .snatchVerifiedWorks .triangle-topleft {
+        border-top: solid 33px #000000;
+    }
+
+    .snatchVerifiedWorks::before {
+        transform: translateY(-75px);
+    }
+
+    .snatchVerifiedWorks::before {
+        max-height: 140px;
+    }
+
+    .snatchVerifiedGurantees .triangle-bottomRight {
+        border-bottom: solid 90px #000000;
+    }
+
+    .snatchVerifiedGurantees::before {
+        max-height: 190px;
+        transform: translateY(-50%);
+    }
+
+    .snatchVerifiedWorks p {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .verifiedImg img {
+        max-width: 450px;
+        padding: 10px;
+    }
+
+    .verifiedImg {
+        display: flex;
+    }
+
+    #logoFirst {
+        max-width: 80px;
+        width: 100%;
+    }
+
+    .videoCardSection {
+        padding: 0px 0px 10px 0px;
+    }
+
+    .snatchVerifiedWorksSlider {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .snatchVerifiedWorksSliderNew .owl-item {
+        height: 180px;
+        margin: 0px 10px;
+    }
+
+    .snatchVerifiedWorksSliderNew {
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+
+    .snatchVerifiedGurantees .snatchVerifiedGuranteesBottom {
+        padding-bottom: 20px;
+    }
+
+    .snatchVerifiedProducts .snatchVerifiedProductsNew {
+        padding-top: 69px;
+    }
+
+    .snatchVerifiedProducts .snatchVerifiedProductsNew h2 {
+        font-size: 33px;
+    }
+
+    .snatchVerifiedProducts .snatchVerifiedProductsNew a {
+        font-size: 18px;
+    }
+
+    .snatchVerifiedWorks h2 {
+        font-size: 33px;
+    }
+
+    .snatchVerifiedProductsSlider {
+        padding-top: 30px;
+    }
+
+    .videoCard .playButton {
+        right: 29%;
+    }
+
+    .videoCard span {
+        width: 25%;
+    }
+
+    .videoCardSection {
+        gap: 60px;
+    }
+
+    .snatchVerifiedWorksSlider .owl-item {
+        height: 180px;
+        margin-left: 20px;
+    }
+
+    .owl-item {
+        padding-right: 25px !important;
+    }
+
+    .snatchVerifiedProductsSlider .owl-next,
+    .snatchVerifiedProductsSlider .owl-prev {
+        width: 39px !important;
+        height: 39px !important;
+        font-size: 27px !important;
+    }
+
+    .snatchVerifiedProductsSlider .owl-next {
+        transform: translateX(6%);
+    }
+
+    .snatchVerifiedProductsSlider .owl-prev {
+        transform: translateX(-23%);
+    }
+
+    .snatchVerifiedProducts {
+        padding-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .videoCardSection .videoCardSectionMain h2 {
+        font-size: 25px;
+    }
+
+    .videoCardSection .videoCardSectionMain p {
+        font-size: 14px;
+        line-height: 120%;
+    }
+
+    .videoCard .playButton button {
+        padding: 7px 18px;
+    }
+
+    .snatchVerifiedWorks::before {
+        transform: translateY(-80px);
+    }
+
+    .snatchVerifiedGurantees::before {
+        transform: translateY(-50%);
+    }
+
+    .videoCard span {
+        bottom: -40px;
+    }
+}
+
+@media only screen and (max-width: 832px) {
+    .snatchVerifiedGurantees::before {
+        transform: translateY(-50%);
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .snatchVerifiedWorksSlider {
+        display: none;
+    }
+
+    .snatchVerifiedWorksSliderNewCard {
+        display: flex !important;
+    }
+
+    .snatchVerifiedWorksSliderNew {
+        display: none;
+    }
+
+    .snatchVerifiedWorksSliderNewCard {
+        display: flex !important;
+    }
+
+    .snatchVerifiedGurantees .trust h3 {
+        font-size: 30px;
+    }
+
+    .snatchVerifiedGurantees .trust span {
+        font-size: 17px;
+    }
+
+    .snatchVerifiedGurantees .trust {
+        padding-top: 8px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .snatchVerifiedGurantees .trust div {
+        width: 50%;
+    }
+
+    .snatchVerifiedGurantees::before {
+        max-height: 134px;
+        transform: translateY(-50%);
+    }
+
+    .snatchVerifiedGurantees .triangle-bottomRight {
+        border-bottom: solid 50px #000000;
+    }
+
+    .snatchVerifiedWorksSliderNew .owl-stage-outer .owl-stage,
+    .snatchVerifiedWorksSlider .owl-stage-outer .owl-stage {
+        gap: 15px;
+        flex-wrap: wrap;
+        width: 100% !important;
+        height: 100% !important;
+        column-gap: 10px;
+    }
+
+    .verifiedImg {
+        padding: 30px 0px 25px 0px;
+    }
+
+    .verifiedImg img {
+        max-width: 345px;
+        padding: 7px;
+    }
+
+    .verifiedImg img {
+        width: 80%;
+        padding: 7px;
+    }
+
+    #logoFirst {
+        min-width: 32px;
+        width: 13%;
+    }
+
+    .videoCardSection .videoCardSectionMain h2 {
+        font-size: 26px;
+        width: 100%;
+    }
+
+    .videoCardSection {
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .videoCardSection .videoCardSectionMain {
+        width: 100%;
+    }
+
+    .videoCard {
+        width: 100%;
+    }
+
+    .videoCardSection .videoCardSectionMain p {
+        font-size: 14px;
+        line-height: 165%;
+    }
+
+    .videoCard span {
+        width: 15%;
+        bottom: -32px !important;
+        transform: translatex(-36%);
+    }
+
+    .videoCard {
+        width: 91%;
+        margin-left: 30px;
+    }
+
+    .snatchVerified {
+        padding-bottom: 45px;
+    }
+
+    .snatchVerifiedWorks::before {
+        transform: translateY(-50px);
+        max-height: 100px;
+    }
+
+    .snatchVerifiedWorks .triangle-topleft {
+        border-top: solid 31px #000000;
+    }
+
+    .snatchVerifiedWorks h2 {
+        font-size: 22px;
+        padding: 35px 0px 15px 0px;
+    }
+
+    .snatchVerifiedWorks p {
+        font-size: 15px;
+    }
+
+    .snatchVerifiedWorksSlider {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .snatchVerifiedWorksSliderNew {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .snatchVerifiedGurantees h2 {
+        font-size: 19px;
+        padding: 30px 0px 20px 0px;
+    }
+
+    .snatchVerifiedGurantees p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .snatchVerifiedGurantees p {
+        padding-bottom: 14px;
+    }
+
+    .snatchVerifiedGurantees .snatchVerifiedGuranteesBottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .snatchVerifiedGurantees .snatchVerifiedGuranteesContent {
+        width: 100%;
+    }
+
+    .snatchVerifiedGurantees .snatchVerifiedGuranteesBottomImg {
+        width: 65%;
+        padding-top: 15px;
+    }
+
+    .snatchVerifiedProducts .snatchVerifiedProductsNew {
+        padding-top: 15px;
+    }
+
+    .snatchVerifiedProducts .snatchVerifiedProductsNew h2 {
+        font-size: 16px;
+    }
+
+    .snatchVerifiedProducts .snatchVerifiedProductsNew a {
+        font-size: 12px;
+    }
+
+    .snatchVerifiedProductsSlider {
+        padding-top: 21px;
+    }
+
+    .snatchVerifiedProducts {
+        padding-bottom: 25px;
+    }
+
+    .snatchVerifiedProductsSlider .owl-next,
+    .snatchVerifiedProductsSlider .owl-prev {
+        width: 30px !important;
+        height: 30px !important;
+        font-size: 23px !important;
+    }
+
+    .snatchVerifiedProductsSlider .owl-next {
+        transform: translateX(-1%);
+    }
+
+    .snatchVerifiedProductsSlider .owl-prev {
+        transform: translateX(-16%);
+    }
+
+    .videoCard .playButton {
+        top: 46%;
+        right: 40%;
+    }
+
+
+    .videoCard .playButton button {
+        font-size: 10px;
+        padding: 3px 15px;
+    }
+
+    .videoCard .playButton .videoButton {
+        transform: translate(-80%, -22%);
+    }
+
+    .videoCard img {
+        min-width: 42px;
+    }
+
+    .videoCard .circleImg img {
+        min-width: 81px;
+    }
+
+    .snatchVerifiedWorksSlider .owl-stage-outer {
+        padding: 5px 2px 5px 2px !important;
+    }
+
+    .snatchVerifiedWorksSlider .owl-item {
+        margin-left: 0px;
+        height: 30% !important;
+        min-height: 89px !important;
+        width: 25% !important;
+        min-width: 165px;
+    }
+
+    .snatchVerifiedWorksSliderNew .owl-item {
+        height: 30%;
+        margin: 0px 0px;
+        width: 41% !important;
+        min-width: 165px;
+        min-height: 89px;
+    }
+
+    .snatchVerifiedWorksSliderNew .owl-stage-outer {
+        padding: 5px 2px 5px 2px;
+    }
+
+    .snatchVerifiedWorks {
+        padding-bottom: 100px;
+    }
+
+}
+
+.snatchVerifiedWorksSliderNewCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.snatchVerifiedWorksSliderNewCard .cardItem {
+    width: 48%;
+    min-height: 89px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+    background-color: #FFFFFF;
+}
+
+.snatchVerifiedWorksSliderNewCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width:659px) {
+    .snatchVerifiedWorks::before {
+        transform: translateY(-50px);
+    }
+}
+
+@media only screen and (max-width:525px) {
+    .videoCard .playButton {
+        top: 44%;
+        right: 34%;
+    }
+
+    .videoCard .playButton .videoButton {
+        transform: translate(-80%, -21%);
+    }
+
+    .videoCard span {
+        bottom: -25px !important;
+        transform: translatex(-43%);
+    }
+
+    .snatchVerifiedWorks::before {
+        transform: translateY(-59px);
+    }
+}
+
+@media only screen and (max-width:449px) {
+    .snatchVerifiedWorks .triangle-topleft {
+        border-top: solid 21px #000000;
+    }
+
+    .videoCard span {
+        bottom: -26px !important;
+        transform: translatex(-51%);
+    }
+}
+
+@media only screen and (max-width:752px) {
+    .snatchVerifiedGurantees::before {
+        max-height: 130px;
+        transform: translateY(-50%);
+    }
+
+    .snatchVerifiedGurantees .triangle-bottomRight {
+        border-bottom: solid 62px #000000;
+    }
+}
+
+@media only screen and (max-width:688px) {
+    .snatchVerifiedGurantees::before {
+        transform: translateY(-50%);
+    }
+}
+
+@media only screen and (max-width:642px) {
+    .snatchVerifiedGurantees::before {
+        max-height: 110px;
+        transform: translateY(-50%);
+    }
+
+    .snatchVerifiedGurantees .triangle-bottomRight {
+        border-bottom: solid 53px #000000;
+    }
+}
+
+@media only screen and (max-width:643px) {
+    .snatchVerifiedGurantees::before {
+        transform: translateY(-50%);
+    }
+}
+
+@media only screen and (max-width:586px) {
+    .snatchVerifiedGurantees::before {
+        transform: translateY(-50%);
+    }
+}
+
+@media only screen and (max-width:569px) {
+    .snatchVerifiedGurantees::before {
+        transform: translateY(-50%);
+    }
+}
+
+@media only screen and (max-width:530px) {
+    .snatchVerifiedGurantees::before {
+        transform: translateY(-50%);
+    }
+
+    .snatchVerifiedGurantees .triangle-bottomRight {
+        border-bottom: solid 44px #000000;
+    }
+}
+
+@media only screen and (max-width:460px) {
+    .snatchVerifiedGurantees::before {
+        transform: translateY(-50%);
+    }
+}
+
+@media only screen and (max-width:458px) {
+    .snatchVerifiedGurantees::before {
+        transform: translateY(-50%);
+    }
+}
+
+@media only screen and (max-width:447px) {
+    .snatchVerifiedGurantees::before {
+        transform: translateY(-50%);
+    }
+}
+
+@media only screen and (max-width:426px) {
+    .snatchVerifiedGurantees::before {
+        transform: translateY(-50%);
+    }
+
+    .snatchVerifiedGurantees .triangle-bottomRight {
+        border-bottom: solid 34px #000000;
+    }
+}
+
+@media only screen and (max-width:422px) {
+    .snatchVerifiedGurantees::before {
+        transform: translateY(-50%);
+    }
+}
+
+@media only screen and (max-width:408px) {
+    .snatchVerifiedGurantees::before {
+        transform: translateY(-50%);
+    }
+
+}
+
+@media only screen and (max-width:375px) {
+    .snatchVerifiedGurantees::before {
+        transform: translateY(-50%);
+    }
+}

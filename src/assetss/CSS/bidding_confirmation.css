@@ -1,0 +1,712 @@
+/* .biddingConfirmationPopUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 2000000;
+    transition: 0.3s ease-in-out;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    display: none;
+}
+
+.biddingConfirmationPopShow{
+    display: flex !important;
+    pointer-events: fill;
+}
+.bodyOverflow-ActiveNewPopUp{
+    overflow: hidden !important;
+}
+.biddingPage {
+    width: 100%;
+    max-width: 948px;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    background-color: #FFFF;
+    height: 80vh;
+    overflow-y: auto;
+}
+.biddingPage .biddingPage_main {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 50px 0px;
+}
+.biddingPage_Top {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.biddingPage_Top .selectProduct {
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+    padding: 60px 40px;
+}
+.biddingPage_Top .selectProduct .productContent h2 {
+    font-size: 40px;
+}
+.biddingPage_Top .selectProduct .selected_size p {
+    color: rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+}
+.biddingPage_Top .selectProduct .selected_size p a {
+    padding-left: 31px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 8.6px;
+    line-height: 1.35;
+    font-family: 'Montserrat-SemiBold';
+}
+.biddingPage_Top .selectProduct .selected_size .quantity {
+    display: none;
+}
+.yourBid {
+    width: 100%;
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.yourBid .yourBid_left {
+    width: 50%;
+}
+.yourBid .yourBid_left dl dt {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 20px;
+    line-height: 1.35;
+}
+.yourBid .yourBid_left dd {
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat-Bold';
+    font-size: 47px;
+    line-height: 1.35;
+}
+.yourBid .yourBid_left dd a {
+    color: rgba(0, 0, 0, 1);
+    font-size: 15px;
+    text-underline-offset: 3px;
+    padding-left: 17px;
+}
+.yourBid .yourBid_left p {
+    font-size: 13px;
+    line-height: 1.35;
+    font-family: 'Montserrat-SemiBold';
+    color: rgba(0, 0, 0, 0.5);
+    padding-top: 5px;
+}
+.yourBid .yourBid_right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.yourBid .yourBid_right .selectShoes_size {
+    width: auto;
+    min-width: 80%;
+    position: sticky;
+}
+.bidding_confirmation_middle {
+    padding-top: 18px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.bidding_confirmation_middle .address-selection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+}
+.bidding_confirmation_middle .selectAddress h2 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 30px;
+    line-height: 39px;
+}
+.bidding_confirmation_middle .address-selection p {
+    font-size: 17px;
+    line-height: 24px;
+    font-family: 'Montserrat-SemiBold';
+}
+.bidding_confirmation_middle .address-selection button {
+    padding: 11px 20px;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Montserrat-Bold';
+    color: #FFFFFF;
+    background-color: #000000;
+    border: none;
+    margin-right: 0px;
+    box-shadow: 0px 0px 24.71px 1.24px #0000001A;
+
+}
+/* .accordion-item {
+    border: none;
+    margin: 20px auto;
+    background: #fff;
+    color: #000000;
+    overflow: hidden;
+    box-shadow: -2px 0px 5px 7px #E5E5E54D;
+} */
+/* .accordion-item button {
+    position: relative;
+    width: 100%;
+    padding: 28px 35px;
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.accordion-item button .mainButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.accordion button[aria-expanded='true']+.accordion-content {
+    opacity: 1;
+    max-height: 300px;
+    transition: all 200ms linear;
+}
+.accordion .accordion-content {
+    position: relative;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 35px;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+}
+.accordion-item button .accordion-buttonLeft {
+    display: flex;
+    align-items: center;
+}
+.accordion-item button .accordion-buttonLeft h2 {
+    font-size: 25px;
+    line-height: 34px;
+    font-family: 'Montserrat-Bold';
+    color: #000000;
+}
+.accordion-item button .accordion-buttonLeft h3 {
+    padding-left: 28px;
+    font-size: 22px;
+    line-height: 29px;
+    font-family: 'Montserrat-SemiBold';
+    display: block;
+    color: #000000;
+}
+.accordion-item button .accordion-buttonLeft p {
+    font-size: 16px;
+    line-height: 21px;
+    opacity: 0.4;
+    padding-left: 12px;
+    font-family: 'Montserrat-SemiBold';
+    display: none;
+    padding-top: 7px;
+    color: #000000;
+}
+.accordion-buttonRight {
+    display: flex;
+    align-items: center;
+}
+.accordion-buttonRight p {
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Montserrat-SemiBold';
+    color: #000000;
+}
+.accordion-buttonRight img {
+    width: 14px;
+    height: 7px;
+    margin-left: 16px;
+}
+.accordion .accordion-content h3 {
+    font-family: 'Montserrat-Bold';
+    font-size: 25px;
+    line-height: 34px;
+    padding-bottom: 27px;
+}
+.accordion .accordion-content p {
+    font-size: 16px;
+    line-height: 21px;
+    font-family: 'Montserrat-SemiBold';
+    text-align: justify;
+}
+.accordion .accordion-content .edit {
+    max-width: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px 0px 20px 0px;
+}
+.accordion .accordion-content .edit a {
+    font-family: 'Montserrat-SemiBold';
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: underline;
+    text-underline-offset: auto;
+    text-decoration-thickness: auto;
+}
+.accordion .accordion-content .editSeparator {
+    margin: 0 8px;
+}
+.accordion .accordion-content .addressBox_selected {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    right: 36px;
+    bottom: 52PX;
+}
+.accordion .accordion-content .addressBox_selected p {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Montserrat-SemiBold';
+    color: #00890E;
+}
+.accordion .accordion-content .addressBox_selected img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -4px;
+} */
+.bidding_confirmation_middle .selectBilling {
+    width: 100%;
+}
+.bidding_confirmation_middle .selectBilling p {
+    font-size: 17px;
+    line-height: 24px;
+    font-family: 'Montserrat-SemiBold';
+    padding-bottom: 32px;
+}
+.active {
+    border: 2px solid #008000;
+}
+.bidding_priceBreakdown table {
+    width: 100%;
+}
+.bidding_priceBreakdown table tr {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 22px;
+    line-height: 29px;
+    padding-bottom: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bidding_priceBreakdown table .taxes {
+    padding-bottom: 12px;
+}
+.bidding_priceBreakdown table .gst,
+.delivery span {
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 0%;
+    opacity: 0.5;
+}
+.bidding_priceBreakdown table .delivery {
+    padding-bottom: 30px;
+}
+.bidding_priceBreakdown .totalPrice h2 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 40px;
+    line-height: 51px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bidding_priceBreakdown .totalPrice p {
+    font-family: 'Montserrat-SemiBold';
+    color: #000000;
+    font-size: 12px;
+    line-height: 16px;
+    opacity: 0.5;
+    padding-bottom: 47px;
+}
+.biddingPage1_bottom {
+    padding-top: 42px;
+}
+.biddingPage1_bottom .biddingPage1_paymentbutton p {
+    font-size: 25px;
+    line-height: 32px;
+    font-family: 'Montserrat-Bold';
+    padding-bottom: 31px;
+}
+.biddingPage1_bottom .biddingPage1_paymentbutton button {
+    width: 100%;
+    max-height: 91px;
+    padding: 24px 0px;
+    font-family: 'Montserrat-Bold';
+    font-size: 21px;
+    line-height: 27px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.biddingPage1_bottom .biddingPage1_paymentbutton .paypal {
+    background-image: linear-gradient(to right, rgba(0, 48, 135, 1), rgba(0, 156, 222, 1));
+    margin-bottom: 19px;
+}
+.biddingPage1_bottom .biddingPage1_paymentbutton .Razorpay {
+    background-image: linear-gradient(to right, rgba(16, 28, 112, 1), rgba(11, 32, 98, 1));
+}
+/* 
+.biddingPage1_bottom .biddingPage1_paymentbutton .paypal img {
+    width: 180px;
+    height: 43px;
+}
+.biddingPage1_bottom .biddingPage1_paymentbutton .Razorpay img {
+    width: 205px;
+    height: 91px;
+} */
+.biddingPage1_bottom .biddingPage1_paymentbutton .Razorpay img {
+    width: 205px;
+    height: 91px;
+}
+.totalAmount_button {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 61px;
+}
+.biddingPage1_bottom .totalAmount_button button {
+    font-family: 'Montserrat-Bold';
+    padding: 16px 60px;
+}
+.biddingPage1_bottom .totalAmount_button .cancel {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+.biddingPage1_bottom .totalAmount_button .next {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0%;
+}
+@media only screen and (max-width: 1024px) {
+    .biddingPage .biddingPage_main {
+        width: 100%;
+        padding: 25px 0;
+    }
+    .biddingPage_Top .selectProduct {
+        padding: 25px;
+        box-shadow: 0px 0px 12px -1px rgba(0, 0, 0, 0.1);
+    }
+    .biddingPage_Top .selectProduct .selected_size p {
+        font-size: 12px;
+    }
+    .biddingPage_Top .selectProduct .selected_size p a {
+        font-size: 8px;
+    }
+    .bidding_confirmation_middle .address-selection {
+        margin-top: 15px;
+    }
+    .yourBid .yourBid_right .selectShoes_size {
+        min-width: 75%;
+    }
+    .yourBid {
+        padding: 30px 0;
+        gap: 20px;
+    }
+    .yourBid .yourBid_left,
+    .yourBid .yourBid_right {
+        width: 100%;
+    }
+    .yourBid .yourBid_left dl dt {
+        font-size: 16px;
+    }
+    .yourBid .yourBid_left dd {
+        font-size: 32px;
+    }
+    .yourBid .yourBid_left dd a {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    .yourBid .yourBid_left p {
+        font-size: 11px;
+        padding-top: 4px;
+    }
+    .bidding_confirmation_middle {
+        padding: 15px 0 40px;
+    }
+    .bidding_confirmation_middle .selectAddress h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .bidding_confirmation_middle .address-selection p {
+        font-size: 14px;
+    }
+    .bidding_confirmation_middle .address-selection button {
+        padding: 8px 16px;
+        font-size: 13px;
+    }
+    .accordion-item {
+        margin: 10px auto;
+        box-shadow: 0px 0px 4px 1px #E5E5E5;
+    }
+    .accordion-item button {
+        padding: 20px;
+        font-size: 14px;
+    }
+    .accordion-item button .accordion-buttonLeft h2 {
+        font-size: 20px;
+    }
+    .accordion-item button .accordion-buttonLeft h3 {
+        font-size: 18px;
+        padding-left: 16px;
+    }
+    .accordion .accordion-content h3 {
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    .accordion .accordion-content .edit {
+        padding: 20px 0px;
+    }
+    .accordion .accordion-content .addressBox_selected img {
+        width: 16px;
+        height: 17px;
+    }
+    .accordion .accordion-content p {
+        font-size: 14px;
+    }
+    .accordion .accordion-content {
+        padding: 0px 20px;
+    }
+    .bidding_priceBreakdown table tr {
+        font-size: 18px;
+    }
+    .bidding_priceBreakdown table .gst,
+    .delivery span {
+        font-size: 14px;
+    }
+    .bidding_priceBreakdown .totalPrice h2 {
+        font-size: 28px;
+    }
+    .bidding_priceBreakdown .totalPrice p {
+        font-size: 10px;
+        padding-bottom: 30px;
+    }
+    .biddingPage1_bottom {
+        padding-top: 30px;
+    }
+    .biddingPage1_bottom .biddingPage1_paymentbutton p {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    .biddingPage1_bottom .biddingPage1_paymentbutton .Razorpay img {
+        width: 175px;
+        height: 90px;
+    }
+    .biddingPage1_bottom .biddingPage1_paymentbutton button {
+        padding: 11px 0;
+        font-size: 16px;
+        max-height: 78px;
+    }
+    .totalAmount_button {
+        gap: 10px;
+        margin-top: 40px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .biddingPage .biddingPage_main {
+        width: 100%;
+        padding: 15px 0px 45px 0px;
+    }
+    .biddingPage_main .sellingHeader {
+        padding-bottom: 16px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .biddingPage_main .sellingHeader button {
+        font-size: 12px;
+        line-height: 1;
+        font-family: 'Montserrat-SemiBold';
+        border: none;
+        background-color: #FFFFFF;
+    }
+    .yourBid .yourBid_right {
+        justify-content: flex-start;
+    }
+    .biddingPage_Top .selectProduct {
+        padding: 20px;
+    }
+    .biddingPage_Top .selectProduct .selected_size .quantity {
+        display: block;
+        display: flex;
+    }
+    .biddingPage_Top .selectProduct .selected_size .quantity span {
+        color: #949191;
+    }
+    .biddingPage_Top .selectProduct .selected_size p a {
+        order: 1;
+    }
+    .yourBid {
+        padding: 25px 0px;
+        display: block;
+    }
+    .yourBid .yourBid_left,
+    .yourBid_right {
+        width: 100%;
+    }
+    .yourBid .yourBid_left dl {
+        display: flex;
+        justify-content: space-between;
+    }
+    .yourBid .yourBid_left dl dt {
+        font-size: 16px;
+    }
+    .yourBid .yourBid_left dd {
+        display: block;
+        font-size: 18px;
+    }
+    .yourBid .yourBid_left dd a {
+        font-size: 10px;
+        display: block;
+        text-underline-offset: 2px;
+        text-align: right;
+    }
+    .yourBid .yourBid_left p {
+        padding: 0;
+        font-size: 9px;
+    }
+    .yourBid .yourBid_right .selectShoes_size {
+        padding-top: 15px;
+    }
+    .bidding_confirmation_middle {
+        padding: 25px 0px;
+    }
+    .bidding_confirmation_middle .selectAddress h2 {
+        font-size: 15px;
+    }
+    .bidding_confirmation_middle .address-selection {
+        margin: 0;
+    }
+    .bidding_confirmation_middle .address-selection,
+    .bidding_confirmation_middle .address-selection p {
+        font-size: 10px;
+    }
+    .bidding_confirmation_middle .address-selection button {
+        font-size: 8px;
+        padding: 5px;
+        line-height: 1.35;
+    }
+    .accordion-item button {
+        padding: 8px 10px;
+    }
+    .accordion-item button .accordion-buttonLeft h2 {
+        font-size: 10px;
+    }
+    .accordion-item button .accordion-buttonLeft h3 {
+        font-size: 8px;
+        padding-left: 8px;
+    }
+    .accordion-item button .accordion-buttonLeft p {
+        font-size: 6px;
+        padding-left: 5px;
+    }
+    .accordion-buttonRight p {
+        font-size: 7px;
+    }
+    .accordion-buttonRight img {
+        width: 7px;
+        height: 3px;
+        margin-left: 7px;
+    }
+    .accordion-item {
+        margin: 15px auto;
+    }
+    .accordion .accordion-content {
+        padding: 0px 10px;
+    }
+    .accordion .accordion-content h3 {
+        padding-bottom: 10px;
+        font-size: 10px;
+        line-height: 1.35;
+    }
+    .accordion .accordion-content p {
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .accordion .accordion-content .addressBox_selected p {
+        font-size: 6px;
+    }
+    .accordion .accordion-content .addressBox_selected img {
+        width: 7px;
+        height: 8px;
+        margin-bottom: -2px;
+    }
+    .accordion .accordion-content .addressBox_selected {
+        bottom: 35px;
+    }
+    .accordion .accordion-content .edit {
+        padding: 10px 0px 15px 0px;
+        max-width: 62px;
+    }
+    .accordion .accordion-content .edit a {
+        font-size: 8px;
+    }
+    .accordion .accordion-content .editSeparator {
+        margin: 0;
+    }
+    .bidding_confirmation_middle .selectBilling p {
+        font-size: 10px;
+        padding-bottom: 11px;
+    }
+    .biddingPage1_bottom {
+        padding-top: 16px;
+    }
+    .bidding_priceBreakdown table tr {
+        font-size: 14px;
+        padding-bottom: 10px;
+        line-height: 1;
+    }
+    .bidding_priceBreakdown table .gst,
+    .delivery span {
+        font-size: 10px;
+        line-height: 1;
+    }
+    .bidding_priceBreakdown table .delivery {
+        padding-bottom: 10px;
+    }
+    .bidding_priceBreakdown .totalPrice h2 {
+        font-size: 15px;
+        line-height: 1;
+    }
+    .bidding_priceBreakdown .totalPrice p {
+        font-size: 8px;
+        max-width: 60%;
+        line-height: 1;
+        padding: 5px 0px 15px 0px;
+    }
+    .biddingPage1_bottom .biddingPage1_paymentbutton p {
+        font-size: 10px;
+        line-height: 1;
+        padding-bottom: 11px;
+    }
+    .biddingPage1_bottom .biddingPage1_paymentbutton .paypal {
+        margin-bottom: 10px;
+    }
+    .biddingPage1_bottom .biddingPage1_paymentbutton button {
+        font-size: 7px;
+        padding: 8px 0px;
+        max-height: 33px;
+    }
+    .biddingPage1_bottom .biddingPage1_paymentbutton img {
+        width: 66px;
+        height: 15px;
+    }
+    .biddingPage1_bottom .biddingPage1_paymentbutton .Razorpay img {
+        height: 33px;
+        width: 70px;
+    }
+    .totalAmount_button {
+        margin-top: 15px;
+    }
+    .biddingPage1_bottom .totalAmount_button button {
+        padding: 11px 68px;
+        font-size: 10px;
+    }
+} 

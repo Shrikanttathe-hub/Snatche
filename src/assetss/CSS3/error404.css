@@ -1,0 +1,63 @@
+.error404 {
+    background-image: url('../Images/Error404/error404.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 66vh;
+    color: #FFFFFF;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.error404 .errorContent {
+    width: 100%;
+    margin-top: 15%;
+}
+.error404 .errorContent h1 {
+    font-family: 'Montserrat-Bold';
+    font-size: 50px;
+    line-height: 1;
+}
+.error404 .errorContent p {
+    font-family: 'Montserrat-Medium';
+    font-size: 30px;
+    line-height: 1;
+    padding-top: 95px;
+}
+@media only screen and (max-width: 1024px) {
+    .error404 {
+        min-height: 85vh;
+    }
+    .error404 .errorContent h1 {
+        font-size: 40px;
+    }
+    .error404 .errorContent p {
+        font-size: 23px;
+        padding-top: 30px;
+    }
+    .error404 .errorContent {
+        margin-top: 25%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .error404 {
+        background-image: url(../Images/Error404/error404_mobile.svg);
+        min-height: 350px;
+        padding:60px 0px 100px 0px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .error404 .errorContent h1 {
+        font-size: 25px;
+        line-height: 1;
+    }
+    .error404 .errorContent p {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+    .error404 .errorContent {
+        margin-top:91%;
+    }
+}

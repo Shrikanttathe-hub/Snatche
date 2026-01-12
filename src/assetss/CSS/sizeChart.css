@@ -1,0 +1,230 @@
+ /*Tabs Slider css*/
+    .sizeChartTable .sizeChart{
+       opacity: 1;
+    }
+    .sizeChartTableOpenPopUp{
+        opacity: 0;
+    }
+    .sizeChartContent {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+
+    .sizeChartContent .sliderTabs {
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .sizeChartContent .sliderTabs::after {
+        content: "";
+        background: black;
+        width: 100%;
+        height: 3px;
+        border: none;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .sizeChartContent .sliderTabs label {
+        position: relative;
+        display: block;
+        width: 17%;
+        padding: 9px 0px 11px 0px;
+        cursor: pointer;
+        font-family: 'Montserrat-SemiBold';
+        font-size: 20px;
+        color: #000000;
+        opacity: 30%;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    #adidas:checked~.sliderTabs label .nike,
+    #adidas:checked~.sliderTabs label .adidas,
+    #adidas:checked~.sliderTabs label .puma,
+    #adidas:checked~.sliderTabs label .reebok,
+    #adidas:checked~.sliderTabs label .newBalance {
+        color: #000000;
+    }
+
+    input[type='radio'] {
+        display: none;
+    }
+
+    .sizeChartContent .sliderTabs .slider {
+        position: absolute;
+        height: 7px;
+        background-color: #000000;
+        width: 17%;
+        z-index: 1;
+        left: 0;
+        bottom: 0;
+        transition: all 0.3s ease;
+    }
+
+    #adidas:checked~.sliderTabs .slider {
+        left: 17%;
+    }
+
+    #puma:checked~.sliderTabs .slider {
+        left: 34%;
+    }
+
+    #reebok:checked~.sliderTabs .slider {
+        left: 51%;
+    }
+
+    #newBalance:checked~.sliderTabs .slider {
+        left: 68%;
+    }
+
+    #nike:checked~.sliderTabs .nike {
+        background-color: #E4E4E4;
+        opacity: 1;
+    }
+
+    #adidas:checked~.sliderTabs .adidas {
+        background-color: #E4E4E4;
+        opacity: 1;
+    }
+
+    #puma:checked~.sliderTabs .puma {
+        background-color: #E4E4E4;
+        opacity: 1;
+    }
+
+    #reebok:checked~.sliderTabs .reebok {
+        background-color: #E4E4E4;
+        opacity: 1;
+    }
+
+    #newBalance:checked~.sliderTabs .newBalance {
+        background-color: #E4E4E4;
+        opacity: 1;
+    }
+
+    .measureMent {
+        width: 100%;
+    }
+
+    .measureMent  .content {
+        display: none;
+    }
+
+    .measureMent .content {
+        width: 100%;
+        padding-top: 25px;
+    }
+
+    #nike:checked~.measureMent .content-1 {
+        display: block;
+    }
+
+    #adidas:checked~.measureMent .content-2 {
+        display: block;
+    }
+
+    #puma:checked~.measureMent .content-3 {
+        display: block;
+    }
+
+    #reebok:checked~.measureMent .content-4 {
+        display: block;
+    }
+
+    #newBalance:checked~.measureMent .content-5 {
+        display: block;
+    }
+
+    .sizeChart {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        width: 50%;
+        max-width: 952px;
+        justify-self: center;
+        padding: 47px 61px 48px 60px;
+        background-color: rgba(255, 255, 255, 1);
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+    }
+
+    .sizeChartHeading {
+        font-family: 'Montserrat-Bold';
+        font-size: 35px;
+        color: #000000;
+        line-height: 135%;
+        padding-bottom: 43px;
+    }
+
+    /*sizeChart css*/
+    .tableHeadNew {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        background-color: #000000;
+        padding: 0px 25px 0px 25px;
+    }
+
+    .tableHeadNew li {
+        width: 20%;
+        color: #FFFFFF;
+        font-family: 'Montserrat-Bold';
+        line-height: 135%;
+        font-size: 15px;
+        text-align: center;
+        padding: 15px 0px 14px 0px;
+    }
+
+    .tableHeadNew li:nth-child(2) {
+        padding-left: 20px;
+    }
+
+    .tableContent {
+        border: 2px solid #000000;
+        padding: 20px 36px 21px 21px;
+    }
+
+    .tableContent ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    .tableContent ul li {
+        width: 20%;
+        text-align: center;
+        color: #000000;
+        font-family: 'Montserrat-Bold';
+        line-height: 135%;
+        font-size: 15px;
+        padding: 9px 0px 8px 15px;
+        border-bottom: 1px solid #E4E4E4;
+    }
+
+    .tableContent ul:last-child li {
+        border-bottom: none;
+    }
+
+    .compareTableButton {
+        padding-top: 25px;
+        justify-self: end;
+    }
+
+    .compareTableButton button {
+        background-color: #000000;
+        color: #FFFFFF;
+        border: none;
+        letter-spacing: 0%;
+        font-family: 'Montserrat-SemiBold';
+        font-size: 18px;
+        padding: 12px 39px 12px 38px;
+        cursor: pointer;
+    }

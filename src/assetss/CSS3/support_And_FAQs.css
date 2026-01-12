@@ -1,0 +1,365 @@
+.support_And_FAQs {
+    width: 100%;
+}
+.support_And_FAQs .support_And_FAQs_main {
+    padding-bottom: 181px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1436px;
+}
+.support_And_FAQs .support_And_FAQs_main .left-support {
+    width: 40%;
+}
+.support_And_FAQs .support_And_FAQs_main .left-support .utility{
+    display: block;
+}
+.support_And_FAQs .support_And_FAQs_main .left-support h2 {
+    font-family: 'Montserrat-Bold';
+    font-size: 25px;
+    line-height: 34px;
+    padding-bottom: 29px;
+}
+.support_And_FAQs .support_And_FAQs_main .left-support .selectIssue {
+    position: relative;
+}
+.support_And_FAQs .support_And_FAQs_main .left-support .selectIssue label {
+    padding: 8px 0px 0px 18px;
+    position: absolute;
+    z-index: 1;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 11px;
+    line-height: 15px;
+    font-family: 'Montserrat-SemiBold';
+}
+.support_And_FAQs .support_And_FAQs_main .left-support .selectIssue select {
+    font-family: 'Montserrat-Medium';
+    width: 100%;
+    height: 62px;
+    background: #ffffff;
+    border: none;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    line-height: 21px;
+    padding: 12px 0px 0px 13px;
+}
+.support_And_FAQs .support_And_FAQs_main .left-support .dis_issue {
+    position: relative;
+    margin: 13px 0px;
+}
+.support_And_FAQs .support_And_FAQs_main .left-support .dis_issue label {
+    padding: 8px 0px 0px 18px;
+    position: absolute;
+    z-index: 1;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 11px;
+    line-height: 15px;
+    font-family: 'Montserrat-SemiBold';
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+.support_And_FAQs .support_And_FAQs_main .left-support .dis_issue textarea {
+    width: 100%;
+    min-height: 181px;
+    font-size: 12px;
+    line-height: 21px;
+    border: none;
+    padding: 32px 24px 61px 18px;
+    color: #000000;
+    font-family: 'Montserrat-Medium';
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
+}
+.support_And_FAQs .support_And_FAQs_main .left-support .dis_issue textarea::placeholder {
+    color: #000000;
+}
+.support_And_FAQs .support_And_FAQs_main .left-support .submit button {
+    border: none;
+    padding: 9px 35px;
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Montserrat-SemiBold';
+    float: right;
+    cursor: pointer;
+}
+.support_And_FAQs .support_And_FAQs_main .left-support .reach_us {
+    padding-top: 59px;
+}
+.support_And_FAQs .support_And_FAQs_main .left-support .reachUs {
+    display: flex;
+    gap: 7px;
+}
+.support_And_FAQs .support_And_FAQs_main .left-support .reachUs a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 14px 0px;
+    border: 1px solid #000000;
+    font-size: 17px;
+    line-height: 23px;
+    color: #000;
+    font-family: 'Montserrat-Medium';
+}
+.support_And_FAQs .support_And_FAQs_main .left-support .reachUs a img {
+    width: 18px;
+    height: 17px;
+    margin-right: 14px;
+}
+.support_And_FAQs .support_And_FAQs_main .left-support .reachUs #contact {
+    background: #000000;
+    color: #ffffff;
+}
+.support_And_FAQs .support_And_FAQs_main .right-support {
+    width: 50%;
+    margin-top: 72px;
+}
+.querySearch {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.querySearch input {
+    width: 100%;
+    height: 52px;
+    padding-left: 26px;
+    font-size: 16px;
+    border: none;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'Montserrat-SemiBold';
+}
+.querySearch button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 28px;
+    border: none;
+    background-color: transparent;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: 'Montserrat-Regular';
+    cursor: pointer;
+}
+.querySearch input::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+}
+.querySearch button img {
+    margin-right: 10px;
+    object-fit: cover;
+    margin-top: 3px;
+    width: 18px;
+    height: 18px;
+}
+.support_And_FAQs .support_And_FAQs_main .right-support .query_cards {
+    padding-top: 79px;
+    width: 100%;
+}
+.support_And_FAQs .support_And_FAQs_main .query_cards .cardsContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 12px;
+    column-gap: 20px;
+}
+.support_And_FAQs .support_And_FAQs_main .right-support .query_cards .cards {
+    width: 50%;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+    padding: 26px 14px 25px 34px;
+    width: calc(50% - 10px);
+    margin-top: 0;
+}
+.support_And_FAQs .support_And_FAQs_main .right-support .query_cards h2 {
+    font-size: 25px;
+    line-height: 34px;
+    font-family: 'Montserrat-Bold';
+    padding-bottom: 29px;
+}
+.support_And_FAQs .support_And_FAQs_main .right-support .query_cards .cards h3 {
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'Montserrat-SemiBold';
+}
+.support_And_FAQs .support_And_FAQs_main .right-support .query_cards .cards p {
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'Montserrat-Medium';
+    padding-top: 19px;
+}
+.support_And_FAQs .support_And_FAQs_main .right-support .right-supportAccordian {
+    width: 100%;
+}
+.support_And_FAQs .support_And_FAQs_main .right-support .right-supportAccordian h2 {
+    padding-top: 23px;
+}
+.support_And_FAQs .support_And_FAQs_main .supportAccordian-item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 23px 0px 12px 0px;
+    overflow: hidden;
+}
+.support_And_FAQs .support_And_FAQs_main .supportAccordian-item .accordion-header {
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
+    background-color: #FFFFFF;
+    font-family: 'Montserrat-Medium';
+}
+.support_And_FAQs .support_And_FAQs_main .supportAccordian-item .accordion-content {
+    padding-top: 23px;
+    padding-bottom: 12px;
+    display: none;
+    /* Initially hidden */
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'Montserrat-Medium';
+}
+.support_And_FAQs .support_And_FAQs_main .supportAccordian-item:first-of-type {
+    padding-top: 0px;
+}
+@media only screen and (max-width: 1200px) {
+    .support_And_FAQs .support_And_FAQs_main .left-support {
+    width: 43%;
+}
+}
+@media only screen and (max-width: 1024px) {
+    .support_And_FAQs .support_And_FAQs_main {
+        flex-direction: column;
+        padding-bottom: 80px;
+    }
+    .support_And_FAQs .support_And_FAQs_main .left-support,
+    .support_And_FAQs .support_And_FAQs_main .right-support {
+        width: 100%;
+    }
+    .support_And_FAQs .support_And_FAQs_main .right-support {
+        margin-top: 30px;
+    }
+    .support_And_FAQs .support_And_FAQs_main .left-support h2,
+    .support_And_FAQs .support_And_FAQs_main .right-support .query_cards h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .support_And_FAQs .support_And_FAQs_main .left-support .reachUs {
+        column-gap: 10px;
+    }
+    .support_And_FAQs .support_And_FAQs_main .left-support .reachUs a {
+        width: 50%;
+    }
+    .support_And_FAQs .support_And_FAQs_main .right-support .query_cards .cards {
+        width: 100%;
+        padding: 20px 20px;
+    }
+    .support_And_FAQs .support_And_FAQs_main .query_cards .cardsContainer {
+        column-gap: 0;
+        row-gap: 20px;
+    }
+    .support_And_FAQs .support_And_FAQs_main .right-support .querySearch {
+        display: none;
+    }
+    .search_mobileView{
+        display: flex;
+        width: 100%;
+    }
+    .support_And_FAQs .support_And_FAQs_main .right-support .querySearch input {
+        font-size: 13px;
+    }
+    .support_And_FAQs .support_And_FAQs_main .right-support .querySearch button {
+        right: 15px;
+        font-size: 12px;
+    }
+    .support_And_FAQs .support_And_FAQs_main .supportAccordian-item .accordion-header {
+        font-size: 15px;
+    }
+    .support_And_FAQs .support_And_FAQs_main .supportAccordian-item .accordion-content {
+        font-size: 12px;
+    }
+    .support_And_FAQs .support_And_FAQs_main .left-support .submit button {
+        width: 49%;
+        padding: 12px 0px;
+        font-size: 15px;
+    }
+    .querySearch button {
+        top: 15px;
+    }
+    .querySearch input {
+        margin-bottom: 25px;
+    }
+    .support_And_FAQs .support_And_FAQs_main .right-support .query_cards {
+        padding-top: 0px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .support_And_FAQs .support_And_FAQs_main {
+        width: 100%;
+        padding-bottom: 25px;
+    }
+    .utility {
+        padding-bottom: 15px;
+    }
+    .querySearch input {
+        margin-bottom: 15px;
+        max-height: 35px;
+        font-size: 10px;
+        padding-left: 15px;
+    }
+    .querySearch button {
+        top: 10px;
+        font-size: 10px;
+        right: 18px;
+    }
+    .querySearch button img {
+        margin-right: 3px;
+        width: 15px;
+        height: 15px;
+    }
+    .support_And_FAQs .support_And_FAQs_main .left-support h2,
+    .support_And_FAQs .support_And_FAQs_main .right-support .query_cards h2 {
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+    .support_And_FAQs .support_And_FAQs_main .left-support .selectIssue select {
+        max-height: 45px;
+        font-size: 10px;
+    }
+    .support_And_FAQs .support_And_FAQs_main .left-support .dis_issue textarea {
+        font-size: 10px;
+        padding: 35px 23px 15px 15px;
+    }
+    .support_And_FAQs .support_And_FAQs_main .left-support .submit button {
+        padding: 10px 0px;
+        line-height: 1;
+    }
+    .support_And_FAQs .support_And_FAQs_main .left-support .reachUs a {
+        font-size: 10px;
+        padding: 10px 0px;
+        line-height: 1;
+    }
+    .support_And_FAQs .support_And_FAQs_main .right-support {
+        margin-top: 25px;
+    }
+    .support_And_FAQs .support_And_FAQs_main .right-support .query_cards .cards h3 {
+        font-size: 14px;
+    }
+    .support_And_FAQs .support_And_FAQs_main .right-support .query_cards .cards p {
+        font-size: 10px;
+        padding-top: 10px;
+    }
+    .support_And_FAQs .support_And_FAQs_main .right-support .query_cards .cards {
+        padding: 10px 15px 15px 15px;
+    }
+    .support_And_FAQs .support_And_FAQs_main .supportAccordian-item .accordion-header {
+        font-size: 11px;
+    }
+    .support_And_FAQs .support_And_FAQs_main .supportAccordian-item {
+        padding: 20px 0px 10px 0px;
+    }
+}

@@ -1,0 +1,370 @@
+.bodyOverflow-ActiveNew {
+    overflow: hidden !important;
+}
+
+.tabs {
+  padding-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.tabs input[type="radio"] {
+  display: none;
+}
+
+.tabs label {
+  background-color: #FFFFFF;
+  display: inline-block;
+  padding: 10px 10px;
+  cursor: pointer;
+  line-height: 1.35;
+  font-size: 22px;
+  font-family: 'Montserrat-SemiBold';
+}
+
+.sellingDetails {
+  box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 1073px;
+  margin: 0 auto;
+}
+.sellingDetail {
+  width: 100%;
+  padding: 45px 48px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.sellingDetails .container{
+  background-color: #fff;
+}
+.sellingDetailsPopUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    display: none;
+}
+
+.sellingDetailsPopUpShow{
+  pointer-events: fill;
+  display: flex;
+}
+
+.sellingDetails .sellingHeader {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding-bottom: 26px;
+}
+.sellingDetails .sellingHeader p {
+  font-family: 'Montserrat-ExtraBold';
+  line-height: 28px;
+  font-size: 28px;
+  line-height: 1.30;
+}
+.sellingDetails .sellingHeader button {
+  font-family: 'Montserrat-SemiBold';
+  background-color: #FFFFFF;
+  color: #000000;
+  border: none;
+  font-size: 19px;
+  line-height: 1.35;
+  outline: none;
+}
+
+.sellingDetailsPopUp .sellingDetails_priceBreakdown{
+  border-bottom: 0px !important;
+}
+
+.sellingDetails .sellingDetailbottom {
+  display: flex;
+  justify-content: right;
+}
+.sellingDetails .sellingDetailbottom button {
+  padding: 16px 70px;
+  color: #ffffff;
+  background-color: #000000;
+  font-size: 19px;
+  line-height: 26px;
+  font-family: "Montserrat-Bold";
+  margin-top: 64px;
+  border: none;
+}
+.sellingDetails_container {
+  padding: 45px 37px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+}
+.tabs {
+  padding-top: 50px;
+}
+.tabs input[type="radio"] {
+  display: none;
+}
+.tabs label {
+  background-color: #FFFFFF;
+  display: inline-block;
+  padding: 10px 10px;
+  cursor: pointer;
+  line-height: 1.35;
+  font-size: 22px;
+  font-family: 'Montserrat-SemiBold';
+}
+.tabs input[type="radio"]:checked + label {
+  border-bottom: 5px solid rgba(0, 0, 0, 1) !important;
+}
+.tab-content {
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  display: none;
+  padding-top: 37px;
+}
+
+#sellNow_tab:checked~.tab_content #sellNow_content,
+#placeAsk_tab:checked~.tab_content #placeAsk_content {
+  display: block !important;
+}
+.sellingDetails_priceBreakdown{
+  flex-direction: column;
+}
+.sellingDetails_priceBreakdown p {
+  font-size: 20px;
+  line-height: 26px;
+  font-family: "Montserrat-Bold";
+}
+.sellingDetails_priceBreakdown .selling_span {
+  font-size: 35px;
+  line-height: 47px;
+  font-family: "Montserrat-Bold";
+}
+.sellingDetails_priceBreakdown table {
+  width: 100%;
+  margin-top: 21px;
+}
+.sellingDetails_priceBreakdown table tr:first-child {
+  margin-top: 0px;
+}
+.sellingDetails_priceBreakdown table tr {
+  font-family: "Montserrat-SemiBold";
+  font-size: 13px;
+  line-height: 17px;
+  opacity: 0.5;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.sellingDetails_priceBreakdown .selling_finalPrice {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 22px;
+}
+.enterAmount_input {
+  position: relative;
+}
+.enterAmount_input .amountask span {
+  font-size: 17px;
+  line-height: 22px;
+  font-family: "Montserrat-Bold";
+  opacity: 1;
+  color: #000000;
+}
+.selling_productPage_priceBreakdown .enterAmount {
+  display: flex;
+  flex-direction: row;
+}
+.selling_productPage_priceBreakdown .minimumAmount {
+  font-family: "Montserrat-SemiBold";
+  font-size: 13px;
+  line-height: 14px;
+  opacity: 0.5;
+  padding-bottom: 74px;
+  padding-top: 11px;
+}
+.selling_productPage_priceBreakdown .enterAmount label {
+  font-family: "Montserrat-SemiBold";
+  padding: 7px 0px 0px 13px;
+  color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  line-height: 1;
+  font-size: 11px;
+  z-index: 1;
+}
+.selling_productPage_priceBreakdown .enterAmount input {
+  box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+  font-family: 'Montserrat-Bold';
+  position: relative;
+  background: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  border: none;
+  line-height: 1.35;
+  padding-left: 15px;
+  padding-top: 15px;
+  width: 100%;
+  max-width: 335px;
+  min-height: 59px;
+  font-size: 22px;
+}
+.selling_productPage_priceBreakdown .enterAmount #amount::placeholder {
+  color: #000000;
+  font-size: 22px;
+  line-height: 29px;
+}
+.selling_productPage_priceBreakdown .enterAmount button {
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  padding: 17px 35px;
+  max-height: 59px;
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Montserrat-Bold";
+  margin-left: 13px;
+  margin-bottom: 0;
+}
+.selling_productPage_priceBreakdown table {
+  width: 100%;
+}
+.selling_productPage_priceBreakdown table tr {
+  font-family: "Montserrat-SemiBold";
+  font-size: 18px;
+  line-height: 24px;
+  padding-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.selling_productPage_priceBreakdown table tr:first-child{
+  padding-top: 0;
+}
+.selling_productPage_priceBreakdown .selling_finalPrice {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 55px;
+  font-size: 29px;
+  line-height: 39px;
+  font-family: "Montserrat-Bold";
+}
+.selling_productPage_priceBreakdown table th,
+td {
+  color: rgba(0, 0, 0, 0.5);
+}
+.selling_productPage_priceBreakdown table th a,
+td a {
+  text-decoration: none;
+  font-family: "Montserrat-SemiBold";
+  color: rgba(0, 137, 14, 1);
+  font-size: 15px;
+  line-height: 20px;
+  padding-left: 21px;
+}
+.selling_productPage_priceBreakdown table td .fee {
+  text-decoration: line-through;
+}
+@media only screen and (max-width: 1024px) {
+  .sellingDetail {
+    padding: 30px 33px;
+  }
+  .sellingDetails .sellingDetailbottom button {
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .sellingDetails {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .sellingDetail {
+    padding: 15px 0px;
+  }
+  .sellingDetails_container {
+    box-shadow: 0px 4.42px 4.42px 0px rgba(0, 0, 0, 0.25);
+    padding: 15px;
+    padding-top: 40px;
+  }
+  .sellingDetails .sellingHeader {
+    padding-bottom: 15px;
+  }
+  .sellingDetails .sellingHeader p {
+    font-size: 16px;
+    line-height: 1;
+  }
+  .sellingDetails .sellingHeader button,
+  .tabs label {
+    font-size: 9px !important;
+  }
+  .tabs {
+    padding-top: 22px;
+  }
+  .tabs input[type="radio"]:checked+label {
+    border-bottom: 3px solid rgba(0, 0, 0, 1) !important;
+  }
+  .tab-content {
+    padding-top: 12px;
+  }
+  .sellingDetails_priceBreakdown p,
+  .sellingDetails_priceBreakdown table tr {
+    font-size: 10px;
+    line-height: 1;
+  }
+  .sellingDetails_priceBreakdown .selling_span {
+    font-size: 12px;
+    line-height: 1;
+  }
+  .sellingDetails_priceBreakdown table {
+    margin-top: 14px;
+  }
+  .sellingDetails_priceBreakdown .selling_finalPrice {
+    padding-top: 15px;
+  }
+  .sellingDetails .sellingDetailbottom {
+    justify-content: center;
+  }
+  .sellingDetails .sellingDetailbottom button {
+    margin-top: 15px;
+    font-size: 10px;
+    line-height: 1.43;
+    padding: 9px 46px;
+  }
+  .selling_productPage_priceBreakdown .enterAmount input {
+    min-height: 33px;
+    padding-left: 14px;
+    padding-top: 2px;
+  }
+  .selling_productPage_priceBreakdown .enterAmount #amount::placeholder {
+    font-size: 12px;
+  }
+  .selling_productPage_priceBreakdown .enterAmount button {
+    padding: 10px 27px;
+    font-size: 14px;
+  }
+  .selling_productPage_priceBreakdown .minimumAmount {
+    padding: 4px 0px 14px 0px;
+    font-size: 8px;
+    line-height: 1;
+  }
+  .selling_productPage_priceBreakdown table tr{
+    font-size: 10px;
+    line-height: 1;
+  }
+  .selling_productPage_priceBreakdown table th a, td a{
+    font-size: 9px;
+    padding-left:0 ;
+  }
+  .selling_productPage_priceBreakdown .selling_finalPrice{
+    padding-top: 20px;
+    font-size: 13px;
+  }
+  .selling_productPage_priceBreakdown table th, td{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+   .selling_productPage_priceBreakdown table td{
+    text-align: right;
+   }
+}

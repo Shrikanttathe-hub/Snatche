@@ -1,0 +1,446 @@
+#listPage {
+    width: 100%;
+}
+#listPage .listing {
+    width: 100%;
+    max-width: 1436px;
+    margin: 0 auto;
+}
+.listSelect {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.listSelect .listSelectLeft {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 31px;
+}
+.listSelect .listSelectRight {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 31px;
+}
+.listSelectLeft .list {
+    max-width: 50%;
+}
+.listSelect label {
+    padding-right: 12px;
+    font-size: 13px;
+    line-height: 1.35;
+    font-family: 'Montserrat-Bold';
+}
+.listSelect select {
+    font-family: 'Montserrat-Medium';
+    padding: 8px 15px;
+    font-size: 18px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.listOfProduct {
+    width: 100%;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+}
+.listOfProduct ul {
+    width: 100%;
+    list-style-type: none;
+    margin-bottom: 96px;
+}
+.listOfProduct ul li {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 35px 35px 67px;
+    transition: 0.4s ease-in-out;
+}
+.listOfProduct ul li .favProdLeft {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    gap: 46px;
+}
+.listOfProduct ul li .favProdLeft .favImg {
+    width: 25%;
+}
+.listOfProduct ul li .favProdLeft .favImg img {
+    width: 100%;
+    mix-blend-mode: multiply;
+}
+.listOfProduct ul li .favProdLeft .faContent {
+    width: 75%;
+}
+.listOfProduct ul li .favProdLeft .favContent h2 {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-family: 'Montserrat-Bold';
+    font-size: 20px;
+    line-height: 1.30;
+    padding-bottom: 11px;
+}
+.listOfProduct ul li .favProdLeft .favContent p {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 13px;
+    color: rgba(80, 80, 80, 1);
+    line-height: 1.35;
+    display: inline;
+    padding-right: 35px;
+}
+.listOfProduct ul li:nth-child(even) {
+    background-color: #FFFFFF;
+}
+.listOfProduct ul li:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.listOfProduct ul li .favRemove {
+    display: flex;
+    justify-content: right;
+    font-size: 13px;
+    line-height: 1.35;
+    font-family: 'Montserrat-Bold';
+    color: rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease;
+}
+.listOfProduct ul li .favProdRight {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    row-gap: 50px;
+}
+.favRightTop .favRemove {
+    display: flex;
+    justify-content: right;
+    font-size: 13px;
+    line-height: 1.35;
+    font-family: 'Montserrat-Bold';
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    background-color: transparent;
+}
+.favRightBottom p {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 30px;
+    line-height: 1;
+    padding-top: 55px;
+}
+/* Snatche List Intro */
+.listPagePopUp .message {
+    width: 100%;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+}
+.message .messBox {
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 71px 73px 38px 67px;
+    background-image: url('../Image/snatcheList/snatcheList_Message.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.message .messBox .introduction {
+    font-size: 15px;
+    line-height: 1.35;
+    font-family: 'Montserrat-SemiBold';
+}
+.message .messBox h2 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 35px;
+    line-height: 1.35;
+    padding-bottom: 31px;
+    color: rgba(0, 128, 245, 1);
+}
+.message .messBox .snatcheList {
+    font-family: 'Montserrat-Bold';
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.message .messBox p {
+    font-family: 'Montserrat-Medium';
+    font-size: 10px;
+    line-height: 1.78;
+}
+.message .messBox p span {
+    position: relative;
+    overlay: hidden;
+    top: 9px;
+}
+.message .messBox .messBtn {
+    text-align: right;
+    width: 100%;
+}
+.message .messBox button {
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    border: 2px solid#FFFFFF;
+    font-size: 16px;
+    line-height: 1.78;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 12px 60px;
+    cursor: pointer;
+}
+/*Ends Snatche List Intro */
+/* popUp CSS */
+body {
+    overflow: hidden;
+}
+#listPage .active {
+    filter: blur(10px);
+    pointer-events: none;
+    user-select: none;
+}
+.listPagePopUp {
+    width: 100%;
+    max-width: 803px;
+        top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    z-index: 100;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+@media only screen and (max-width: 1024px) {
+    #listPage .listing {
+        width: 100%;
+        position: relative;
+    }
+    .listSelectLeft .list,
+    .listSelectRight .list {
+        max-width: 100%;
+        padding-top: 25px;
+    }
+    .listSelect label {
+        font-size: 21px;
+    }
+    .listOfProduct ul {
+        margin-bottom: 60px;
+    }
+    .listOfProduct ul li {
+        padding: 20px;
+    }
+    .listOfProduct ul li .favProdRight {
+        row-gap: 50px;
+    }
+    .listOfProduct ul li .favProdRight .favRightBottom p {
+        padding-top: 0;
+        font-size: 24px;
+    }
+    /*about page introduction box*/
+    .message .messBox {
+        padding: 30px 40px;
+    }
+    .message .messBox h2 {
+        font-size: 28px;
+        padding-bottom: 25px;
+    }
+    .message .messBox .snatcheList {
+        font-size: 14px;
+    }
+    .message .messBox p {
+        font-size: 9px;
+    }
+    .message .messBox button {
+        border: 1.5px solid #FFFFFF;
+        margin-top: 25px;
+        padding: 10px 50px;
+        font-size: 13px;
+    }
+/* filter options */
+/* filter */
+    .listSelect,.listSelect .listSelectLeft,.list,
+    .listSelect .listSelectRight {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: unset;
+        gap: unset;
+    }
+    .list {
+        padding: 26px 0px 0px 0px;
+    }
+    .list label {
+        font-size: 21px;
+    }
+    .list select {
+        font-size: 16px;
+        padding: 12px;
+        margin-top: 20px;
+    }
+    .filterImg {
+        display: block;
+        position: absolute;
+        right:0;
+        top: 31px;
+    }
+    .filterImg img {
+        width: 30px;
+    }
+    .filterImg button,
+    .filterContent button {
+        padding: 5px;
+        border: none;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        background-color: transparent;
+    }
+    .filterContent {
+        display: block;
+        position: relative;
+        width: 100%;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(139, 139, 139, 0.3);
+    }
+    .filterContent h2 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 1.35;
+        font-family: 'Montserrat-Bold';
+    }
+    .filterContent button img {
+        width: 20px;
+    }
+    .listSelect {
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-color: #fff;
+        width: 100vw;
+        height: 100vh;
+        z-index: 10000;
+        padding: 25px;
+        overflow-y: scroll;
+        backdrop-filter: blur(10px);
+        display: none;
+    }
+    .listSelect label{
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .listOfProduct {
+        box-shadow: 0px 0px 11.9px 0px rgba(0, 0, 0, 0.25);
+        margin-top: 6px;
+    }
+    .listOfProduct ul {
+        margin-bottom: 25px;
+    }
+    .listOfProduct ul li {
+        flex-direction: column;
+        padding: 15px;
+        align-items: unset;
+    }
+    .listOfProduct ul li .favProdLeft {
+        width: 100%;
+        gap: 15px;
+    }
+    .listOfProduct ul li .favProdLeft .favImg {
+        width: 40%;
+    }
+    .listOfProduct ul li .favProdLeft .favContent {
+        width: 60%;
+    }
+    .listOfProduct ul li .favProdLeft .favContent h2 {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    .listOfProduct ul li .favProdLeft .favContent p {
+        font-size: 9px;
+    }
+    .favRightBottom {
+        padding-top: 10px;
+    }
+    .favRightBottom p {
+        font-size: 15px !important;
+        color: rgba(0, 0, 0, 1) !important;
+        font-family: 'Montserrat-ExtraBold' !important;
+    }
+    .listOfProduct ul li .favProdRight {
+        display: none;
+    }
+    .favProductTop_mobileView,
+    .favProductBottom_mobileView {
+        display: block;
+    }
+    .listOfProduct ul li .favRemove {
+        float: inline-end;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 1);
+        padding-bottom: 15px;
+    }
+   /* filter options */
+    .filterImg img {
+        width: 15px;
+    }
+    .listSelect {
+        padding: 15px;
+    }
+    .filterContent h2 {
+        font-size: 14px;
+    }
+    .filterContent button img {
+        width: 14px;
+        object-position: center;
+    }
+   .listSelectLeft .list, .listSelectRight .list {
+        padding-top: 20px;
+    }
+
+    .listSelect label {
+        padding: 0;
+        font-size: 12px;
+    }
+    .list select {
+        font-size: 13px;
+        margin-top: 10px;
+        padding: 7px;
+    }
+   .filterImg {
+        top: 40px;
+    }
+    .filterContent button {
+        padding: 0px; 
+    }
+    /* message box */
+    .message .messBox {
+        padding: 15px;
+    }
+    .message .messBox .introduction {
+        font-size: 9px;
+        line-height: 1.35;
+        padding-bottom: 10px;
+    }
+    .message .messBox h2 {
+        font-size: 16px;
+        line-height: 1;
+        padding-bottom: 10px;
+    }
+    .message .messBox .snatcheList {
+        font-size: 9px;
+        line-height: 1.78;
+        padding-bottom: 10px;
+    }
+    .message .messBox p {
+        font-size: 8px;
+        line-height: 1.78;
+    }
+    .snatcheList span img {
+        width: 21px;
+    }
+    .message .messBox button {
+        margin-top: 15px;
+        font-size: 9px;
+        border: 1px solid #FFFFFF;
+        line-height: 1;
+        padding: 8px 30px;
+    }
+}

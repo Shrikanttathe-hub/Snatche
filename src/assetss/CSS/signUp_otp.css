@@ -1,0 +1,85 @@
+.signUp_head {
+    position: relative;
+    width: 100%;
+    height: 330px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+}
+.signUp_head h1 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 23px;
+    line-height: 28px;
+    text-transform: capitalize;
+    padding-top: 112px;
+    padding-bottom: 21px;
+}
+.signUp_head a {
+    text-decoration: none;
+}
+.signUp_head img {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 60px;
+}
+.signUp_head .links {
+    font-family: 'Montserrat-ExtraBold';
+    text-transform: capitalize;
+    font-size: 22px;
+    line-height: 26px;
+    margin-left: 35px;
+    color: #FFFFFF;
+}
+.signUp_body {
+    text-align: center;
+}
+.container h2 {
+    font-size: 30px;
+    line-height: 36px;
+    padding-top: 80px;
+    padding-bottom: 64px;
+    font-family: 'Montserrat-Bold';
+}
+form {
+    padding-bottom: 150px;
+    margin-bottom: 31px;
+}
+form button {
+    font-family: 'Montserrat-ExtraBold';
+    line-height: 21px;
+    border: none;
+    width: 413px;
+    height: 50px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 2px;
+}
+.phone-input{
+    position: relative;  
+}
+form input {
+    width: 413px;
+    height: 63px;
+    border-radius: 2px;
+    border: none;
+    padding-right: 30px;
+    padding-left: 14px;
+    padding-top: 27px;
+    margin-bottom: 29px;
+    box-shadow: -2px 0px 5px 5px #E5E5E54D;
+    color: #000000;
+    font-size: 19px;
+    font-family: 'Montserrat-SemiBold';
+    line-height: 23px;
+}
+form label {
+    position: absolute;
+    font-size: 11px;
+    line-height: 14px;
+    font-family: 'Montserrat-SemiBold';
+    padding: 7px 30px 10px 14px;
+    color: #000000;
+}
+.phone-input input::placeholder {
+    color: #000000;
+}

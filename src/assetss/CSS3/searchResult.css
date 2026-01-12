@@ -1,0 +1,322 @@
+.breadcrumb ul {
+    padding-left: 1% !important;
+}
+
+.searchResult_listingMain {
+    width: 100%;
+    max-width: 1406px;
+    margin: 0 auto;
+}
+.filter {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 28px;
+    border-bottom: 1px solid rgba(139, 139, 139, 0.3);
+}
+.filterLeft {
+    width: 70%;
+    display: flex;
+    column-gap: 25px;
+}
+.filterRight {
+    width: 30%;
+    text-align: right;
+}
+.filter-item label {
+    color: #000000;
+    background-color: #FFFFFF;
+    font-family: 'Montserrat-Bold';
+    font-size: 18px;
+    line-height: 24px;
+    padding-right: 16px;
+}
+.filter-item select {
+    color: #000000;
+    background: rgba(255, 255, 255, 1);
+    border: 1.5px solid #E5E5E54D;
+    box-shadow: -2px 0px 5px 3px #E5E5E54D;
+    font-family: 'Montserrat-Medium';
+    font-size: 18px;
+    line-height: 24px;
+    padding: 10px 0px 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.searchResult_products .product-box {
+    width: 25%;
+    margin: 20px;
+    width: calc(25% - 40px);
+    display: block;
+    transition: 0.3s ease;
+}
+
+.searchResult_products .product-box:hover{
+    transform: scale(1.08);
+    /* cursor: pointer; */
+}
+
+.searchResult_products {
+    padding: 60px 0px;
+}
+.searchResult_products .row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 44px;
+}
+
+.loadMore {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.loadMore_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.loadMore_main::before,
+.loadMore_main::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: rgba(139, 139, 139, 0.3);
+}
+.loadMore button {
+    min-width: 132px;
+    min-height: 37px;
+    border: none;
+    font-family: 'Montserrat-Bold';
+    font-size: 16px;
+    padding: 7px 22px;
+    color: #ffffff;
+    background-color: #000000;
+    line-height: 23px;
+    cursor: pointer;
+    outline: none;
+    margin: 0px 10px;
+    /* position: relative !important; */
+}
+
+.loadMore button .loader{
+   position: absolute !important;
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   background: #FFFFFF;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   &::before{
+    position: absolute;
+    content: "";
+    inset: 10%;
+    border-radius: 50%;
+    background-color: #000000;
+   }
+   &::after{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    transform-origin: 0 0;
+    height: 50%;
+    width: 20%;
+    background-color: #000000;
+    z-index: -1;
+    animation: spinner 1s linear infinite;
+   }
+}
+@keyframes spinner{
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg 
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .searchResult_products .product-box {
+        width: 25%;
+        margin: 10px;
+        width: calc(25% - 20px);
+    }
+    .searchResult_products {
+        padding: 40px 0px;
+        border-top: 1px solid rgba(139, 139, 139, 0.3);
+    }
+    /* filter button on desktop */
+    .filter,
+    .filterLeft,
+    .filter-item,
+    .filterRight {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: unset;
+    }
+    .filter,
+    .filter-item {
+        padding: 26px 0px 0px 0px
+    }
+    .filter-item label {
+        font-size: 21px;
+        line-height: 1.35;
+    }
+    .filter-item select {
+        font-size: 16px;
+        margin-top: 20px;
+        padding: 12px;
+    }
+    .searchResult_listingMain {
+        position: relative;
+    }
+    .filterImg {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 54px;
+    }
+    .filterImg button,
+    .filterContent button {
+        padding: 5px;
+        border: none;
+        background-color: transparent;
+    }
+    .filterContent {
+        display: block;
+        position: relative;
+        align-items: center;
+        border-bottom: 1px solid rgba(139, 139, 139, 0.3);
+        padding-bottom: 20px;
+    }
+    .filterContent button {
+        position: absolute;
+        top: 0;
+        right: 0px;
+    }
+    .filterContent button img {
+        width: 20px;
+    }
+    .filterContent h2 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 1.35;
+        font-family: 'Montserrat-Bold';
+    }
+    .filterImg button img {
+        width: 30px;
+    }
+    .filter {
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-color: #fff;
+        width: 100vw;
+        height: 100vh;
+        z-index: 10000;
+        padding: 25px;
+        overflow-y: scroll;
+        backdrop-filter: blur(10px);
+        display: none;
+    }
+}
+@media only screen and (max-width:991px) {
+    .searchResult_products .product-box {
+        width: 33.33%;
+        width: calc(33.33% - 20px);
+    }
+}
+@media only screen and (max-width:767px) {
+    .searchResult_products {
+        padding: 15px 0px 15px 0px;
+    }
+    .searchResult_products .product-box {
+        width: 50%;
+        margin: 10px;
+        width: calc(50% - 20px);
+    }
+    .loadMore button {
+        min-width: 67px !important;
+        min-height: 31px !important;
+        font-size: 9px;
+        padding: 4px 9px;
+    }
+    .loadMore::before,
+    .loadMore::after {
+        margin: 0px 5px 25px 5px;
+    }
+    .loadMore {
+        margin-bottom: 30px;
+    }
+    .loadMore button .loader{
+   width: 20px;
+   height: 20px;
+   &::before{
+    inset: 10%;
+   }
+   &::after{
+    height: 40%;
+    width: 15%;
+   }
+}
+    /* filter options */
+    .filter {
+        padding: 15px;
+    }
+    .filterContent h2 {
+        font-size: 14px;
+    }
+    .filterContent button img {
+        width: 14px;
+        object-position: center;
+    }
+    .filter{
+        padding: 15px;
+    }
+    .filter-item {
+        padding-top: 20px;
+    }
+    .filter-item label {
+        padding: 0;
+        font-size: 12px;
+    }
+    .filter-item select {
+        font-size: 13px;
+        margin-top: 10px;
+        padding: 7px;
+    }
+    .filterImg button img { 
+        width: 15px;
+    }
+    .filterImg {
+        top: 58px;
+    }
+    .filterContent button {
+        padding: 0px; 
+    }
+
+}
+
+.searchResult_listing .filterProductNoResult{
+      font-family: 'Montserrat-semiBold';
+      font-size: 25px;
+      color: #000000;
+      opacity: 70%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 40vh;
+      box-shadow: 0px 0px 10px rgba(0 0 0 / 30%);
+      transition: 0.3s ease;
+}
+
+.productDetailsCard .imageCard{
+    padding: 20px 0px;
+}

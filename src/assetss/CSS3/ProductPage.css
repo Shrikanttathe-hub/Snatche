@@ -1,0 +1,4765 @@
+/*Verified 360 view css*/
+
+.breadcrumb ul {
+    padding-left: 0% !important;
+}
+
+.productDeatail main {
+    position: relative;
+}
+
+.productDeatail main .container {
+    width: 100%;
+    max-width: 1460px;
+    position: relative;
+}
+
+.verifiedView {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 114px;
+    border-bottom: 1px solid #DCDCDC;
+    padding-top: 94px;
+}
+
+.verifiedView .view {
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+    width: 55%;
+    padding: 28px 30px 61px 41px;
+}
+
+.verifiedView .topView {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.verifiedView .topView button {
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+    padding: 7px 13px 6px 11px;
+    color: #000000;
+    width: 17%;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.verifiedView .topView span {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 11px;
+    color: #000000;
+}
+
+/*TopviewSlider css*/
+.topViewSlider {
+    padding: 0px;
+    position: relative;
+}
+
+.topViewSlider .swiper {
+    width: 90%;
+    height: 50%;
+}
+
+.topViewSlider .swiper img {
+    object-fit: cover;
+}
+
+.topViewSlider .mySwiper2 {
+    height: 433px;
+    width: 47%;
+    position: relative;
+}
+
+.mySwiper2 .swiper-slide {
+    height: auto;
+    text-align: center;
+    display: flex;
+    font-size: 18px;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+}
+
+.mySwiper2 .swiper-slide img {
+    height: 345px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.swiper-slide button {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 14px;
+    color: #8B8B8B;
+    position: absolute;
+    bottom: 15%;
+    right: 35%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    font-weight: bold;
+}
+
+.topViewSlider .mySwiper {
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.mySwiper .swiper-wrapper {
+    width: 100%;
+}
+
+.mySwiper .swiper-slide {
+    height: auto !important;
+    border: 1px solid #EAEAEA;
+    background: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin: 0px 0px 20px 0px !important;
+}
+
+.mySwiper .swiper-slide img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
+
+.swiper-free-mode .swiper-wrapper {
+    gap: 14px;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+    border: 1px solid #505050
+}
+
+.prevAndNext {
+    position: absolute;
+    width: 100%;
+    top: 30%;
+}
+
+.prevAndNext .prev {
+    transform: translateX(25px);
+}
+
+.prevAndNext .next {
+    transform: translateX(-25px);
+}
+
+.prev,
+.next {
+    background: #000000;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    display: none;
+}
+
+.swiper-scrollbar {
+    margin-top: 19px !important;
+    width: 100% !important;
+    height: 1px !important;
+    background-color: #BCBCBC !important;
+}
+
+.swiper-scrollbar-drag {
+    height: 7px !important;
+    background-color: #505050 !important;
+    display: block;
+    top: -3px !important;
+}
+
+.swiper-horizontal>.swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+    left: 0% !important;
+}
+
+.swiper-scrollbar:hover {
+    cursor: grab !important;
+}
+
+/*Swiper slider css End */
+
+/*buyingDetails Css Start*/
+.buyingDetails {
+    padding: 14px 1px 1px 65px;
+    width: 45%;
+}
+
+.buyingDetails .limitedEdiction {
+    border-bottom: 1px solid #DCDCDC;
+    padding-bottom: 16px;
+}
+
+.buyingDetails .share {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.buyingDetails .share span {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 15px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    padding: 7px 14px 5px 13px;
+}
+
+.buyingDetails .share a {
+    font-family: 'Montserrat-Medium';
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buyingDetails .share a img {
+    padding: 0px 0px 0px 10px;
+}
+
+.limitedBrand h2 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 40px;
+    width: 80%;
+    color: #000000;
+    padding-bottom: 6px;
+}
+
+.limitedBrand span {
+    font-family: 'Montserrat-Medium';
+    font-size: 17px;
+    color: #505050;
+}
+
+.verifiedView .inStock {
+    display: flex;
+    padding: 16px 0px 52px 0px;
+}
+
+.verifiedView .inStock h4 {
+    font-family: 'Montserrat-Bold';
+    font-size: 27px;
+    color: #000000;
+}
+
+.verifiedView .inStock span {
+    font-family: 'Montserrat-Bold';
+    font-size: 19px;
+    color: #000000;
+    opacity: 50%;
+    padding: 7px 0px 3px 19px;
+}
+
+.dropDownMain {
+    display: flex;
+    align-items: center;
+    padding-bottom: 19px;
+}
+
+.dropDown #number::selection::before {
+    border: none;
+}
+
+.selectBox {
+    width: 55%;
+    padding: 3px 22px 8px 12px;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.selectBox label {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 11px;
+    color: #000000;
+    opacity: 60%;
+}
+
+.selectBox #number {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 22px;
+    color: #000000;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+.buyingDetails .sizeChart {
+    padding: 10px 0px 12px 48px;
+}
+
+.buyingDetails .sizeChart p {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 10px;
+    color: rgba(139, 139, 139, 1);
+}
+
+.buyingDetails .sizeChart button {
+    font-family: 'Montserrat-Bold';
+    font-size: 13px;
+    color: rgba(80, 80, 80, 1);
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.info p {
+    color: rgba(0, 0, 0, 1);
+    opacity: 50%;
+    font-family: 'Montserrat-Medium';
+    font-size: 12px;
+    padding-bottom: 48px;
+}
+
+.buyButton {
+    display: flex;
+    column-gap: 12px;
+    padding-bottom: 11px;
+}
+
+.buyButton .buyNow {
+    font-family: 'Montserrat-Bold';
+    font-size: 16px;
+    background-color: #0080F5;
+    color: #000000;
+    border: none;
+    padding: 14px 66px 14px 62px;
+    cursor: pointer;
+    width: 50%;
+}
+
+.buyButton .buyNow span {
+    border: none;
+    color: #000000;
+    font-family: 'Montserrat-Bold';
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.buyButton .sellAsk {
+    font-family: 'Montserrat-Bold';
+    font-size: 14px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    padding: 17px 37px 18px 37px;
+    width: 50%;
+
+}
+
+.lastSale {
+    justify-self: end;
+    font-family: 'Montserrat-SemiBold';
+    color: rgba(0, 0, 0, 1);
+    opacity: 70%;
+    font-size: 12px;
+    padding-bottom: 21px;
+}
+
+.buyingDetails .orSection p {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 12px;
+    color: #000000;
+    opacity: 30%;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.buyingDetails .orSection p::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 45%;
+    height: 1px;
+    left: 0;
+    top: 50%;
+    max-width: 265px;
+    background-color: #000000;
+    opacity: 30%;
+    margin-left: 11px;
+}
+
+.buyingDetails .orSection p::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 45%;
+    height: 1px;
+    right: 0;
+    top: 50%;
+    max-width: 265px;
+    background-color: #000000;
+    opacity: 30%;
+    margin-right: 11px;
+}
+
+.HoriVerySmall {
+    display: flex;
+    padding: 21px 16px 27px 17px;
+}
+
+.HoriVerySmall img {
+    width: 100%;
+}
+
+.HoriVerySmall span {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 12px;
+    color: #000000;
+    opacity: 30%;
+    padding: 0px 8px 0px 8px;
+}
+
+.bidButtonNew {
+    display: flex;
+    column-gap: 12px;
+    padding-bottom: 6px;
+}
+
+.bidButtonNew input {
+    width: 50%;
+    padding: 7px 0px 33px 14px;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 11px;
+    border: none;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+    margin-top: 27px;
+    outline: none;
+}
+
+.bidButtonNew .placeBid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border: none;
+    background-color: #000000;
+    text-align: center;
+    margin-top: 27px;
+    cursor: pointer;
+}
+
+.bidButtonNew .placeBid img {
+    padding: 0px 20px 0px 0px;
+}
+
+.bidButtonNew .placeBid span {
+    font-family: 'Montserrat-Bold';
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.lastSaleNew {
+    justify-self: end;
+    font-family: 'Montserrat-SemiBold';
+    color: rgba(0, 0, 0, 1);
+    opacity: 70%;
+    font-size: 12px;
+    padding-bottom: 29px;
+}
+
+.snatcheWishList {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 29px;
+}
+
+.snatcheWishList button {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+}
+
+.snatcheWishList button img {
+    position: absolute;
+    padding-left: 16px;
+}
+
+/*Size Chart Table pop-up css start*/
+/*Tabs Slider css*/
+.sizeChartTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+    pointer-events: none;
+    display: none;
+}
+
+.sizeChartTable .sizeChart {
+    width: 100%;
+    max-width: 952px;
+    height: auto;
+    padding: 47px 61px 48px 60px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+    overflow-y: auto;
+}
+
+.bodyOverflow-Active {
+    overflow: hidden !important;
+}
+
+.productDeatail-main-active {
+    transition: 0.4s ease-in-out all;
+    background-color: #FFFFFF;
+    filter: blur(10px);
+    pointer-events: none;
+}
+
+.sizeChartTableShow {
+    pointer-events: fill;
+    display: flex;
+}
+
+.sizeChartTable .sizeChartContent {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sizeChartTable .sizeChartContent .sliderTabs {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.sizeChartTable .sizeChartContent .sliderTabs::after {
+    content: "";
+    background: black;
+    width: 100%;
+    height: 3px;
+    border: none;
+    position: absolute;
+    bottom: 0;
+}
+
+.sizeChartTable .sizeChartContent .sliderTabs label {
+    position: relative;
+    display: block;
+    width: 17%;
+    padding: 9px 0px 11px 0px;
+    cursor: pointer;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 20px;
+    color: #000000;
+    opacity: 30%;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+#adidas:checked~.sliderTabs label .nike,
+#adidas:checked~.sliderTabs label .adidas,
+#adidas:checked~.sliderTabs label .puma,
+#adidas:checked~.sliderTabs label .reebok,
+#adidas:checked~.sliderTabs label .newBalance {
+    color: #000000;
+}
+
+.sizeChartTable input[type='radio'] {
+    display: none;
+}
+
+.sizeChartTable .sizeChartContent .sliderTabs .slider {
+    position: absolute;
+    height: 7px;
+    background-color: #000000;
+    width: 17%;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    transition: all 0.3s ease;
+}
+
+#adidas:checked~.sliderTabs .slider {
+    left: 17%;
+}
+
+#puma:checked~.sliderTabs .slider {
+    left: 34%;
+}
+
+#reebok:checked~.sliderTabs .slider {
+    left: 51%;
+}
+
+#newBalance:checked~.sliderTabs .slider {
+    left: 68%;
+}
+
+#nike:checked~.sliderTabs .nike {
+    background-color: #E4E4E4;
+    opacity: 1;
+}
+
+#adidas:checked~.sliderTabs .adidas {
+    background-color: #E4E4E4;
+    opacity: 1;
+}
+
+#puma:checked~.sliderTabs .puma {
+    background-color: #E4E4E4;
+    opacity: 1;
+}
+
+#reebok:checked~.sliderTabs .reebok {
+    background-color: #E4E4E4;
+    opacity: 1;
+}
+
+#newBalance:checked~.sliderTabs .newBalance {
+    background-color: #E4E4E4;
+    opacity: 1;
+}
+
+.measureMent {
+    width: 100%;
+}
+
+.measureMent .content {
+    display: none;
+}
+
+.measureMent .content {
+    width: 100%;
+    padding-top: 25px;
+}
+
+#nike:checked~.measureMent .content-1 {
+    display: block;
+}
+
+#adidas:checked~.measureMent .content-2 {
+    display: block;
+}
+
+#puma:checked~.measureMent .content-3 {
+    display: block;
+}
+
+#reebok:checked~.measureMent .content-4 {
+    display: block;
+}
+
+#newBalance:checked~.measureMent .content-5 {
+    display: block;
+}
+
+.sizeChartTable .sizeChartHeading {
+    font-family: 'Montserrat-Bold';
+    font-size: 35px;
+    color: #000000;
+    line-height: 135%;
+    padding-bottom: 43px;
+}
+
+/*sizeChart css*/
+.sizeChartTable .tableHeadNew {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background-color: #000000;
+    padding: 0px 25px 0px 25px;
+}
+
+.sizeChartTable .tableHeadNew li {
+    width: 20%;
+    color: #FFFFFF;
+    font-family: 'Montserrat-Bold';
+    line-height: 135%;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 0px 14px 0px;
+}
+
+.sizeChartTable .tableHeadNew li:nth-child(2) {
+    padding-left: 20px;
+}
+
+.sizeChartTable .tableContent {
+    border: 2px solid #000000;
+    padding: 20px 36px 21px 21px;
+}
+
+.sizeChartTable .tableContent ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.sizeChartTable .tableContent ul li {
+    width: 20%;
+    text-align: center;
+    color: #000000;
+    font-family: 'Montserrat-Bold';
+    line-height: 135%;
+    font-size: 15px;
+    padding: 9px 0px 8px 15px;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.sizeChartTable .tableContent ul:last-child li {
+    border-bottom: none;
+}
+
+.sizeChartTable .compareTableButton {
+    padding-top: 25px;
+    justify-self: end;
+}
+
+.sizeChartTable .compareTableButton button {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    letter-spacing: 0%;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 18px;
+    padding: 12px 39px 12px 38px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*SizeChart table pop-up css End*/
+.verifiedPara {
+    padding: 49px 0px 60px 0px;
+}
+
+.verifiedPara h2 {
+    font-family: 'Montserrat-Bold';
+    font-size: 40px;
+    color: #000000;
+    padding-bottom: 36px;
+}
+
+.productSpecifications .heading ul {
+    list-style: none;
+}
+
+.productSpecifications .heading li {
+    font-family: 'Montserrat-Bold';
+    font-size: 17px;
+    color: #000000;
+    padding-bottom: 17px;
+}
+
+.productSpecifications .heading li span {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 17px;
+    color: #BCBCBC;
+}
+
+.productSpecifications {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productSpecifications .heading {
+    width: 30%;
+}
+
+.productSpecifications .productDiv {
+    width: 70%;
+}
+
+.productSpecifications .productDiv h3 {
+    font-family: 'Montserrat-Bold';
+    font-size: 17px;
+    color: #000000;
+    padding-bottom: 17px;
+}
+
+.productSpecifications .productDiv p {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 17px;
+    color: #8B8B8B;
+}
+
+/*card*/
+.verifiedSliderNew {
+    position: relative;
+    margin-top: 56px;
+    margin-bottom: 52px;
+}
+
+.verifiedSliderNew .owl-item {
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 1);
+    max-width: 444px;
+    height: 233px;
+}
+
+.similarProductsSlider .owl-stage-outer,
+.moreFromSlider .owl-stage-outer {
+    overflow: hidden;
+    padding: 10px 20px;
+}
+
+.owl-stage-outer .owl-stage {
+    display: flex;
+}
+
+.authenticateSection {
+    position: relative;
+    width: 100%;
+    padding: 50px 0px;
+    background-image: url(../Images/ProductPageImg//crossBackgrounnew.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.authenticateSectionNewinner .authenticateSectionNewinnerHead {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    align-items: center;
+}
+
+.authenticateSectionNewinner .authenticateSectionNewinnerHead h2 {
+    color: #FFFFFF;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 40px;
+}
+
+.authenticateSectionNewinner p {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 17px;
+    color: #8B8B8B;
+    text-align: center;
+    justify-self: center;
+    width: 80%;
+    padding: 24px 20px 48px 20px;
+}
+
+.authenticateSectionNewinner p a {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 17px;
+    color: #FFFFFF;
+    padding-right: 5px;
+}
+
+.productSaleHistoryMain .productSaleHistory {
+    font-family: 'Montserrat-Bold';
+    font-size: 40px;
+    color: #000000;
+    padding: 116px 0px 77px 0px;
+    line-height: 53px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.productSaleHistoryMain .productSaleHistory label {
+    padding-right: 32px;
+}
+
+.productSaleHistorySelectBox {
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+    width: 15%;
+    padding-right: 20px;
+
+}
+
+.productSaleHistoryMain .productSaleHistory select {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 20px;
+    color: #000000;
+    padding: 14px 35px 15px 24px;
+    align-items: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.buttonSection button {
+    font-family: 'Montserrat-Bold';
+    font-size: 40px;
+    padding: 33px 94px 35px 47px;
+    margin-right: 15px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.buttonSection button span {
+    display: flex;
+    font-family: 'Montserrat-Medium';
+    font-size: 22px;
+    padding-top: 5px;
+}
+
+.buttonSectionNew button {
+    font-family: 'Montserrat-Bold';
+    font-size: 40px;
+    padding: 33px 94px 35px 47px;
+    margin-right: 15px;
+    margin-top: 14px;
+    background-color: #FFFFFF;
+    text-align: start;
+    cursor: pointer;
+}
+
+.buttonSectionNew button span {
+    display: flex;
+    font-family: 'Montserrat-Medium';
+    font-size: 22px;
+    padding-top: 5px;
+
+}
+
+/* .sectionPara{
+    border: 1px solid green;
+    padding-bottom: 60px;
+} */
+.sectionParaDark {
+    position: relative;
+    background-color: #000000;
+}
+
+.sectionParaDark:before {
+    background-image: url(./AuthenticityImg/Group\ 430\ \(2\).svg);
+    background-size: cover;
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 70%;
+}
+
+.sectionParaDark h2 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 46px;
+    color: #FFFFFF;
+    padding: 111px 0px 40px 0px;
+}
+
+.sectionParaDark p {
+    font-family: 'Montserrat-SemiBold';
+    color: #FFFFFF;
+    font-size: 25px;
+    line-height: 42px;
+    padding-bottom: 28px;
+}
+
+.sectionParaDark .Trust {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 43px;
+}
+
+.sectionParaDark .Trust h3 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 87px;
+    color: #0080F5;
+}
+
+.sectionParaDark .Trust span {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 31px;
+    color: #FFFFFF;
+}
+
+.sectionParaDark .verifiedBottom {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 147px;
+
+}
+
+.sectionParaDark .verifiedBottomPara {
+    width: 60%;
+}
+
+.sectionParaDark .verifiedBottomImg {
+    width: 32%;
+    max-width: 453px;
+    display: flex;
+    justify-content: space-between;
+    object-fit: cover;
+    align-items: center;
+    padding-top: 62px;
+}
+
+/*similar Products css start*/
+.similarProductsNew {
+    position: relative;
+    width: 100%;
+    margin-top: 85px;
+
+}
+
+.similarProductsNew .product-box {
+    width: 100%;
+    max-width: 312px;
+    cursor: pointer;
+}
+
+.similarProductsNew .similarProducts {
+    padding-bottom: 78px;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.similarProductsNew .owlSimilarProducts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.similarProductsNew .owlSimilarProducts h2 {
+    /* padding-top: 60px; */
+    padding-left: 15px;
+    font-family: 'Montserrat-Bold';
+    font-size: 40px;
+}
+
+.similarProductsNew .owlSimilarProducts a {
+    /* padding-top: 60px; */
+    font-family: 'Montserrat-SemiBold';
+    font-size: 20px;
+    color: #000000;
+}
+
+/*card*/
+.similarProductsSlider {
+    position: relative;
+    padding-top: 37px;
+}
+
+.similarProductsSlider .owl-item.active {
+   border: none  !important;
+}
+
+.owl-stage-outer {
+    overflow: hidden;
+}
+
+.owl-stage-outer .owl-stage {
+    display: flex;
+}
+
+.similarProductsNew .item .item-card .item-cardSmall {
+    padding-right: 10px;
+}
+
+.similarProductsNew .item .item-card {
+    box-shadow: 1px 1px 1px 1px #E5E5E54D;
+    position: relative;
+}
+
+.similarProductsNew .item .item-card .item-cardSmall .item-card-img img {
+    padding: 9px 1px 1px 22px;
+}
+
+.owl-stage-outer .owl-stage .item .item-card h3 {
+    padding: 0px 40px 18px 28px;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 17px;
+
+}
+
+.similarProductsSlider .item-card a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 17px;
+}
+
+.similarProductsSlider .item-card-img .item-card-sold {
+    position: absolute;
+    top: 12px;
+    right: 17px;
+    background-color: #D9D9D9;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 11px;
+    padding: 4px 11px;
+    border-radius: 2px;
+    color: #8B8B8B;
+}
+
+.similarProductsSlider .item .bidButton {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 26px 21px 26px 28px;
+    align-items: center;
+}
+
+.similarProductsSlider .item .bidButton span {
+    word-spacing: 10px;
+}
+
+.similarProductsSlider .item .bidButton button {
+    color: #FFFFFF;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/*prev and next*/
+.similarProductsSlider .owl-nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none !important;
+}
+
+.similarProductsSlider .owl-next,
+.similarProductsSlider .owl-prev {
+    background-color: #000000 !important;
+    color: #FFFFFF !important;
+    width: 69px;
+    height: 69px;
+    border-radius: 50% !important;
+    font-size: 30px !important;
+    cursor: pointer;
+    border: none !important;
+    pointer-events: auto !important;
+}
+
+.similarProductsSlider .owl-prev {
+    left: 0px;
+    top: 50%;
+    transform: translateX(-20%);
+}
+
+.similarProductsSlider .owl-next {
+    right: 0px;
+    top: 50%;
+    transform: translateX(16%);
+}
+
+/*similar Products css End*/
+
+/*More From Nike css start*/
+.moreFromNikeNew {
+    position: relative;
+    width: 100%;
+    margin-top: 85px;
+}
+
+.moreFromNikeNew .product-box {
+    width: 100%;
+    max-width: 312px;
+}
+
+.moreFromNikeNew .moreFromNike {
+    padding-bottom: 78px;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.moreFromNikeNew .owlMoreFromLike {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.moreFromNikeNew .owlMoreFromLike h2 {
+    padding-left: 15px;
+    font-family: 'Montserrat-Bold';
+    font-size: 40px;
+}
+
+.moreFromNikeNew .owlMoreFromLike a {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 20px;
+    color: #000000;
+}
+
+/*card*/
+.moreFromSlider {
+    position: relative;
+    padding-top: 37px;
+}
+
+.moreFromSlider .owl-item.active {
+   border: none !important;
+}
+
+.owl-stage-outer {
+    overflow: hidden;
+}
+
+.owl-stage-outer .owl-stage {
+    display: flex;
+}
+
+.moreFromNikeNew .item .item-card .item-cardSmall {
+    padding-right: 10px;
+}
+
+.moreFromNikeNew .item .item-card {
+    box-shadow: 1px 1px 1px 1px #E5E5E54D;
+    position: relative;
+}
+
+.moreFromNikeNew .item .item-card .item-cardSmall .item-card-img img {
+    padding: 9px 1px 1px 22px;
+}
+
+.owl-stage-outer .owl-stage .item .item-card h3 {
+    padding: 0px 40px 18px 28px;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 17px;
+
+}
+
+.moreFromSlider .item-card a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 17px;
+}
+
+.moreFromSlider .item-card-img .item-card-sold {
+    position: absolute;
+    top: 12px;
+    right: 17px;
+    background-color: #D9D9D9;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 11px;
+    padding: 4px 11px;
+    border-radius: 2px;
+    color: #8B8B8B;
+}
+
+.moreFromSlider .item .bidButton {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 26px 21px 26px 28px;
+    align-items: center;
+}
+
+.moreFromSlider .item .bidButton span {
+    word-spacing: 10px;
+}
+
+.moreFromSlider .item .bidButton button {
+    color: #FFFFFF;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/*prev and next*/
+.moreFromSlider .owl-nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none !important;
+}
+
+.moreFromSlider .owl-next,
+.moreFromSlider .owl-prev {
+    background-color: #000000 !important;
+    color: #FFFFFF !important;
+    width: 69px;
+    height: 69px;
+    border-radius: 50% !important;
+    font-size: 30px !important;
+    cursor: pointer;
+    border: none !important;
+    pointer-events: auto;
+}
+
+.moreFromSlider .owl-prev {
+    left: 0px;
+    top: 50%;
+    transform: translateX(-20%);
+}
+
+.moreFromSlider .owl-next {
+    right: 0px;
+    top: 50%;
+    transform: translateX(16%);
+}
+
+/*pop up css*/
+/* #blur {
+    transition: 0.5px;
+} */
+
+/* #blur.active {
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+} */
+
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 40vh;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    max-width: 948px;
+    /* padding: 50px; */
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    max-height: 2278px;
+    cursor: pointer;
+}
+
+#popup.active {
+    top: 35%;
+    visibility: visible;
+    height: 80vh;
+    max-height: 2278px;
+    opacity: 1;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+    border: none;
+
+}
+
+.productPage1 {
+    background: none;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0 /10%);
+    width: 50%;
+    max-width: 948px;
+    margin: 0px auto;
+    height: 60vh;
+    max-height: 2278px;
+    margin-top: 5%;
+    margin-bottom: 187px;
+}
+
+.productPage1 .sellingHeader p {
+    font-size: 19px;
+    line-height: 26px;
+    font-family: 'Montserrat-SemiBold';
+    text-align: end;
+    padding: 51px 48px 28px 0px;
+    cursor: pointer;
+}
+
+.productPage1_Top {
+    width: 852px;
+    margin: 0 auto;
+    box-shadow: -2px 0px 5px 3px #E5E5E54D;
+    background-color: #FFFFFF;
+}
+
+.productPage1_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.productPage1_Top .shoesImg img {
+    width: 252px;
+    height: 252px;
+    margin: 32px 59px 24px 55px;
+}
+
+.productPage1_Top .shoesContent h2 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 40px;
+    line-height: 51px;
+}
+
+.productPage1_Top .shoesContent p {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.shoesContent a {
+    color: #000000;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 0.5px;
+    font-size: 8px;
+    line-height: 11px;
+    padding-left: 31px;
+}
+
+.productPage1 .shoesContent .brand_nike {
+    color: rgba(80, 80, 80, 1);
+    padding-bottom: 28px;
+}
+
+/* .priceBreakdown {
+    margin: 0px 59px 52px 53px;
+} */
+
+.priceBreakdown table {
+    width: 100%;
+}
+
+.priceBreakdown table tr {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 22px;
+    line-height: 29px;
+    padding-top: 22px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.priceBreakdown table .taxes {
+    padding-bottom: 12px;
+    padding-top: 0px;
+}
+
+.priceBreakdown table .gst,
+.ship span {
+    padding-bottom: 0px;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 0%;
+    opacity: 50%;
+}
+
+.priceBreakdown h3 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 30px;
+    line-height: 39px;
+}
+
+.priceBreakdown h2 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 37px;
+    line-height: 48px;
+    /* padding-bottom: 55px; */
+    display: block;
+}
+
+.priceBreakdown .finalPrice {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.priceBreakdown .finalPrice a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.priceBreakdown .finalPrice p {
+    text-decoration: none;
+    font-family: 'Montserrat-SemiBold';
+    padding-top: 10px;
+}
+
+.priceBreakdown .finalPrice .low {
+    font-size: 19px;
+    line-height: 26px;
+}
+
+.priceBreakdown .finalPrice .place_bid {
+    font-size: 15px;
+    line-height: 20px;
+    padding-left: 16px;
+    text-decoration: underline;
+}
+
+.address-selection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productPage1_Middle {
+    width: 852px;
+    margin: 0 auto;
+}
+
+.productPage1_Middle .address-selection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productPage1_Middle .selectAddress h2 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 30px;
+    line-height: 39px;
+    padding-bottom: 35px;
+}
+
+.productPage1_Middle .address-selection p {
+    font-size: 17px;
+    line-height: 24px;
+    font-family: 'Montserrat-SemiBold';
+}
+
+.productPage1_Middle button {
+    width: 201px;
+    height: 42px;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Montserrat-Bold';
+    color: #FFFFFF;
+    background-color: #000000;
+    border: none;
+    margin: 20px;
+    margin-right: 0px;
+}
+
+/* .accordion {
+    width: 852px;
+    border: none;
+    margin: 20px auto;
+    background: #fff;
+    color: #000000;
+    overflow: hidden;
+    padding: 0 35px;
+    box-shadow: -2px 0px 5px 7px #E5E5E54D;
+    transition: all 0.3s ease-in-out;
+}
+
+.accordion-item button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.accordion-item button .accordion-buttonLeft {
+    display: flex;
+    align-items: center;
+
+}
+
+.accordion-item button .accordion-buttonLeft h2 {
+    font-size: 25px;
+    line-height: 34px;
+    font-family: 'Montserrat-Bold';
+    color: #000000;
+}
+
+.accordion-item button .accordion-buttonLeft h3 {
+    padding-left: 28px;
+    font-size: 22px;
+    line-height: 29px;
+    font-family: 'Montserrat-SemiBold';
+    display: block;
+    color: #000000;
+}
+
+.accordion-item button .accordion-buttonLeft p {
+    font-size: 16px;
+    line-height: 21px;
+    opacity: 40%;
+    padding-left: 12px;
+    font-family: 'Montserrat-SemiBold';
+    display: none;
+    padding-top: 7px;
+    color: #000000;
+}
+
+.accordion-buttonRight {
+    display: flex;
+    align-items: center;
+}
+
+.accordion-buttonRight p {
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Montserrat-SemiBold';
+    color: #000000;
+}
+
+.accordion-buttonRight img {
+    width: 14px;
+    height: 7px;
+    margin-left: 16px;
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+}
+
+.accordion .accordion-content {
+    display: none;
+    margin-top: 27px;
+    position: relative;
+}
+
+.accordion .accordion-content h3 {
+    font-family: 'Montserrat-Bold';
+    font-size: 25px;
+    line-height: 34px;
+    padding-bottom: 27px;
+}
+
+.accordion .accordion-content p {
+    font-size: 16px;
+    line-height: 21px;
+    font-family: 'Montserrat-SemiBold';
+    text-align: justify;
+}
+
+.accordion .accordion-content .edit {
+    width: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 27px;
+    padding-bottom: 20px;
+}
+
+.accordion .accordion-content .edit a {
+    font-family: 'Montserrat-SemiBold';
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: underline;
+    text-underline-offset: auto;
+    text-decoration-thickness: auto;
+}
+
+.accordion .accordion-content .editSeparator {
+    margin: 0 8px;
+}
+
+.accordion .accordion-content .active .accordion-content {
+    display: block;
+}
+
+.active .accordion {
+    border: 2px solid #008000;
+    box-shadow: none;
+} */
+
+/* .active button img {
+    transform: rotate(180deg);
+} */
+/* .accordion .accordion-content .addressBox_selected {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    right: 0px;
+    bottom: 52PX;
+}
+
+.accordion .accordion-content .addressBox_selected span {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Montserrat-SemiBold';
+}
+
+.accordion .accordion-content .addressBox_selected img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -4px;
+}
+
+ */
+
+.selectBilling p {
+    font-size: 17px;
+    line-height: 24px;
+    font-family: 'Montserrat-SemiBold';
+}
+
+.checkbtn {
+    font-family: 'Montserrat-SemiBold';
+    display: flex;
+    gap: 37px;
+    font-size: 13px;
+    line-height: 15px;
+    padding-top: 30px;
+    /* padding-bottom: 19px; */
+}
+
+.selectBilling .checkbtn input[type="radio"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 3px solid black;
+    border-radius: 0;
+    background-color: white;
+    position: relative !important;
+    cursor: pointer;
+}
+
+.selectBilling input[type="radio"]:checked::before {
+    content: '';
+    width: 11px;
+    height: 11px;
+    background-color: black;
+    position: absolute !important;
+    top: 1.2px;
+    left: 1.3px;
+}   
+
+.selectBilling .checkbtn .check label {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+}
+
+
+
+
+
+
+
+.productPage1_bottom {
+    width: 852px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+.productPage1_bottom .productPage1_paymentbutton h2 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 40px;
+    line-height: 51px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 61px;
+}
+
+.productPage1_bottom .productPage1_paymentbutton p {
+    font-size: 25px;
+    line-height: 32px;
+    font-family: 'Montserrat-Bold';
+    padding-bottom: 31px;
+
+}
+
+.productPage1_bottom .productPage1_paymentbutton button {
+    width: 852px;
+    height: 91px;
+    font-family: 'Montserrat-Bold';
+    font-size: 21px;
+    line-height: 27px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+}
+
+.productPage1_bottom .productPage1_paymentbutton .paypal {
+    background-image: linear-gradient(to right, rgba(0, 48, 135, 1), rgba(0, 156, 222, 1));
+    margin-bottom: 19px;
+}
+
+.productPage1_bottom .productPage1_paymentbutton .Razorpay {
+    background-image: linear-gradient(to right, rgba(16, 28, 112, 1), rgba(11, 32, 98, 1));
+}
+
+.productPage1_bottom .productPage1_paymentbutton .paypal img {
+    width: 180px;
+    height: 43px;
+}
+
+.productPage1_bottom .productPage1_paymentbutton .Razorpay img {
+    width: 205px;
+    height: 91px;
+}
+
+.totalAmount_button {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 61px;
+    margin-bottom: 50px;
+}
+
+.productPage1_bottom .totalAmount_button button {
+    font-family: 'Montserrat-Bold';
+    width: 189px;
+    height: 59px;
+
+}
+
+.productPage1_bottom .totalAmount_button .cancel {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.productPage1_bottom .totalAmount_button .next {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+/*Responsive css start*/
+@media only screen and (max-width:1600px) {
+    .authenticateSectionNewinnerHead {
+        padding-top: 40px;
+    }
+
+    .similarProductsSlider .owl-stage-outer,
+    .moreFromSlider .owl-stage-outer {
+        padding: 10px 0px;
+    }
+}
+
+@media only screen and (max-width:1440px) {
+    .buyButton .buyNow {
+        padding: 12px 64px 12px 60px;
+    }
+
+    .buyButton .sellAsk {
+        padding: 16px 36px 17px 36px;
+    }
+
+    .similarProductsSlider .owl-next,
+    .similarProductsSlider .owl-prev,
+    .moreFromSlider .owl-next,
+    .moreFromSlider .owl-prev {
+        width: 49px;
+        height: 49px;
+    }
+
+    .similarProductsSlider .owl-next,
+    .moreFromSlider .owl-next {
+        transform: translateX(7%);
+    }
+
+    .similarProductsSlider .owl-prev,
+    .moreFromSlider .owl-prev {
+        transform: translateX(-7%);
+    }
+}
+
+@media only screen and (max-width:1320px) {
+    .buyButton .buyNow {
+        padding: 12px 33px 12px 33px;
+    }
+
+    .buyButton .sellAsk {
+        padding: 9px 9px 9px 9px;
+    }
+
+    .buyButton .buyNow {
+        font-size: 15px;
+    }
+
+    .buyButton .sellAsk {
+        font-size: 13px;
+    }
+
+    .similarProductsSlider .owl-next,
+    .moreFromSlider .owl-next {
+        transform: translateX(18%);
+    }
+
+    .similarProductsSlider .owl-prev,
+    .moreFromSlider .owl-prev {
+        transform: translateX(-14%);
+    }
+
+    .productSaleHistoryMain .productSaleHistory {
+        padding: 60px 0px 77px 0px;
+    }
+
+    .similarProductsNew .similarProducts {
+        padding-bottom: 55px;
+    }
+
+    .moreFromNikeNew {
+        margin-top: 60px;
+    }
+
+    .productSaleHistorySelectBox {
+        width: 17%;
+    }
+
+    .verifiedView .topView button {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+
+    .similarProductsSlider .owl-next,
+    .similarProductsSlider .owl-prev,
+    .moreFromSlider .owl-next,
+    .moreFromSlider .owl-prev {
+        width: 39px;
+        height: 39px;
+    }
+
+    .similarProductsSlider .owl-next,
+    .moreFromSlider .owl-next {
+        transform: translateX(22%);
+    }
+
+    .similarProductsSlider .owl-prev,
+    .moreFromSlider .owl-prev {
+        transform: translateX(-22%);
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .authenticateSectionNewinner .authenticateSectionNewinnerHead h2 {
+        font-size: 38px;
+    }
+
+    .authenticateSectionNewinner p {
+        font-size: 15px;
+        padding: 10px 20px 48px 20px;
+    }
+
+    .verifiedView {
+        padding-top: 60px;
+    }
+
+    .limitedBrand h2 {
+        font-size: 35px;
+        width: 90%;
+    }
+
+    .verifiedView .view {
+        padding: 20px 20px 35px 30px;
+    }
+
+}
+
+@media only screen and (max-width:1024px) {
+
+    .prev,
+    .next {
+        padding: 22px;
+    }
+
+    .mySwiper2 .swiper-slide img {
+        height: 250px;
+    }
+
+    .verifiedView .view {
+        padding: 10px 10px 20px 20px;
+    }
+
+    .topViewSlider .mySwiper2 {
+        height: 300px;
+    }
+
+    .swiper-slide button {
+        bottom: 8%;
+        right: 27%;
+    }
+
+    .verifiedView {
+        padding-top: 40px;
+    }
+
+    .verifiedView .view {
+        padding: 13px 15px 20px 26px;
+    }
+
+    .verifiedView .topView button {
+        padding: 7px 8px 6px 6px;
+        width: 20%;
+    }
+
+    .buyingDetails {
+        padding: 14px 1px 1px 45px;
+    }
+
+    .limitedBrand h2 {
+        font-size: 32px;
+        width: 100%;
+    }
+
+    .buyingDetails .share a {
+        font-size: 16px;
+    }
+
+    .limitedBrand span {
+        font-size: 15px;
+    }
+
+    .verifiedView .inStock h4 {
+        font-size: 25px;
+    }
+
+    .verifiedView .inStock span {
+        font-size: 17px;
+    }
+
+    .verifiedView .inStock {
+        padding: 10px 0px 32px 0px;
+    }
+
+    .dropDownMain {
+        padding-bottom: 10px;
+    }
+
+    .selectBox {
+        padding: 3px 11px 5px 11px;
+    }
+
+    .authenticateSectionNewinner .authenticateSectionNewinnerHead h2 {
+        font-size: 35px;
+    }
+
+    .authenticateSectionNewinnerHead {
+        padding-top: 55px;
+    }
+
+    .authenticateSectionNewinner p {
+        font-size: 14px;
+        padding: 3px 10px 53px 10px;
+    }
+
+    .authenticateSection {
+        padding: 10px 0px;
+    }
+
+    .verifiedPara {
+        padding: 29px 0px 30px 0px;
+    }
+
+    .productSaleHistoryMain .productSaleHistory {
+        font-size: 35px;
+        padding: 25px 0px 30px 0px;
+        line-height: 30px;
+    }
+
+    .productSaleHistorySelectBox {
+        width: 18%;
+        padding-right: 15px;
+    }
+
+    .productSaleHistoryMain .productSaleHistory select {
+        font-size: 19px;
+        padding: 10px 25px 10px 25px;
+    }
+
+    .selectBox #number {
+        font-size: 18px;
+    }
+
+    .info p {
+        padding-bottom: 38px;
+    }
+
+    .buyButton .buyNow {
+        font-size: 13px;
+        padding: 10px 25px 10px 25px;
+    }
+
+    .buyButton .sellAsk {
+        font-size: 12px;
+    }
+
+    .lastSale {
+        padding-bottom: 15px;
+    }
+
+    .bidButtonNew input {
+        padding: 5px 0px 23px 10px;
+        margin-top: 17px;
+    }
+
+    .bidButtonNew .placeBid {
+        margin-top: 17px;
+    }
+
+    .bidButtonNew .placeBid span {
+        font-size: 13px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .lastSaleNew {
+        padding-bottom: 10px;
+    }
+
+    .snatcheWishList {
+        padding-top: 15px;
+    }
+
+    .buttonSection button {
+        font-size: 35px;
+        padding: 23px 40px 25px 25px;
+    }
+
+    .buttonSectionNew button {
+        font-size: 35px;
+        padding: 20px 60px 20px 25px;
+    }
+
+    .buttonSection button span,
+    .buttonSectionNew button span {
+        font-size: 18px;
+    }
+
+    .similarProductsNew {
+        margin-top: 50px;
+    }
+
+    .similarProductsNew .owlSimilarProducts h2,
+    .moreFromNikeNew .owlMoreFromLike h2 {
+        font-size: 35px;
+    }
+
+    .similarProductsNew .owlSimilarProducts a,
+    .moreFromNikeNew .owlMoreFromLike a {
+        font-size: 18px;
+    }
+
+    .similarProductsSlider,
+    .moreFromSlider {
+        padding-top: 10px;
+    }
+
+    .similarProductsNew .similarProducts {
+        padding-bottom: 35px;
+    }
+
+    .moreFromNikeNew .moreFromNike {
+        padding-bottom: 65px;
+    }
+
+    .moreFromNikeNew {
+        margin-top: 45px;
+    }
+
+    .similarProductsSlider .owl-next,
+    .similarProductsSlider .owl-prev,
+    .moreFromSlider .owl-next,
+    .moreFromSlider .owl-prev {
+        font-size: 23px !important;
+    }
+
+    .similarProductsSlider .owl-next,
+    .moreFromSlider .owl-next {
+        transform: translateX(20%);
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .verifiedView .topView button {
+        width: 22%;
+    }
+
+    .selectBox #number {
+        font-size: 17px;
+    }
+
+    .buyingDetails .sizeChart {
+        padding: 10px 0px 12px 40px;
+    }
+
+    .buyButton .buyNow {
+        padding: 12px 20px 12px 20px;
+    }
+
+    .buyButton .buyNow span {
+        font-size: 17px;
+    }
+
+    .buyButton .sellAsk {
+        font-size: 11px;
+    }
+
+    .verifiedView {
+        padding-bottom: 65px;
+    }
+
+    .productSaleHistorySelectBox {
+        width: 15%;
+        padding-right: 10px;
+    }
+
+    .productSaleHistoryMain .productSaleHistory select {
+        font-size: 18px;
+        padding: 8px 8px 8px 10px;
+    }
+
+    .owl-item {
+        padding-right: 25px !important;
+    }
+
+    .similarProductsSlider .owl-next,
+    .moreFromSlider .owl-next {
+        transform: translateX(10%);
+    }
+
+    .authenticateSectionNewinner .authenticateSectionNewinnerHead h2 {
+        font-size: 33px;
+    }
+
+    .authenticateSectionNewinner p {
+        padding: 3px 10px 80px 10px;
+    }
+
+    .authenticateSectionNewinnerHead {
+        padding-top: 80px;
+    }
+
+    .authenticateSectionNewinner p {
+        width: 70%;
+        font-size: 13px;
+    }
+
+    .authenticateSection {
+        padding: 0px 0px;
+    }
+
+    .verifiedPara {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .productSaleHistoryMain .productSaleHistory {
+        padding: 5px 0px 20px 0px;
+    }
+
+    .productSpecifications .heading li span {
+        font-size: 16px;
+    }
+
+    .productSpecifications .productDiv p {
+        font-size: 15px;
+    }
+
+    .productSpecifications .heading li {
+        font-size: 15px;
+    }
+
+    .verifiedPara h2 {
+        font-size: 35px;
+        padding-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .breadCrumbs {
+        padding: 8px 0px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .verifiedView {
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+
+    .verifiedView {
+        flex-direction: column;
+    }
+
+    .verifiedView .view {
+        width: 100%;
+        margin-bottom: 11px;
+    }
+
+    .buyingDetails {
+        width: 100%;
+        padding: 14px 1px 1px 0px;
+    }
+
+    .buyingDetails .limitedEdiction {
+        border-bottom: none;
+    }
+
+    .verifiedView .inStock {
+        justify-content: space-between;
+    }
+
+    .buyButton {
+        flex-direction: column;
+    }
+
+    .buyButton .buyNow {
+        width: 100%;
+        margin-bottom: 25px;
+        font-size: 14px;
+    }
+
+    .buyButton .sellAsk {
+        width: 100%;
+        padding: 13px 50px;
+        font-size: 15px;
+    }
+
+    .bidButtonNew {
+        flex-direction: column;
+    }
+
+    .bidButtonNew input {
+        width: 100%;
+    }
+
+    .bidButtonNew .placeBid {
+        width: 100%;
+        padding: 9px 0px;
+    }
+
+    .verifiedPara h2 {
+        font-size: 18px;
+    }
+
+    .productSpecifications .heading li span {
+        font-size: 15px;
+    }
+
+    .productSpecifications .productDiv p {
+        font-size: 14px;
+    }
+
+    .productSpecifications {
+        flex-direction: column;
+    }
+
+    .productSpecifications .heading {
+        width: 100%;
+    }
+
+    .productSpecifications .productDiv {
+        width: 100%;
+    }
+
+    .authenticateSection {
+        margin-bottom: -25px;
+    }
+
+    .authenticateSectionNewinner .authenticateSectionNewinnerHead h2 {
+        font-size: 11px;
+    }
+
+    .authenticateSectionNewinner p {
+        font-size: 8px;
+    }
+
+    .authenticateSectionNewinnerHead img {
+        width: 3%;
+    }
+
+    .authenticateSectionNewinnerHead {
+        margin-top: 0px;
+        padding-top: 50px;
+    }
+
+    .authenticateSectionNewinner p a {
+        font-size: 8px;
+    }
+
+    .authenticateSectionNewinner p {
+        padding: 0px 0px 50px 0px;
+    }
+
+    .productSaleHistoryMain .productSaleHistory label {
+        font-size: 20px;
+    }
+
+    .productSaleHistoryMain .productSaleHistory select {
+        font-size: 10px;
+    }
+
+    .buttonSection button {
+        font-size: 12px;
+        padding: 13px 30px 15px 15px;
+    }
+
+    .buttonSection button span,
+    .buttonSectionNew button span {
+        font-size: 7px;
+    }
+
+    .buttonSectionNew button {
+        font-size: 12px;
+    }
+
+    .similarProductsNew .owlSimilarProducts h2,
+    .moreFromNikeNew .owlMoreFromLike h2 {
+        font-size: 14px;
+    }
+
+    .similarProductsNew .owlSimilarProducts a,
+    .moreFromNikeNew .owlMoreFromLike a {
+        font-size: 12px;
+    }
+
+    .similarProductsSlider .owl-next,
+    .moreFromSlider .owl-next {
+        transform: translateX(11%);
+    }
+
+    .verifiedView .topView button {
+        width: 10%;
+    }
+
+    .verifiedView .topView span {
+        font-size: 5px;
+    }
+
+    .topView button img {
+        width: 30%;
+    }
+
+    .verifiedView .topView button {
+        width: 10%;
+        min-width: 60px;
+        padding: 3px 5px 3px 5px;
+    }
+
+    .topView #snactcheLogo {
+        width: 20% !important;
+        max-width: 50px;
+    }
+
+    .mySwiper2 .swiper-slide img {
+        height: 150px;
+    }
+
+    .prevAndNext {
+        top: 31%;
+    }
+
+    .prevAndNext .next {
+        transform: translateX(-6px);
+    }
+
+    .prevAndNext .prev {
+        transform: translateX(4px);
+    }
+
+    .prev,
+    .next {
+        padding: 11px;
+        max-height: 22px;
+        max-width: 22px;
+    }
+
+    .verifiedView .view {
+        padding: 15px 15px 20px 15px;
+    }
+
+    .prevAndNext #swiperNext {
+        width: 20%;
+        min-width: 7px;
+
+    }
+
+    .prevAndNext #swiperPrev {
+        width: 20%;
+        min-width: 6px;
+    }
+
+    .mySwiper2 .swiper-slide {
+        max-height: 191px !important;
+    }
+
+    .swiper-slide button {
+        bottom: 10%;
+        right: 24%;
+        font-size: 12px;
+    }
+
+    .topViewSlider .mySwiper2 {
+        max-height: 191px !important;
+        max-width: 191px;
+    }
+
+    .mySwiper .swiper-slide {
+        min-width: 57px;
+        padding: 5px
+    }
+
+    .swiper-free-mode .swiper-wrapper {
+        gap: 7px;
+    }
+
+    .topViewSlider .mySwiper {
+        padding: 10px 0;
+    }
+
+    .topViewSlider .swiper {
+        width: 100%;
+    }
+
+    .mySwiper .swiper-slide {
+        margin: 0px 0px 16px 0px !important;
+    }
+
+    .buyingDetails .share span {
+        font-size: 14px;
+    }
+
+    .limitedBrand h2 {
+        font-size: 22px;
+    }
+
+    .limitedBrand span {
+        font-size: 12px;
+    }
+
+    .verifiedView .inStock h4 {
+        font-size: 24px;
+    }
+
+    .buyingDetails .limitedEdiction {
+        padding-bottom: 8px;
+    }
+
+    .verifiedView .inStock {
+        padding: 7px 0px 15px 0px;
+    }
+
+    .dropDownMain {
+        flex-direction: column;
+    }
+
+    .selectBox {
+        width: 100%;
+    }
+
+    .buyingDetails .sizeChart {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .buyingDetails .sizeChart button {
+        font-size: 12px;
+    }
+
+    .buyingDetails .sizeChart p {
+        font-size: 9px;
+    }
+
+    .info p {
+        padding-bottom: 15px;
+    }
+
+    .buyingDetails .sizeChart {
+        padding: 10px 0px 5px 40px;
+    }
+
+    .buyButton .buyNow span {
+        font-size: 14px;
+    }
+
+    .lastSale {
+        padding-bottom: 0px;
+    }
+
+    .orSection {
+        padding-top: 15px;
+    }
+
+    .bidButtonNew .placeBid {
+        margin-top: 12px;
+    }
+
+    .bidButtonNew .placeBid span {
+        font-size: 15px;
+    }
+
+    .bidButtonNew .placeBid img {
+        padding: 0px 10px 0px 0px;
+    }
+
+    .bidButtonNew {
+        padding-bottom: 10px;
+    }
+
+    .lastSaleNew {
+        padding-bottom: 0px;
+    }
+
+    .selectBox {
+        padding: 1px 11px 7px 11px;
+    }
+
+    .verifiedPara {
+        padding: 25px 0px 0px 0px;
+    }
+
+    .verifiedPara h2 {
+        padding-bottom: 10px;
+    }
+
+    .productSpecifications .productDiv h3 {
+        font-size: 18px;
+        padding-top: 15px;
+    }
+
+    .productSpecifications .heading li {
+        padding-bottom: 10px;
+    }
+
+    .authenticateSectionNewinner p {
+        width: 85%;
+    }
+
+
+    .authenticateSectionNewinner .authenticateSectionNewinnerHead {
+        gap: 7px;
+    }
+
+    .productSaleHistoryMain .productSaleHistory label {
+        padding-right: 20px;
+    }
+
+    .productSaleHistorySelectBox {
+        width: 32%;
+        padding-right: 10px;
+    }
+
+    .productSaleHistoryMain .productSaleHistory {
+        padding: 15px 0px 13px 0px;
+    }
+
+    .buttonSection button {
+        font-size: 12px;
+        padding: 9px 15px 7px 15px;
+    }
+
+    .buttonSection button {
+        margin-right: 2px;
+    }
+
+    .buttonSectionNew button {
+        margin-right: 5px;
+        margin-top: 10px;
+
+    }
+
+    .buttonSectionNew button {
+        padding: 8px 16px 8px 16px;
+    }
+
+    .similarProductsNew {
+        margin-top: 25px;
+    }
+
+    .similarProductsNew .owlSimilarProducts h2 {
+        padding-left: 5px;
+    }
+
+    .similarProductsSlider .owl-stage-outer,
+    .moreFromSlider .owl-stage-outer {
+        padding: 0px 0px;
+    }
+
+    .owl-item {
+        padding-right: 17px !important;
+    }
+
+    .similarProductsSlider .owl-next,
+    .similarProductsSlider .owl-prev,
+    .moreFromSlider .owl-next,
+    .moreFromSlider .owl-prev {
+        width: 30px;
+        height: 30px;
+    }
+
+    .similarProductsSlider .owl-prev,
+    .moreFromSlider .owl-prev {
+        transform: translateX(-26%);
+    }
+
+    .product-box {
+        margin: 6px !important;
+    }
+
+    .similarProductsNew .similarProducts {
+        padding-bottom: 20px;
+    }
+        .moreFromNikeNew {
+        margin-top: 25px;
+    }
+    .moreFromNikeNew .owlMoreFromLike h2 {
+    padding-left: 5px;
+    }
+        .moreFromNikeNew .moreFromNike {
+        padding-bottom: 25px;
+    }
+}
+
+/*product_page 1 css*/
+.productPage_one {
+    width: 100%;
+    max-width: 948px;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    overflow-y: auto;
+    background-color: #fff;
+    height: 80vh;
+}
+.productPage_one_main {
+    width: 100%;
+    max-width: 852px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 50px 0px;
+}
+.productPage_one .sellingHeader {
+    display: flex;
+    justify-content: right;
+    padding-bottom: 30px;
+}
+.productPage_one .sellingHeader button {
+    border: none;
+    background-color: #FFFFFF;
+    font-size: 19px;
+    line-height: 26px;
+    font-family: 'Montserrat-SemiBold';
+}
+.productPage_one_top {
+    padding: 50px;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+}
+.productPage_one_top .selectProduct {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 11px;
+}
+.selectProduct .selected_size p {
+    color: rgba(0, 0, 0, 1) !important;
+    display: flex;
+    align-items: center;
+}
+.selectProduct .selected_size p a {
+    padding-left: 31px;
+    color: rgba(0, 0, 0, 1);
+}
+.selectProduct .selected_size p span {
+    padding-left: 3px;
+}
+.priceBreakdown {
+    padding-top: 30px;
+}
+.priceBreakdown table {
+    width: 100%;
+}
+.priceBreakdown table tr {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 22px;
+    line-height: 29px;
+    padding: 22px 0px 32px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.priceBreakdown table .taxes {
+    padding-bottom: 12px;
+    padding-top: 0px;
+}
+.priceBreakdown table .gst,
+.ship span {
+    padding-bottom: 0px;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 0%;
+    opacity: 0.5;
+}
+.priceBreakdown h3 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 30px;
+    line-height: 39px;
+}
+.priceBreakdown h2 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 37px;
+    line-height: 48px;
+    display: block;
+}
+.priceBreakdown .finalPrice {
+    display: flex;
+    justify-content: space-between;
+}
+.priceBreakdown .finalPrice a {
+    text-decoration: none;
+    color: #000000;
+}
+.priceBreakdown .finalPrice p {
+    text-decoration: none;
+    font-family: 'Montserrat-SemiBold';
+    padding-top: 10px;
+}
+.priceBreakdown .finalPrice .low {
+    font-size: 19px;
+    line-height: 26px;
+}
+.priceBreakdown .finalPrice .place_bid {
+    font-size: 15px;
+    line-height: 20px;
+    padding-left: 16px;
+    text-decoration: underline;
+}
+.address-selection {
+    display: flex;
+    justify-content: space-between;
+}
+.productPage_one_middle {
+    padding: 70px 0px 60px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.productPage_one_middle .address-selection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+}
+.productPage_one_middle .selectAddress h2 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 30px;
+    line-height: 39px;
+}
+.productPage_one_middle .address-selection p {
+    font-size: 17px;
+    line-height: 24px;
+    font-family: 'Montserrat-SemiBold';
+}
+.productPage_one_middle .address-selection button {
+    padding: 11px 20px;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Montserrat-Bold';
+    color: #FFFFFF;
+    background-color: #000000;
+    border: none;
+    margin-right: 0px;
+}
+.accordion-item {
+    border: none;
+    margin: 20px auto;
+    background: #fff;
+    color: #000000;
+    overflow: hidden;
+    box-shadow: -2px 0px 5px 7px #E5E5E54D;
+}
+.accordion-item button {
+    position: relative;
+    width: 100%;
+    padding: 28px 35px;
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.accordion-item button .mainButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.accordion button[aria-expanded='true']+.accordion-content {
+    opacity: 1 !important;
+    max-height: 300px !important;
+    transition: all 200ms linear !important;
+}
+.accordion .accordion-content {
+    position: relative !important;
+    opacity: 0 !important;
+    max-height: 0 !important;
+    overflow: hidden !important;
+    padding: 0 35px !important;
+    transition: opacity 200ms linear, max-height 200ms linear !important;
+    will-change: opacity, max-height !important;
+}
+.accordion-item button .accordion-buttonLeft {
+    display: flex;
+    align-items: center;
+}
+.accordion-item button .accordion-buttonLeft h2 {
+    font-size: 25px;
+    line-height: 34px;
+    font-family: 'Montserrat-Bold';
+    color: #000000;
+}
+.accordion-item button .accordion-buttonLeft h3 {
+    padding-left: 28px;
+    font-size: 22px;
+    line-height: 29px;
+    font-family: 'Montserrat-SemiBold';
+    display: block;
+    color: #000000;
+}
+.accordion-item button .accordion-buttonLeft p {
+    font-size: 16px;
+    line-height: 21px;
+    padding-left: 12px;
+    font-family: 'Montserrat-SemiBold';
+    display: none;
+    padding-top: 7px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.accordion-buttonRight {
+    display: flex;
+    align-items: center;
+}
+.accordion-buttonRight p {
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Montserrat-SemiBold';
+    color: #000000;
+}
+.accordion-buttonRight img {
+    width: 14px;
+    height: 7px;
+    margin-left: 16px;
+}
+.accordion .accordion-content h3 {
+    font-family: 'Montserrat-Bold';
+    font-size: 25px;
+    line-height: 34px;
+    padding-bottom: 27px;
+}
+.accordion .accordion-content p {
+    font-size: 16px;
+    line-height: 21px;
+    font-family: 'Montserrat-SemiBold';
+    text-align: justify;
+}
+.accordion .accordion-content .edit {
+    width: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px 0px 20px 0px;
+}
+.accordion .accordion-content .edit a {
+    font-family: 'Montserrat-SemiBold';
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: underline;
+    text-underline-offset: auto;
+    text-decoration-thickness: auto;
+}
+.accordion .accordion-content .editSeparator {
+    margin: 0 8px;
+}
+.accordion .accordion-content .addressBox_selected {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    right: 36px;
+    bottom: 52PX;
+}
+.accordion .accordion-content .addressBox_selected p {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Montserrat-SemiBold';
+}
+.accordion .accordion-content .addressBox_selected img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -4px;
+}
+.productPage_one_middle .selectBilling {
+    width: 100%;
+    padding-top: 63px;
+}
+.productPage_one_middle .selectBilling p {
+    font-size: 17px;
+    line-height: 24px;
+    font-family: 'Montserrat-SemiBold';
+    padding-bottom: 32px;
+}
+.productPage .active {
+    border: 2px solid #008000 !important;
+}
+.productPage_one_bottom {
+    padding-top: 44px;
+}
+.productPage_one_bottom h4 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 40px;
+    line-height: 51px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 61px;
+}
+.productPage_one_bottom .payment_method p {
+    font-size: 25px;
+    line-height: 32px;
+    font-family: 'Montserrat-Bold';
+    padding-bottom: 31px;
+}
+.productPage_one_bottom .payment_method button {
+    width: 100%;
+    max-height: 91px;
+    padding: 24px 0px;
+    font-family: 'Montserrat-Bold';
+    font-size: 21px;
+    line-height: 27px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.productPage_one_bottom .payment_method .paypal {
+    background-image: linear-gradient(to right, rgba(0, 48, 135, 1), rgba(0, 156, 222, 1));
+    margin-bottom: 19px;
+}
+.productPage_one_bottom .payment_method .Razorpay {
+    background-image: linear-gradient(to right, rgba(16, 28, 112, 1), rgba(11, 32, 98, 1));
+}
+/* .productPage_one_bottom .payment_method .paypal img{
+    width: 180px;
+    height: 43px;
+}
+.productPage_one_bottom .payment_method .Razorpay img{
+    width: 205px;
+    height: 91px;
+} */
+.productPage_one_bottom .payment_method .Razorpay img {
+    width: 205px;
+    height: 91px;
+}
+.productPage_one_TAB {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 61px;
+}
+.productPage_one_TAB button {
+    font-family: 'Montserrat-Bold';
+    padding: 16px 60px;
+}
+.productPage_one_TAB .cancel {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+.productPage_one_TAB .next {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0%;
+}
+@media only screen and (max-width: 1024px) {
+    .productPage_one_main {
+        width: 100%;
+        padding: 30px 0;
+    }
+    .productPage_one .sellingHeader {
+        padding-bottom: 20px;
+    }
+    .productPage_one_top {
+        padding: 30px 15px 20px 20px;
+    }
+    .priceBreakdown {
+        padding-top: 20px;
+    }
+    .priceBreakdown h3 {
+        font-size: 23px;
+        line-height: 1;
+    }
+    .priceBreakdown table tr {
+        font-size: 17px;
+        padding: 15px 0;
+    }
+    .priceBreakdown h2 {
+        font-size: 18px;
+    }
+    .priceBreakdown .finalPrice .low {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .priceBreakdown .finalPrice .place_bid {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .productPage_one_middle {
+        padding-bottom: 35px;
+    }
+    .productPage_one_middle .address-selection {
+        margin-top: 15px;
+    }
+    .productPage_one_middle .selectAddress h2 {
+        font-size: 23px;
+        line-height: 32px;
+    }
+    .productPage_one_middle .address-selection p,
+    .productPage_one_middle .selectBilling p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .accordion-item button {
+        padding: 20px 25px;
+        font-size: 15px;
+    }
+    .accordion-item button .accordion-buttonLeft h2 {
+        font-size: 20px;
+        line-height: 28px;
+    } 
+    .accordion-item button .accordion-buttonLeft h3 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .accordion .accordion-content {
+        padding: 0 25px;
+    }
+    .accordion .accordion-content h3 {
+        font-size: 20px;
+        line-height: 28px;
+        padding-bottom: 17px;
+    }
+    .accordion .accordion-content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .accordion .accordion-content .edit a {
+        font-size: 13px;
+    }
+    .productPage_one_bottom {
+        padding-top: 30px;
+    }
+    .productPage_one_bottom h4 {
+        font-size: 25px;
+        padding-bottom: 5px;
+    }
+    .productPage_one_bottom .payment_method p {
+        font-size: 19px;
+        padding-bottom: 25px;
+    }
+    .productPage_one_bottom .payment_method button {
+        padding: 11px 0;
+        font-size: 16px;
+        max-height: 78px;
+    }
+    .productPage_one_bottom .payment_method .Razorpay img {
+        width: 175px;
+        height: 90px;
+    }
+    .productPage_one_TAB {
+        margin-top: 20px;
+    }
+    /* cancel order confirmation */
+    /* .order_Cancel {
+        padding: 50px;
+    }
+    .order_Cancel p{
+        padding-top: 20px;
+    }
+        .productPage_one_TAB {
+        margin-top: 30px;
+    } */
+}
+@media only screen and (max-width: 767px) {
+    .productPage_one_main {
+        width: 100%;
+        padding: 25px 0px;
+    }
+    .productPage_one .sellingHeader {
+        padding-bottom: 15px;
+    }
+    .productPage_one .sellingHeader button {
+        font-size: 12px;
+    }
+    .productPage_one_top {
+        padding: 25px 10px 15px 15px;
+    }
+    .productPage_one_top .selectProduct {
+        padding-bottom: 20px;
+    }
+    .priceBreakdown {
+        padding-top: 15px;
+    }
+    .priceBreakdown h3 {
+        font-size: 17px;
+        line-height: 1;
+    }
+    .priceBreakdown table tr {
+        font-size: 14px;
+        line-height: 1;
+        padding: 10px 0px;
+    }
+    .priceBreakdown table .gst,
+    .ship span {
+        font-size: 10px;
+        line-height: 9px;
+    }
+    .priceBreakdown .finalPrice {
+        display: block;
+    }
+    .priceBreakdown h2 {
+        display: flex;
+        font-size: 16px;
+        justify-content: space-between;
+    }
+    .priceBreakdown .finalPrice p {
+        padding: 0;
+    }
+    .priceBreakdown .finalPrice p a {
+        font-size: 12px !important;
+    }
+    .productPage_one_middle {
+        padding: 25px 0px;
+    }
+    .productPage_one_middle .selectAddress h2 {
+        font-size: 15px;
+    }
+    .productPage_one_middle .address-selection {
+        margin: 0;
+    }
+    .productPage_one_middle .address-selection,
+    .productPage_one_middle .address-selection p {
+        font-size: 10px;
+    }
+    .productPage_one_middle .address-selection button {
+        font-size: 8px;
+        padding: 5px;
+        line-height: 1.35;
+    }
+    .accordion-item button {
+        padding: 8px 10px;
+    }
+    .accordion-item button .accordion-buttonLeft h2 {
+        font-size: 10px;
+    }
+    .accordion-item button .accordion-buttonLeft h3 {
+        font-size: 8px;
+        padding-left: 8px;
+    }
+    .accordion-item button .accordion-buttonLeft p {
+        font-size: 6px;
+        padding-left: 5px;
+    }
+    .accordion-buttonRight p {
+        font-size: 7px;
+    }
+    .accordion-buttonRight img {
+        width: 7px;
+        height: 3px;
+        margin-left: 7px;
+    }
+    .accordion-item {
+        margin: 15px auto;
+    }
+    .accordion .accordion-content {
+        padding: 0px 10px;
+    }
+    .accordion .accordion-content h3 {
+        padding-bottom: 10px;
+        font-size: 10px;
+        line-height: 1.35;
+    }
+    .accordion .accordion-content p {
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .accordion .accordion-content .addressBox_selected p {
+        font-size: 6px;
+    }
+    .accordion .accordion-content .addressBox_selected img {
+        width: 7px;
+        height: 8px;
+        margin-bottom: -2px;
+    }
+    .accordion .accordion-content .addressBox_selected {
+        bottom: 35px;
+    }
+    .accordion .accordion-content .edit {
+        padding: 10px 0px 15px 0px;
+        max-width: 62px;
+    }
+    .accordion .accordion-content .edit a {
+        font-size: 8px;
+    }
+    .accordion .accordion-content .editSeparator {
+        margin: 0;
+    }
+    .productPage_one_middle .selectBilling p {
+        font-size: 10px;
+        padding-bottom: 11px;
+    }
+    .productPage_one_bottom .totalPrice h2 {
+        font-size: 15px;
+        line-height: 1;
+    }
+    .productPage_one_bottom {
+        padding-top: 25px;
+    }
+    .productPage_one_bottom h4 {
+        font-size: 15px;
+        line-height: 2;
+        padding-bottom: 20px;
+    }
+    .productPage_one_bottom .payment_method p {
+        font-size: 10px;
+        line-height: 1;
+        padding-bottom: 11px;
+    }
+    .productPage_one_bottom .payment_method .paypal {
+        margin-bottom: 10px;
+    }
+    .productPage_one_bottom .payment_method button {
+        font-size: 7px;
+        padding: 8px 0px;
+        max-height: 33px;
+    }
+    .productPage_one_bottom .payment_method img {
+        width: 66px;
+        height: 15px;
+    }
+    .productPage_one_bottom .payment_method .Razorpay img {
+        height: 33px;
+        width: 70px;
+    }
+    /* cancel order confirmation */
+        /* .order_Cancel {
+        padding: 35px;
+    }
+      .productPage_one_TAB {
+        margin-top: 15px;
+        gap: 15px;
+    }
+    .productPage_one_TAB button {
+        padding: 9px 30px;
+        font-size: 10px;
+    }
+        .order_Cancel p {
+        padding-top: 10px;
+        font-size: 11px;
+    }
+    .order_Cancel h3{
+        font-size: 20px;
+    } */
+}
+
+.productPage_one_pop_Up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+    pointer-events: none;
+    display: none;
+}
+
+.productPage_one_pop_UpShow{
+    display: flex;
+    pointer-events: fill;
+}
+
+/*SellFunction Css Start*/
+.sellFunction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    padding: 89px 0px 189px 0px;
+    backdrop-filter: blur(30px);
+    background-color: rgba(255, 255, 255, 0.31);
+    display: none;
+}
+
+.sellFunctionPopUpShow{
+    pointer-events: fill;
+    display: flex;
+}
+
+
+.sellFunctionMain {
+    background-color: #FFFFFF;
+    width: 54%;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+    background-image: url(../Image/sellFunction/backGroundLeft.svg),
+        url(../Image/sellFunction/backGroundRight.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left, top right;
+}
+
+.sellFunctionMain .snatcheLogo {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: rgba(0, 0, 0, 1);
+    align-items: center;
+}
+
+.sellFunctionMain .snatcheLogo h2 {
+    color: #FFFFFF;
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 26px;
+    position: absolute;
+    right: 5%;
+    bottom: 38px;
+}
+
+.sellFunctionMain .snatcheLogo #logoImg {
+    padding-left: 19px
+}
+
+.pentaContainer {
+    padding: 52px 42px 57px 57px;
+}
+
+.cardPentagon {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;
+    gap: 15px;
+}
+
+.containerCard {
+    justify-items: center;
+}
+
+.cardPentagon .cardPentaItem {
+    border: 1px solid #0080F5;
+    box-shadow: 0px 0px 20px -1px #0000001A;
+    display: block;
+    justify-items: center;
+    padding: 44px 25px 22px 25px;
+    width: 33.33%;
+    background-color: #FFFFFF;
+}
+
+.cardPentagon .cardPentaItem img {
+    padding-bottom: 18px;
+}
+
+.cardPentagon .cardPentaItem h3 {
+    font-family: 'Montserrat-Bold';
+    font-size: 21px;
+    padding-bottom: 9px;
+}
+
+.cardPentagon .cardPentaItem p {
+    text-align: center;
+    font-family: 'Montserrat-Medium';
+    font-size: 14px;
+    width: 80%;
+}
+
+.sellerCancellation{
+    padding-left: 22px;
+}
+.sellerCancellation h4 {
+    font-family: 'Montserrat-Bold';
+    font-size: 12px;
+    color: #000000;
+    padding-bottom: 12px;
+}
+
+.sellerCancellation p {
+    font-family: 'Montserrat-Medium';
+    font-size: 12px;
+    color: #000000;
+    line-height: 18px;
+    padding-bottom: 45px;
+}
+
+.beginSelling {
+    justify-self: center;
+}
+
+.beginSelling button {
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 13px 45px;
+    border: none;
+    font-family: 'Montserrat-Bold';
+    font-size: 16px;
+}
+
+.sellFunctionMain .sellTop {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 43px;
+    /* padding: 59px 0px 43px 0px; */
+}
+
+.sellFunctionMain .sellTop h2 {
+    font-family: 'Montserrat-Bold';
+    font-size: 35px;
+    color: #000000;
+}
+
+.sellYourProduct {
+    /* min-height: 610px; */
+    padding: 39px 52px 46px 52px;
+    position: relative;
+    background-image: none;
+}
+
+.sellYourProduct .proceed {
+    margin-top: 7% !important;
+}
+
+.sellFunctionMain .sellTop button {
+    font-family: 'Montserrat-Bold';
+    font-size: 17px;
+    color: #000000;
+    border: none;
+    background-color: #FFFFFF;
+    position: absolute;
+    right: 0;
+}
+
+.productSearchFunction {
+    justify-self: center;
+    padding: 10px;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+    margin-bottom: 40%;
+}
+
+.productSearchFunction .search-button {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.searchResultGot {
+    margin-top: 43px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+    margin-bottom: 117px;
+
+}
+
+.nav-search {
+    justify-items: center;
+}
+
+.proceed {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    justify-content: flex-end;
+    margin-top: 30%;
+}
+
+.proceed span {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 14px;
+}
+
+.proceed button {
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 13px 45px;
+    border: none;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 14px;
+}
+
+.searchResultCard {
+    width: 100%;
+    justify-self: center;
+    padding: 26px 32px 43px 25px;
+    padding-bottom: 17%;
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 10%);
+}
+
+.searchResultCard .searchCard {
+    position: relative;
+}
+
+.searchResultCard .searchCard p {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    padding-top: 5%;
+    font-family: 'Montserrat-Medium';
+    font-size: 13px;
+    opacity: 50%;
+}
+
+.sellYourProduct .searchCard {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 13px;
+    position: relative;
+}
+
+.sellYourProduct .searchCard span {
+    opacity: 50%;
+}
+
+.sellYourProduct .searchCard span:after {
+    content: "";
+    height: 2px;
+    background-color: #000000;
+    opacity: 30%;
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 15%;
+}
+
+.searchCardResult {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchResultShoes {
+    display: flex;
+    align-items: center;
+}
+
+.searchCardResult .selectBox {
+    width: 100%;
+    padding: 7px 22px 8px 12px;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+}
+
+.searchCardResult .selectBox label {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 11px;
+    color: #000000;
+    opacity: 60%;
+}
+
+.searchCardResult .selectBox #number {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 16px;
+    color: #000000;
+    border: none;
+    width: 100%;
+}
+
+.searchResultDetails {
+    padding-left: 36px;
+    width: 41%;
+}
+
+.searchResultDetails span {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 10px;
+    color: #000000;
+    opacity: 70%;
+}
+
+.searchResultDetails h3 {
+    font-family: 'Montserrat-Bold';
+    font-size: 18px;
+    color: #000000;
+}
+
+.searchResultDetails h5 {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 10px;
+    color: #000000;
+}
+
+.selectButton button {
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 11px 41px;
+    border: none;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.sellYourProduct .noResultRequest {
+    justify-self: center;
+    padding: 35px 0px 35px 0px;
+}
+
+.sellYourProduct .noResultRequest a {
+    font-family: 'Montserrat-SemiBold';
+    color: #000000;
+    font-size: 15px;
+    border: none;
+    letter-spacing: 0%;
+    text-decoration: underline;
+}
+
+.productSearchNoResult {
+    display: none;
+}
+
+.addYourProduct {
+    padding: 38px 82px 38px 82px;
+}
+
+.selling_tab {
+    box-shadow: 0px 0px 26px -1px #0000001A;
+    padding: 35px 60px 44px 55px;
+    margin-top: 38px;
+}
+
+.selling_tab .divider {
+    display: flex;
+    align-items: center;
+}
+
+.divider button.sellingButton.active {
+    border-bottom: 3px solid #000000;
+    color: #000000;
+    display: block;
+}
+
+.selling_tab .divider button {
+    border: none;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Montserrat-SemiBold";
+    cursor: pointer;
+    padding: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.selling_multDetRight .sellingDetails_priceBreakdown .selling_finalPrice {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+}
+
+.selling_multDetRight .enterAmount_input {
+    position: relative;
+}
+
+.selling_multDetRight .enterAmount_input .amountask span {
+    font-size: 17px;
+    line-height: 22px;
+    font-family: "Montserrat-Bold";
+    opacity: 1;
+    color: #000000;
+}
+
+.selling_multDetRight .price_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.selling_multDetRight .price_container .enterAmount button {
+    width: 89px;
+    height: 55px;
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Montserrat-Bold";
+}
+
+.selling_multDetRight .price_container .enterAmount {
+    display: flex;
+    flex-direction: row;
+}
+
+.selling_multDetRight .enterAmount label {
+    position: absolute;
+    font-family: "Montserrat-SemiBold";
+    font-size: 11px;
+    line-height: 14px;
+    padding-top: 7px;
+    padding-left: 11px;
+    opacity: 50%;
+}
+
+.selling_multDetRight .minimumAmount {
+    font-family: "Montserrat-SemiBold";
+    font-size: 10px;
+    line-height: 13px;
+    opacity: 50%;
+    padding-bottom: 37px;
+    padding-top: 11px;
+}
+
+.selling_multDetRight .enterAmount input {
+    font-family: "Montserrat-Bold";
+    width: 155px;
+    height: 55px;
+    border: none;
+    padding-left: 14px;
+    padding-top: 10px;
+    font-size: 22px;
+    line-height: 29px;
+    box-shadow: -2px 0px 5px 3px #e5e5e54d;
+}
+
+.selling_multDetRight .enterAmount .amount::placeholder {
+    color: #000000;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.enterAmount_select {
+    position: relative;
+}
+
+.selling_multDetRight .price_container .selectSizeRight {
+    font-family: 'Montserrat-SemiBold';
+    width: 171px;
+    height: 55px;
+    background: #fff;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    line-height: 21px;
+    padding-left: 10px;
+    margin-left: 21px;
+    padding-top: 15px;
+}
+
+.selling_multDetRight .price_container .enterAmount .selectSize_label {
+    padding: 7px 0px 3px 33px;
+    position: absolute;
+}
+
+.sellingDetails_priceBreakdown {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.sellingDetails_priceBreakdown .selectBox {
+    width: 45%;
+    padding: 7px 22px 8px 12px;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+}
+
+.sellingDetails_priceBreakdown .selectBox label {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 11px;
+    color: #000000;
+    opacity: 60%;
+}
+
+.sellingDetails_priceBreakdown .selectBox #number {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 16px;
+    color: #000000;
+    border: none;
+    width: 100%;
+}
+
+.selectButtonAddProduct {
+    width: 100%;
+    justify-content: end;
+    padding-top: 17px;
+    position: relative;
+}
+
+.selectButtonAddProduct .selectBox {
+    width: 45%;
+    padding: 7px 22px 8px 12px;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+}
+
+.proceed .goBack {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid #000000;
+    box-shadow: 0px 0px 22.32px -0.86px #0000001A;
+
+}
+
+/*Tabs Slider css*/
+.selling_tab {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.selling_tab .sliderTabs {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.selling_tab .sliderTabs::after {
+    content: "";
+    background: black;
+    width: 100%;
+    height: 1px;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    opacity: 50%;
+}
+
+.selling_tab .sliderTabs label {
+    position: relative;
+    display: block;
+    width: 17%;
+    padding: 9px 0px 9px 0px;
+    cursor: pointer;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 12px;
+    color: #000000;
+    opacity: 30%;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+#electronics:checked~.sliderTabs label .sneakers,
+#electronics:checked~.sliderTabs label .electronics,
+#electronics:checked~.sliderTabs label .otherCategory {
+    color: #000000;
+}
+
+.selling_tab input[type='radio'] {
+    display: none;
+}
+
+.selling_tab .sliderTabs .slider {
+    position: absolute;
+    height: 4px;
+    background-color: #000000;
+    width: 17%;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    transition: all 0.3s ease;
+}
+
+#electronics:checked~.sliderTabs .slider {
+    left: 17% !important;
+}
+
+#otherCategory:checked~.sliderTabs .slider {
+    left: 34%;
+}
+
+#sneakers:checked~.sliderTabs .sneakers {
+    background-color: #E4E4E4;
+    opacity: 1;
+}
+
+#electronics:checked~.sliderTabs .electronics {
+    background-color: #E4E4E4;
+    opacity: 1;
+}
+
+#otherCategory:checked~.sliderTabs .otherCategory {
+    background-color: #E4E4E4;
+    opacity: 1;
+}
+
+.sellingContentMassive {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.sellingContentMassive .content {
+    display: none;
+}
+
+.sellingContentMassive .sellContent01 {
+    width: 100%;
+    padding-top: 25px;
+}
+
+#sneakers:checked~.sellingContentMassive .sellContent {
+    display: block !important;
+}
+
+#electronics:checked~.sellingContentMassive .sellContent01 {
+    display: block !important;
+}
+
+#otherCategory:checked~.sellingContentMassive .sellContent02 {
+    display: block !important;
+}
+
+
+/*AddProductRequest Responsive css*/
+@media only screen and (max-width: 1600px) {
+    .selling_tab .sliderTabs label {
+        width: 20% !important;
+        font-size: 11px;
+    }
+
+    .selling_tab .sliderTabs .slider {
+        width: 20% !important;
+    }
+
+    #electronics:checked~.sliderTabs .slider {
+        left: 20% !important;
+    }
+
+    #otherCategory:checked~.sliderTabs .slider {
+        left: 40% !important;
+    }
+
+    .sellingDetails_priceBreakdown .selectBox #number {
+        font-size: 15px;
+    }
+
+    .sellingDetails_priceBreakdown .selectBox label {
+        font-size: 10px;
+    }
+
+    .sellingContentMassive {
+        padding-top: 30px;
+    }
+
+    .sellingDetails_priceBreakdown .selectBox {
+        width: 48%;
+        padding: 7px 10px 8px 12px;
+    }
+
+    .sellFunctionMain .sellTop h2 {
+        font-size: 33px;
+    }
+
+    .sellFunctionMain .sellTop button {
+        font-family: 'Montserrat-Bold';
+        font-size: 16px;
+    }
+
+    .selling_tab {
+        padding: 25px 40px 30px 40px;
+    }
+
+    .addYourProduct {
+        padding: 28px 62px 28px 62px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .sellFunctionMain .sellTop h2 {
+        font-size: 30px;
+    }
+
+    .selling_tab .sliderTabs label {
+        font-size: 10px !important;
+    }
+
+    .sellingDetails_priceBreakdown .selectBox #number {
+        font-size: 14px;
+    }
+
+    .sellingDetails_priceBreakdown .selectBox label {
+        font-size: 9px;
+    }
+
+    .selling_tab {
+        padding: 25px 35px 30px 35px;
+    }
+
+    .addYourProduct {
+        padding: 28px 62px 28px 62px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .selling_tab .sliderTabs label {
+        font-size: 9px !important;
+    }
+
+    .sellingDetails_priceBreakdown .selectBox {
+        padding: 5px 5px 8px 10px;
+    }
+
+    .sellingDetails_priceBreakdown .selectBox #number {
+        font-size: 12px;
+    }
+
+    .sellingDetails_priceBreakdown .selectBox label {
+        font-size: 8px;
+    }
+
+    .sellFunctionMain .sellTop h2 {
+        font-size: 23px;
+    }
+
+    .sellFunctionMain .sellTop button {
+        font-size: 12px;
+    }
+
+    .addYourProduct {
+        padding: 18px 42px 18px 42px;
+    }
+
+    .selling_tab {
+        padding: 20px 25px 25px 25px;
+    }
+
+    .proceed button {
+        font-size: 12px;
+    }
+
+    .proceed {
+        gap: 15px;
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .sellFunctionMain .sellTop h2 {
+        font-size: 17px;
+    }
+
+    .sellFunctionMain .sellTop button {
+        font-size: 10px;
+    }
+
+    .selling_tab {
+        margin-top: 25px;
+    }
+
+    .addYourProduct {
+        padding: 20px 22px 20 px 22px;
+    }
+
+    .selling_tab {
+        padding: 15px 15px 15px 15px;
+    }
+
+    .proceed button {
+        padding: 8px 25px;
+        font-size: 11px;
+    }
+
+    .selling_tab .sliderTabs label {
+        font-size: 8px !important;
+    }
+
+    .sellingDetails_priceBreakdown .selectBox #number {
+        font-size: 11px;
+    }
+
+    .sellingDetails_priceBreakdown .selectBox label {
+        font-size: 7px;
+    }
+
+    .selling_tab {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .sellingDetails_priceBreakdown {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .sellingContentMassive {
+        padding-top: 20px;
+    }
+
+    .sellingContentMassive {
+        padding-top: 20px;
+    }
+
+    .sellingDetails_priceBreakdown .selectBox {
+        padding: 1px 10px 10px 5px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .addYourProduct {
+        width: 100%;
+    }
+
+    .sellFunction {
+        width: 100%;
+        padding: 21px 15px 30px 15px;
+        margin-bottom: 50%;
+    }
+
+    .selling_tab .sliderTabs .slider {
+        width: 23% !important;
+    }
+
+    .selling_tab .sliderTabs label {
+        width: 23% !important;
+    }
+
+    #electronics:checked~.sliderTabs .slider {
+        left: 23% !important;
+    }
+
+    #otherCategory:checked~.sliderTabs .slider {
+        left: 46% !important;
+    }
+
+    .sellingDetails_priceBreakdown .selectBox {
+        width: 100%;
+    }
+
+    .sellingDetails_priceBreakdown {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .selectButtonAddProduct {
+        padding-top: 15px;
+    }
+
+    .selling_tab {
+        padding: 15px 15px 25px 15px;
+    }
+
+    .addYourProduct {
+        padding: 19px 14px 25px 14px;
+    }
+
+    .sellFunctionMain .sellTop h2 {
+        font-size: 16px;
+        padding-top: 15px;
+    }
+
+    .selling_tab {
+        margin-top: 15px;
+    }
+
+    .sellingDetails_priceBreakdown .selectBox #number {
+        font-size: 12px;
+    }
+
+    .sellingDetails_priceBreakdown .selectBox label {
+        font-size: 9px;
+    }
+
+    .proceed {
+        justify-content: space-between;
+        margin-top: 15%;
+    }
+
+    .proceed button {
+        padding: 8px 24px;
+        font-size: 10px;
+    }
+}
+
+/*selectYourProductNoResult Responsive css*/
+@media only screen and (max-width:1600px) {
+    .sellYourProduct .searchCard span:after {
+        left: 18% !important;
+    }
+}
+
+@media only screen and (max-width:1320px) {
+    .sellYourProduct .searchCard span:after {
+        left: 22% !important;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .sellYourProduct .searchCard span:after {
+        width: 78%;
+        left: 25% !important;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .sellYourProduct .searchCard span:after {
+        width: 70%;
+        left: 31% !important;
+    }
+
+    .sellYourProduct {
+        padding: 19px 22px 26px 22px;
+    }
+
+    .nav-search input {
+        padding: 8px 80px 9px 10px;
+        font-size: 10px;
+    }
+
+    .productSearchFunction .search-button {
+        top: 5px;
+    }
+
+    .nav-search .search-button {
+        padding: 5px 14px 0px 10px;
+    }
+
+    .search-button span {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    .sellYourProduct .noResultRequest a {
+        font-size: 13px;
+    }
+
+    .proceed span {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .sellYourProduct .searchCard span:after {
+        width: 62%;
+        left: 40% !important;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .sellYourProduct {
+        width: 100%;
+    }
+
+    .search-button span {
+        padding: 7px;
+        font-size: 10px;
+    }
+
+    .search-button img {
+        min-width: 14px;
+        width: 10%;
+    }
+
+    .nav-search input {
+        padding: 5px 5px 5px 5px;
+    }
+
+    .nav-search .search-button {
+        padding: 5px 5px 0px 10px;
+    }
+
+    .sellYourProduct .searchCard span {
+        font-size: 10px;
+        text-decoration: underline;
+    }
+
+    .sellYourProduct .searchCard span:after {
+        width: 70%;
+        left: 28% !important;
+    }
+
+    .searchResultCard {
+        padding: 15px 15px 15px 15px;
+        padding-bottom: 61%;
+    }
+
+    .searchCard p {
+        position: absolute;
+        top: 92%;
+        right: 50%;
+        transform: translate(50%, 50%);
+        padding-top: 10%;
+        font-family: 'Montserrat-Medium';
+        font-size: 10px;
+        opacity: 50%;
+    }
+
+    .searchResultCard .searchCard p {
+        font-size: 10px;
+        padding-top: 16%;
+    }
+
+    .sellYourProduct {
+        padding: 19px 15px 25px 15px;
+    }
+
+    .sellYourProduct .noResultRequest {
+        padding: 20px 0px 15px 0px;
+    }
+
+    .sellYourProduct .proceed {
+        margin-top: 0% !important;
+    }
+}
+
+/*Being Selling Responsive Css*/
+@media only screen and (max-width:1600px) {
+    .cardPentagon .cardPentaItem {
+        padding: 15px 10px 15px 10px;
+    }
+
+    .cardPentagon .cardPentaItem h3 {
+        font-size: 17px;
+    }
+
+    .cardPentagon .cardPentaItem p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width:1320px) {
+    .pentaContainer {
+        padding: 52px 22px 57px 27px;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .pentaContainer {
+        padding: 32px 22px 32px 22px;
+    }
+
+    .cardPentagon .cardPentaItem p {
+        font-size: 12px;
+    }
+
+    .sellFunctionMain .snatcheLogo h2 {
+        font-size: 18px;
+        right: 4%;
+    }
+
+    .sellFunctionMain .snatcheLogo #logoImg {
+        padding-left: 12px;
+    }
+
+    .cardPentagon .cardPentaItem h3 {
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+
+    .cardPentagon .cardPentaItem img {
+        padding-bottom: 10px;
+    }
+
+    .cardPentagon .cardPentaItem {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .cardPentagon {
+        gap: 10px;
+    }
+
+    .beginSelling button {
+        font-size: 14px;
+    }
+
+    .cardPentagon .cardPentaItem img {
+        padding-bottom: 8px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .snatcheLogo img {
+        width: 100%;
+    }
+
+    .snatcheLogo img {
+        width: 50%;
+    }
+
+    .sellFunctionMain .snatcheLogo h2 {
+        font-size: 12px;
+        text-align: end;
+    }
+
+    .sellFunctionMain .snatcheLogo h2 {
+        bottom: 15px;
+    }
+
+    .sellFunctionMain .snatcheLogo #logoImg {
+        width: 40%;
+    }
+
+    .cardPentagon .cardPentaItem img {
+        padding-bottom: 8px;
+        width: 100%;
+    }
+
+    .cardPentagon .cardPentaItem h3 {
+        font-size: 10px;
+    }
+
+    .cardPentagon .cardPentaItem p {
+        font-size: 8px;
+    }
+
+    .beginSelling button {
+        font-size: 12px;
+    }
+
+    .sellerCancellation p {
+        padding-bottom: 25px;
+    }
+
+    .beginSelling button {
+        padding: 10px 30px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .sellFunctionMain {
+        width: 100%;
+    }
+
+    .sellFunctionMain .snatcheLogo h2 {
+        font-size: 15px;
+        bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        width: 59%;
+    }
+    .sellFunctionMain .snatcheLogo #logoImg {
+    max-width: 159px;
+}
+    .sellFunctionMain .snatcheLogo #logoImg {
+        width: 100%;
+    }
+}
+
+.pentaContainer {
+    padding: 16px 20px 25px 20px;
+}
+
+.cardPentagon .cardPentaItem h3 {
+    font-size: 8px;
+}
+
+.cardPentagon .cardPentaItem {
+    padding: 16px 15px 16px 15px;
+}
+
+.cardPentagon {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardPentagon .cardPentaItem {
+    width: 30.33%;
+}
+
+.sellerCancellation h4 {
+    padding-bottom: 13px;
+}
+
+.sellerCancellation p {
+    font-size: 11px;
+}
+
+.beginSelling button {
+    padding: 9px 43px;
+}
+
+
+/*Sell Your Product Responsive Css*/
+@media only screen and (max-width:1200px) {
+    .sellYourProduct {
+        padding: 30px 25px 30px 25px;
+    }
+}
+
+/*Sell Your Product Search Responsive Css*/
+@media only screen and (max-width:1600px) {
+    .selectButton button {
+        padding: 11px 21px;
+        font-size: 13px;
+    }
+
+    .sellYourProduct {
+        padding: 29px 30px 26px 30px;
+    }
+
+    .searchCardResult .selectBox {
+        padding: 5px 12px 5px 12px;
+    }
+
+    .searchCardResult .selectBox #number {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:1440px) {
+    .searchCardResult {
+        width: 100%;
+    }
+
+    .searchResultShoes {
+        width: 70%;
+    }
+
+    .searchResultCard {
+        padding: 26px 20px 43px 20px;
+    }
+
+    .selectButton {
+        width: 30%;
+    }
+
+    .searchResultDetails {
+        padding-left: 25px;
+        width: 52%;
+    }
+
+    .selectButton button {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .searchResultDetails h3 {
+        font-size: 15px;
+    }
+
+    .searchResultDetails h5 {
+        font-size: 9px;
+    }
+
+    .searchResultDetails {
+        padding-left: 10px;
+    }
+
+    .selectButton button {
+        padding: 9px 15px;
+        font-size: 12px;
+    }
+
+    .searchCardResult .selectBox {
+        padding: 4px 7px 4px 7px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .sellYourProduct {
+        padding: 20px 20px 20px 20px;
+    }
+
+    .searchResultCard {
+        padding: 20px 15px 35px 15px;
+    }
+
+    .selectButton button {
+        padding: 8px 8px;
+        font-size: 9px;
+    }
+
+    .searchCardResult .selectBox #number {
+        font-size: 12px;
+    }
+
+    .searchCardResult .selectBox label {
+        font-size: 8px;
+    }
+
+    .searchCardResult .selectBox {
+        padding: 0px 5px 3px 5px;
+    }
+
+    .searchResultDetails h3 {
+        font-size: 10px;
+    }
+
+    .searchResultDetails span {
+        font-size: 8px;
+    }
+
+    .searchResultShoes img {
+        width: 40%;
+        min-width: 110px;
+    }
+
+    .productSearchFunction {
+        padding: 8px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .sellYourProduct {
+        padding: 15px 15px 25px 15px;
+    }
+
+    .sellFunctionMain .sellTop {
+        padding-bottom: 2px;
+    }
+
+    .nav-search .search-button {
+        padding: 1px 5px 0px 10px;
+    }
+
+    .searchCardResult {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .searchResultShoes {
+        width: 100%;
+    }
+
+    .searchResultShoes {
+        justify-content: space-between;
+    }
+
+    .selectButton {
+        width: 100%;
+    }
+
+    .searchCardResult .selectBox {
+        padding: 0px 5px 7px 5px;
+    }
+
+    .selectButton button {
+        padding: 9px 8px;
+        font-size: 12px;
+    }
+
+    .searchResultCard {
+        padding: 20px 15px 15px 15px !important;
+    }
+
+    .searchResultGot {
+        margin-bottom: 25px;
+    }
+}
+/*SellFunction Css End*/

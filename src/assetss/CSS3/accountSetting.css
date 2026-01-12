@@ -1,0 +1,331 @@
+.accSetting {
+    width: 100%;
+}
+.accSetting .accountsett {
+    width: 100%;
+    max-width: 1436px;
+    margin: 0 auto;
+}
+.accSetting form {
+    width: 100%;
+}
+.accSetting .personal {
+    border-bottom: 1px solid rgba(139, 139, 139, 0.3);
+}
+.accSetting .personal .perInformation {
+    width: 100%;
+    display: flex;
+    gap: 42px;
+    padding-top: 21px;
+    padding-bottom: 55px;
+}
+.personal .personalinfo {
+    box-shadow: 0px 0px 33.86px -1.3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    width: 33%;
+}
+.personal .personalinfo .name {
+    width: 100%;
+}
+.personal .personalinfo .nameButton {
+    width: 20%;
+}
+.accSetting h2 {
+    font-family: 'Montserrat-Bold';
+    font-size: 24px;
+    line-height: 1;
+}
+form input {
+    width: 100%;
+    height: 51px;
+    border-radius: 2px;
+    border: none;
+    padding:14px 0px 0px 12px ;
+    box-shadow: 0px 0px 33.86px -1.3px rgba(0, 0, 0, 0.1);
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Montserrat-SemiBold';
+    line-height: 23px;
+}
+form label {
+    position: absolute;
+    font-size: 11px;
+    line-height: 14px;
+    font-family: 'Montserrat-SemiBold';
+    padding: 7px 0px 10px 12px;
+    color: #000000;
+}
+form button {
+    border: none;
+    height: 51px;
+    font-size: 13px;
+    line-height: 1;
+    font-family: 'Montserrat-SemiBold';
+    padding: 15px 30px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.changePass {
+    padding:41px 0px 49px 0px ;
+    border-bottom: 1px solid rgba(139, 139, 139, 0.3);
+}
+.changePass .chPass {
+    width: 100%;
+    padding-top: 21px;
+    display: flex;
+    gap: 23px;
+}
+.changePass .chPass .change {
+    width: 25%;
+    margin-bottom: 8px;
+}
+.changePass .chPass .changePassBtn button {
+    padding: 15px 22px;
+}
+.changePass a {
+    font-family: 'Montserrat-SemiBold';
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.6);
+}
+.yourAdd {
+    width: 100%;
+    padding:34px 0px 57px 0px;
+    border-bottom: 1px solid rgba(139, 139, 139, 0.3);
+}
+.yourAdd .addAddre {
+    width: 100%;
+    padding-top: 32px;
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+.yourAdd .addCard {
+    width: 33%;
+    max-width: 457px;
+    box-shadow: 0px 0px 33.86px -1.3px rgba(0, 0, 0, 0.1);
+}
+.yourAdd .addCard .addCardTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 16px 30px 7px 30px;
+    color: #FFFFFF;
+}
+.yourAdd .addCard .addCardTop .addCardLeft {
+    display: flex;
+    align-items: center;
+}
+.yourAdd .addCard .addCardTop .addCardLeft h3 {
+    font-family: 'Montserrat-SemiBold';
+    padding-right: 11px;
+    font-size: 20px;
+    line-height: 1.35;
+}
+.yourAdd .addCard .addCardTop .addCardLeft span {
+    padding-top: 10px;
+    font-size: 11px;
+    line-height: 1.35;
+    font-family: 'Montserrat-SemiBold';
+    color: rgba(255, 255, 255, 0.5);
+}
+.yourAdd .addCard .addCardTop .addCardRight {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.yourAdd .addCard .addCardTop .addCardRight button {
+    background-color: #000000;
+    border: none;
+    color: #FFFFFF;
+    font-size: 11px;
+    line-height: 1.35;
+    font-family: 'Montserrat-SemiBold';
+    cursor: pointer;
+}
+.yourAdd .addCard .addCardBottom {
+    padding: 23px 30px;
+}
+.yourAdd .addCard .addCardBottom h4 {
+    font-size: 22px;
+    line-height: 1.35;
+    font-family: 'Montserrat-SemiBold';
+    padding-bottom: 10px;
+}
+.yourAdd .addCard .addCardBottom p {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    line-height: 1.52;
+    font-family: 'Montserrat-Medium';
+}
+#addMoreBox button {
+    font-size: 17px;
+    line-height: 100%;
+    font-family: 'Montserrat-SemiBold';
+    border: none;
+    background: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.accountsett .moreSettings {
+    padding-top: 57px;
+    padding-bottom: 180px;
+}
+@media only screen and (max-width: 1024px) {
+    .accSetting .accountsett {
+        width: 100%;
+    }
+    .accSetting h2 {
+        font-size: 18px;
+    }
+    .accSetting .personal .perInformation {
+        padding-bottom: 30px;
+    }
+    .changePass,
+    .yourAdd {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .accSetting .personal .perInformation,
+    .changePass .chPass {
+        gap: 10px;
+    }
+    form input,
+    form button {
+        font-size: 12px;
+        height: 45px;
+    }
+    form button {
+        padding: 17px 25px;
+    }
+    form input,
+    form label {
+        padding-left: 10px;
+    }
+    form label,
+    .changePass a {
+        font-size: 9px;
+    }
+    .changePass .chPass .changePassBtn button {
+        font-size: 11px;
+        padding: 5px 15px;
+    }
+    .yourAdd .addAddre {
+        padding-top: 20px;
+        gap: 17px;
+    }
+    .yourAdd .addCard .addCardTop {
+        padding: 10px 12px 5px 12px;
+    }
+    .yourAdd .addCard .addCardBottom {
+        padding: 13px 12px;
+    }
+    .yourAdd .addCard .addCardTop .addCardLeft h3,
+    .yourAdd .addCard .addCardBottom h4,
+    #addMoreBox button {
+        font-size: 16px;
+    }
+    .yourAdd .addCard .addCardTop .addCardLeft h3{
+    padding-right: 5px;
+    }
+    .yourAdd .addCard .addCardTop .addCardLeft span {
+        font-size: 10px;
+    }
+    .yourAdd .addCard .addCardTop .addCardRight {
+        font-size: 10px;
+    }
+    .yourAdd .addCard .addCardBottom p {
+        font-size: 12px;
+    }
+    .accountsett .moreSettings {
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+}
+@media only screen and (max-width: 991px){
+    form button {
+        padding: 17px 15px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .accSetting .accountsett {
+        width: 100%;
+    }
+    .accSetting .personal .perInformation {
+        display: block;
+        padding:0px 0px 25px 0px;
+    }
+    .personal .personalinfo {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .personal .personalinfo .name {
+        width: 100%;
+    }
+    .accSetting h2 {
+        font-size: 15px;
+    }
+    form button {
+        padding: 13px 30px;
+    }
+    form input,
+    form button {
+        font-size: 14px;
+    }
+    .chPass>.change:first-child {
+        margin-bottom: 33px !important;
+    }
+    .changePass .chPass {
+        display: block;
+    }
+    .changePass {
+        padding: 25px 0px;
+        position: relative;
+    }
+    .changePass .chPass .change {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .changePass .chPass .changePassBtn button {
+        padding: 13px 15px;
+    }
+    .changePass a {
+        position: absolute;
+        top: 34%;
+    }
+    .yourAdd {
+        padding: 25px 0px;
+    }
+    .yourAdd .addAddre {
+        display: block;
+        padding-top: 25px;
+    }
+    .yourAdd .addCard {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .yourAdd .addCard .addCardTop .addCardLeft h3 {
+        font-size: 15px;
+    }
+    .yourAdd .addCard .addCardTop .addCardLeft span {
+        font-size: 8px;
+    }
+    .yourAdd .addCard .addCardTop .addCardRight {
+        font-size: 13px;
+    }
+    .yourAdd .addCard .addCardBottom h4 {
+        font-size: 12px;
+    }
+    .yourAdd .addCard .addCardBottom p {
+        font-size: 10px;
+    }
+    #addMoreBox button,
+    .accountsett .moreSettings h2 {
+        font-size: 15px;
+    }
+    .accountsett .moreSettings {
+        padding: 25px;
+    }
+}

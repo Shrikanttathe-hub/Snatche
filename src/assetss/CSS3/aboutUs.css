@@ -1,0 +1,87 @@
+.aboutUs {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.aboutUs .aboutUs_main {
+    width: 100%;
+    max-width: 1486px;
+    margin: 0 auto;
+    padding-bottom: 181px;
+}
+
+.aboutUs .aboutUs_main .utility{
+    display: block;
+}
+.aboutUs .aboutUs_main .about article {
+    padding-bottom: 40px;
+}
+.aboutUs .aboutUs_main .about article h2 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 28px;
+    line-height: 34px;
+    padding-bottom: 20px;
+}
+.aboutUs .aboutUs_main .about article p {
+    font-family: 'Montserrat-Medium';
+    font-size: 17px;
+    line-height: 28px;
+}
+.aboutUs .aboutUs_main .about article h3 {
+    font-family: 'Montserrat-Bold';
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 11px;
+}
+.aboutUs .aboutUs_main .about article h3:last-child {
+    padding-bottom: 0;
+}
+.aboutUs .aboutUs_main .about article:last-child {
+    padding-bottom: 0px;
+}
+.subQuetions {
+    padding-bottom: 20px;
+}
+.subQuetions:last-child {
+    padding-bottom: 0;
+}
+@media only screen and (max-width: 1024px) {
+    .aboutUs .aboutUs_main {
+        width: 100%;
+        padding-bottom: 100px;
+    }
+    .aboutUs .aboutUs_main .about article {
+        padding-bottom: 35px;
+    }
+    .aboutUs .aboutUs_main .about article h2 {
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    .aboutUs .aboutUs_main .about article p {
+        font-size: 15px;
+    }
+    .aboutUs .aboutUs_main .about article h3 {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .aboutUs .aboutUs_main {
+        padding-bottom: 25px;
+    }
+    .aboutUs .aboutUs_main .about article {
+        padding-bottom: 25px;
+    }
+    .aboutUs .aboutUs_main .about article h2 {
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+    .aboutUs .aboutUs_main .about article p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .aboutUs .aboutUs_main .about article h3 {
+        font-size: 11px;
+    }
+    .subQuetions {
+        padding-bottom: 15px;
+    }
+}

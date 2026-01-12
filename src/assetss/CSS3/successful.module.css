@@ -1,0 +1,2034 @@
+.accordionNew {
+    padding: 27px 25px 46px 25px !important;
+    gap: 40px !important;
+}
+
+.orderPlaced main {
+    position: relative;
+}
+
+.orderPlaced main .container {
+    width: 100%;
+    max-width: 1460px;
+    position: relative;
+}
+
+.bidPlaced main .container {
+    width: 100%;
+    max-width: 1460px;
+    position: relative;
+}
+
+.peopleWhoBought {
+    position: relative !important;
+    padding-bottom: 93px;
+}
+
+.peopleWhoBought .product-box {
+    width: 100%;
+}
+
+.peopleWhoBought .owl-nav {
+    position: absolute !important;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px;
+    top: 35%;
+    transform: translateY(-50%);
+    cursor: pointer !important;
+    pointer-events: none !important;
+}
+
+.peopleWhoBought .owl-next,
+.peopleWhoBought .owl-prev {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    width: 69px;
+    height: 69px;
+    border-radius: 50% !important;
+    font-size: 30px !important;
+    border: none !important;
+    pointer-events: fill !important;
+}
+
+.similarProducts h3 {
+    font-family: "Montserrat-Bold";
+    font-size: 25px;
+    padding-bottom: 14px;
+}
+
+.similarProduct {
+    padding-bottom: 136px;
+    position: relative;
+}
+
+.similarProducts h2 {
+    font-family: "Montserrat-Bold";
+    font-size: 40px;
+    color: #000000;
+}
+
+.owlNewArrival {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.owlNewArrival a {
+    font-family: "Montserrat-SemiBold";
+    font-size: 20px;
+    color: #000000;
+}
+
+.people {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 37px;
+}
+
+.people h2 {
+    font-family: "Montserrat-Bold";
+    font-size: 40px;
+    color: #000000;
+}
+
+.people a {
+    font-family: "Montserrat-SemiBold";
+    font-size: 20px;
+    color: #000000;
+}
+
+.peopleWhoBought .hottestDropsSliderNew {
+    position: relative !important;
+}
+
+.SAP_successful {
+    margin-bottom: 96px;
+    margin-top: 102px;
+}
+
+.SAP_successful .SAP_successfulTop {
+    text-align: center;
+    width: 100%;
+    justify-self: center;
+    padding-bottom: 49px;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.SAP_successful .SAP_successfulTop img {
+    width: 191px;
+    height: 191px;
+    object-fit: contain;
+}
+
+.SAP_successful .SAP_successfulTop h2 {
+    font-size: 32px;
+    line-height: 58px;
+    font-weight: 700;
+    font-family: "Montserrat-Bold";
+}
+
+.SAP_successful .SAP_successfulTop p,
+.SAP_successfulTop span {
+    /* / padding: 0 25% 12px 25%; / */
+    font-size: 20px;
+    line-height: 32px;
+    font-family: "Montserrat-SemiBold";
+    color: #000000;
+    opacity: 50%;
+    max-width: 867px;
+    margin: 0 auto;
+}
+
+.SAP_successful .SAP_successfulTop span {
+    color: #000000;
+    opacity: 70%;
+    /* / padding: 0 20% 12px 20%; / */
+}
+
+.SAP_successfulmid {
+    width: 75%;
+    margin: 0px auto;
+}
+
+.SAP_successfulmid h2 {
+    color: #000000;
+    font-size: 32px;
+    line-height: 38px;
+    padding-top: 59px;
+    padding-bottom: 12px;
+    font-family: "Montserrat-Bold";
+    width: 100%;
+}
+
+.SAP_successful .SAP_successfulmid .yourProduct {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+}
+
+.yourProductHeader {
+    width: 90%;
+    justify-self: center;
+}
+
+.productBoxNew {
+    width: 32%;
+    display: flex;
+    justify-content: center;
+}
+
+.SAP_successful .SAP_successfulmid .yourProduct .yourProductleft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 26px;
+    padding: 10px 32px 14px 31px;
+}
+
+.SAP_successfulmid .productBox img {
+    object-fit: cover;
+}
+
+.SAP_successfulmid .productBox_content {
+    width: 32%;
+    align-items: center;
+}
+
+.SAP_successfulmid .productBox_content h2 {
+    padding: 0;
+}
+
+.SAP_successfulmid .productBox_content .brand_nike {
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Montserrat-SemiBold";
+    color: #505050;
+    padding-top: 14px;
+}
+
+.SAP_successfulmid .productBox_content .productBox_para p {
+    color: #000000;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 16px;
+    font-family: "Montserrat-Bold";
+}
+
+.yourProduct .yourProductright {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    width: 30%;
+    gap: 95px;
+}
+
+.yourProduct .yourProductright .yourProductPara {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: "Montserrat-SemiBold";
+}
+
+.yourProduct .yourProductright .yourProductPara span {
+    font-size: 30px;
+    padding-top: 10px;
+    font-family: "Montserrat-Bold";
+}
+
+.yourProductParaMobile {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: "Montserrat-SemiBold";
+    display: none !important;
+}
+
+.yourProductParaMobile span {
+    font-size: 30px;
+    padding-top: 10px;
+    font-family: "Montserrat-Bold";
+}
+
+.yourProduct .yourProductright a {
+    text-decoration: underline;
+    color: #000000;
+    font-size: 18px;
+    line-height: 12px;
+    font-family: "Montserrat-SemiBold";
+}
+
+.yourProduct .yourProductright a img {
+    padding-left: 12px;
+}
+
+.yourProduct .yourProductright .rightButton button {
+    width: 106px;
+    height: 30px;
+    border: none;
+    font-size: 10px;
+    line-height: 9px;
+    font-family: "Montserrat-SemiBold";
+}
+
+.yourProduct .yourProductright .rightButton .remove {
+    background-color: #fff;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.yourProduct .yourProductright .rightButton .change {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+/*Accordian css start*/
+.accordion {
+    /* width: 852px; */
+    border: none;
+    margin: 20px auto;
+    background: #fff;
+    color: #000000;
+    overflow: hidden;
+    padding: 0 35px;
+    box-shadow: -2px 0px 5px 7px #e5e5e54d;
+    transition: all 0.3s ease-in-out;
+}
+
+.accordion-item button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.accordion-item button .accordion-buttonLeft {
+    display: flex;
+    align-items: center;
+}
+
+.accordion-item button .accordion-buttonLeft h2 {
+    font-size: 25px;
+    line-height: 34px;
+    font-family: "Montserrat-Bold";
+    color: #000000;
+}
+
+.accordion-item button .accordion-buttonLeft h3 {
+    padding-left: 28px;
+    font-size: 22px;
+    line-height: 29px;
+    font-family: "Montserrat-SemiBold";
+    display: block;
+    color: #000000;
+}
+
+.accordion-item button .accordion-buttonLeft p {
+    font-size: 16px;
+    line-height: 21px;
+    opacity: 40%;
+    padding-left: 12px;
+    font-family: "Montserrat-SemiBold";
+    display: none;
+    padding-top: 7px;
+    color: #000000;
+}
+
+.accordion-buttonRight {
+    display: flex;
+    align-items: center;
+}
+
+.accordion-buttonRight p {
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "Montserrat-SemiBold";
+    color: #000000;
+}
+
+.accordion-buttonRight img {
+    width: 14px;
+    height: 7px;
+    margin-left: 16px;
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+}
+
+.accordion .accordion-content {
+    width: 852px;
+    display: none;
+    margin-top: 27px;
+    position: relative;
+}
+
+.accordion .accordion-content h3 {
+    font-family: "Montserrat-Bold";
+    font-size: 25px;
+    line-height: 34px;
+    padding-bottom: 27px;
+}
+
+.accordion .accordion-content p {
+    font-size: 16px;
+    line-height: 21px;
+    font-family: "Montserrat-SemiBold";
+    text-align: justify;
+}
+
+.accordion .accordion-content .edit {
+    width: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 27px;
+    padding-bottom: 20px;
+}
+
+.accordion .accordion-content .edit a {
+    font-family: "Montserrat-SemiBold";
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: underline;
+    text-underline-offset: auto;
+    text-decoration-thickness: auto;
+}
+
+.accordion .accordion-content .editSeparator {
+    margin: 0 8px;
+}
+
+.accordion .accordion-content .active .accordion-content {
+    display: block;
+}
+
+.active .accordion {
+    border: 2px solid #008000;
+    box-shadow: none;
+}
+
+.accordion .accordion-content .addressBox_selected {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    right: 0px;
+    bottom: 52px;
+}
+
+.accordion .accordion-content .addressBox_selected span {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Montserrat-SemiBold";
+}
+
+.accordion .accordion-content .addressBox_selected img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -4px;
+}
+
+.greenSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00890e;
+    padding: 23px 35px;
+}
+
+.greenSection h3 {
+    font-family: "Montserrat-SemiBold";
+    font-size: 18px;
+    letter-spacing: 0%;
+    color: #ffffff;
+}
+
+.greenSection p {
+    font-family: "Montserrat-Medium";
+    font-size: 12px;
+    letter-spacing: 0%;
+    color: #ffffff;
+}
+
+.greenSection span {
+    font-family: "Montserrat-Bold";
+    font-size: 12px;
+    text-decoration: underline;
+    letter-spacing: 135%;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.goToMyOrders {
+    margin-top: 49px;
+    display: flex;
+    justify-self: center;
+    padding: 16px 35px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    font-family: "Montserrat-SemiBold";
+    font-size: 20px;
+}
+
+.goToMyOrdersText {
+    font-family: "Montserrat-Medium";
+    font-size: 12px;
+    color: #000000;
+    text-align: center;
+    line-height: 172%;
+    padding-top: 38px;
+    width: 50%;
+    justify-self: center;
+    cursor: pointer;
+    display: none;
+}
+
+.goToMyOrdersText span {
+    text-decoration: underline;
+    font-family: "Montserrat-Bold";
+    font-size: 12px;
+    color: #000000;
+}
+
+/*Top Bidded CSS start*/
+.tp-next,
+.tp-prev,
+.cs-next,
+.cs-prev {
+    transform: translateY(50%) !important;
+}
+
+.topBidded {
+    position: relative;
+    width: 100%;
+    padding-bottom: 45px;
+}
+
+.topBidded .owlTopBidded {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.topBiddedInnerContent .continueHeading {
+    font-family: "Montserrat-Bold";
+    font-size: 25px;
+    color: #000000;
+    padding-left: 15px;
+}
+
+.topBidded .owlTopBidded h2 {
+    padding-left: 10px;
+    font-family: "Montserrat-Bold";
+    font-size: 40px;
+}
+
+.topBidded .owlTopBidded a {
+    font-family: "Montserrat-SemiBold";
+    font-size: 20px;
+    color: #000000;
+}
+
+/*card section*/
+.topBiddedSliderNew {
+    position: relative !important;
+    padding: 50px 28px 0px 28px !important;
+    width: 100% !important;
+}
+
+.topBiddedSliderNew .product-box {
+    width: 100%;
+    height: auto;
+}
+
+/*prev and next*/
+.topBiddedSliderNew .owl-nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px;
+    top: 40%;
+    transform: translate(0%, -50%);
+    cursor: pointer !important;
+    pointer-events: none !important;
+}
+
+.topBiddedSliderNew .owl-next,
+.topBiddedSliderNew .owl-prev {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    width: 69px;
+    height: 69px;
+    border-radius: 50% !important;
+    font-size: 30px !important;
+    border: none !important;
+    pointer-events: auto !important;
+}
+
+.topBiddedSliderNew .owl-prev,
+.continueToShopSliderNew .owl-prev {
+    left: 0px;
+    top: 50%;
+    transform: translateX(-22%);
+}
+
+.topBiddedSliderNew .owl-next,
+.continueToShopSliderNew .owl-next {
+    right: 0px;
+    top: 50%;
+    transform: translateX(-3%);
+}
+
+/*Top Bidded CSS start* css End*/
+
+/*continueToShop CSS start*/
+.continueToShop {
+    position: relative;
+    width: 100%;
+    padding-bottom: 45px;
+}
+
+.continueToShop .owlcontinueToShop {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 30px !important;
+}
+
+.continueToShop .owlcontinueToShop h2 {
+    padding-left: 10px;
+    font-family: "Montserrat-Bold";
+    font-size: 40px;
+}
+
+.continueToShop .owlcontinueToShop a {
+    font-family: "Montserrat-SemiBold";
+    font-size: 20px;
+    color: #000000;
+}
+
+/*card section*/
+.continueToShopSliderNew {
+    position: relative;
+    padding-top: 27px;
+    width: 100%;
+}
+
+.continueToShopSliderNew .product-box {
+    width: 100%;
+    height: auto;
+}
+
+/*prev and next*/
+.continueToShopSliderNew .owl-nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px;
+    top: 40%;
+    transform: translate(0%, -50%);
+    cursor: pointer !important;
+    pointer-events: none !important;
+}
+
+.continueToShopSliderNew .owl-next,
+.continueToShopSliderNew .owl-prev {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    width: 69px;
+    height: 69px;
+    border-radius: 50% !important;
+    font-size: 30px !important;
+    border: none !important;
+    pointer-events: auto !important;
+}
+
+.continueToShopSliderNew .owl-prev {
+    left: 0px;
+    top: 50%;
+}
+
+.continueToShopSliderNew .owl-next {
+    right: 0px;
+    top: 50%;
+}
+
+/*NewArrivals Card Section css End*/
+.backToTop button {
+    background: transparent;
+    font-family: "Montserrat-SemiBold";
+    font-size: 17px;
+    color: #000000;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 79px;
+    border: none;
+    text-decoration: underline;
+}
+
+.backToTop button::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    left: 24%;
+    top: 50%;
+    max-width: 265px;
+    background-color: #000000;
+    opacity: 70%;
+}
+
+.backToTop button::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 45%;
+    height: 1px;
+    right: 24%;
+    top: 50%;
+    max-width: 265px;
+    background-color: #000000;
+    opacity: 70%;
+}
+
+.backToTop {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.topBiddedProducts {
+    padding-left: 15px;
+}
+
+.topBiddedProducts h3 {
+    font-family: "Montserrat-Bold";
+    font-size: 25px;
+}
+
+.topBiddedProducts h2 {
+    padding: 14px 0px 0px 0px !important;
+}
+
+.similarProduct a {
+    padding-top: 53px !important;
+}
+
+.SimilarSlider {
+    margin-top: 37px !important;
+}
+
+.SimilarSlider .product-box {
+    width: 100%;
+}
+
+.SimilarSlider .owl-nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px;
+    top: 35%;
+    transform: translateY(-50%);
+    cursor: pointer !important;
+    pointer-events: none !important;
+}
+
+.SimilarSlider .owl-next,
+.SimilarSlider .owl-prev {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    width: 69px;
+    height: 69px;
+    border-radius: 50% !important;
+    font-size: 30px !important;
+    border: none !important;
+    pointer-events: fill !important;
+}
+
+.SimilarSlider .owl-prev,
+.peopleWhoBought .owl-prev {
+    left: 0px;
+    top: 50%;
+    transform: translateX(-22%) !important;
+}
+
+.SimilarSlider .owl-next,
+.peopleWhoBought .owl-next {
+    right: 0px;
+    top: 50%;
+    transform: translateX(-2%) !important;
+}
+
+.accordionNew1 {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+}
+
+.accordionNew1.open {
+    max-height: 1000px;
+}
+
+.yourProductrightMoreDetailsArrow {
+    transition: transform 0.3s ease;
+}
+
+.accordionNew1.open+.greenSection .yourProductrightMoreDetailsArrow {
+    transform: rotate(180deg);
+}
+
+.accordionNew .active {
+    display: block;
+    transition: 0.8s ease-in all;
+}
+
+.accordionNew {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 27px 64px 46px 53px;
+    gap: 70px;
+}
+
+.yourProductrightMoreDetails {
+    cursor: pointer;
+}
+
+.accordionNew .address {
+    width: 45%;
+}
+
+.accordionNew .address h3 {
+    font-family: "Montserrat-SemiBold";
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: 0%;
+    padding-bottom: 19px;
+}
+
+.accordionNew .address h3 span {
+    font-family: "Montserrat-SemiBold";
+    font-size: 15px;
+    color: #000000;
+    letter-spacing: 0%;
+}
+
+.accordionNew .address p {
+    font-family: "Montserrat-SemiBold";
+    font-size: 10px;
+    color: #000000;
+    opacity: 50%;
+    letter-spacing: 0%;
+    padding-bottom: 19px;
+    line-height: 135%;
+    padding-right: 50px;
+}
+
+.accordionNew .address .billing {
+    padding-top: 30px;
+}
+
+.accordionNew .horiLineNew {
+    width: 95%;
+    justify-self: start;
+    overflow: hidden;
+}
+
+.lineNew {
+    justify-self: center;
+}
+
+.accordionNew .table {
+    width: 45%;
+}
+
+.accordionNew table .row1 {
+    font-family: "Montserrat-SemiBold";
+    font-size: 15px;
+    color: #000000;
+}
+
+.accordionNew table .row3 {
+    font-family: "Montserrat-SemiBold";
+    font-size: 15px;
+    color: #000000;
+}
+
+.accordionNew table .row3 td {
+    padding-bottom: 3px !important;
+}
+
+.accordionNew table .row1 td {
+    padding-bottom: 13px;
+}
+
+.accordionNew table .row2 {
+    font-family: "Montserrat-SemiBold";
+    font-size: 12px;
+    color: #000000;
+    opacity: 50%;
+}
+
+.accordionNew table .row2 td {
+    padding-bottom: 13px;
+}
+
+.accordionNew table .row1New td {
+    padding-bottom: 31px;
+    font-family: "Montserrat-SemiBold";
+    font-size: 15px;
+    color: #000000;
+}
+
+.accordionNew table .row4 {
+    font-family: "Montserrat-Bold";
+    font-size: 15px;
+    color: #00890e;
+}
+
+.accordionNew table .row4 td {
+    padding-bottom: 46px !important;
+}
+
+.table h4 {
+    font-family: "Montserrat-SemiBold";
+    font-size: 13px;
+    opacity: 50%;
+    color: #000000;
+    text-align: right;
+}
+
+.table h4 span {
+    font-family: "Montserrat-SemiBold";
+    font-size: 18px;
+    opacity: 50%;
+    color: #000000;
+}
+
+/* table th tr td,table tr td{
+    padding:0px 40px;
+} */
+
+table th tr,
+table tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 191px;
+}
+
+/*Bid Placed css*/
+.Bid {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.Bid a {
+    font-family: "Montserrat-Bold";
+    font-size: 12px;
+    color: #ffff;
+}
+
+.bidMyOrders {
+    text-align: center;
+    font-family: "Montserrat-Medium";
+    font-size: 16px;
+    color: #000000;
+    padding-top: 39px;
+}
+
+.bidMyOrders strong {
+    font-family: "Montserrat-Bold";
+    font-size: 16px;
+    color: #000000;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.productBox_contentNew {
+    width: 33% !important;
+}
+
+.bidProductRight {
+    width: 32% !important;
+    gap: 0px !important;
+    padding: 30px 0px 0px 0px;
+}
+
+.bidProductRight .bitButton {
+    padding-top: 59px;
+}
+
+.bidProductRight .bitButton .light {
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    font-size: 9px;
+    font-family: "Montserrat-SemiBold";
+    line-height: 97%;
+    padding: 10px 16px 10px 17px;
+}
+
+.bidProductRight .bitButton .dark {
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 10px;
+    font-family: "Montserrat-SemiBold";
+    line-height: 97%;
+    padding: 11px 19px;
+    border: none;
+}
+
+.paymentMode p {
+    font-family: "Montserrat-SemiBold";
+    font-size: 13px;
+    opacity: 50%;
+    color: #000000;
+    text-align: right;
+    padding-top: 19px;
+}
+
+.paymentMode span {
+    font-family: "Montserrat-SemiBold";
+    font-size: 11px;
+    opacity: 50%;
+    color: #000000;
+}
+
+/*Successfull Responsive CSS starts Here*/
+@media only screen and (max-width: 1600px) {
+
+    .newArrivalsSliderNew .owl-next,
+    .peopleWhoBought .owl-next {
+        transform: translateX(12px) !important;
+    }
+
+    .SimilarSlider .owl-prev,
+    .peopleWhoBought .owl-prev {
+        transform: translateX(0%) !important;
+    }
+
+    .topBiddedSliderNew .owl-next,
+    .continueToShopSliderNew .owl-next {
+        transform: translateX(20%);
+    }
+
+    .topBiddedSliderNew .owl-prev,
+    .continueToShopSliderNew .owl-prev {
+        transform: translateX(0%);
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+
+    /* .similarProduct .SimilarSlider .owl-item,
+    .peopleWhoBought .hottestDropsSliderNew .owl-item {
+        padding: 12px 45px 12px 10px !important;
+    } */
+
+    .SimilarSlider .owl-next,
+    .SimilarSlider .owl-prev,
+    .peopleWhoBought .owl-next,
+    .peopleWhoBought .owl-prev {
+        width: 49px !important;
+        height: 49px !important;
+    }
+
+    .newArrivalsSliderNew .owl-next,
+    .peopleWhoBought .owl-next {
+        transform: translateX(12px) !important;
+    }
+
+    .SimilarSlider .owl-prev,
+    .peopleWhoBought .owl-prev {
+        transform: translateX(10%) !important;
+    }
+
+    .similarProduct .owlNewArrival,
+    .peopleInnerContent .people {
+        padding: 0px 5px 0px 28px !important;
+    }
+
+    .topBiddedSliderNew .owl-next,
+    .topBiddedSliderNew .owl-prev,
+    .continueToShopSliderNew .owl-next,
+    .continueToShopSliderNew .owl-prev {
+        width: 49px;
+        height: 49px;
+    }
+
+    .topBiddedSliderNew .owl-prev,
+    .continueToShopSliderNew .owl-prev {
+        transform: translateX(11%);
+    }
+
+    .topBiddedSliderNew .owl-next,
+    .continueToShopSliderNew .owl-next {
+        transform: translateX(28%);
+    }
+
+    .SAP_successful .SAP_successfulTop {
+        width: 100%;
+    }
+
+    .backToTop button::before {
+        left: 22%;
+    }
+
+    .backToTop button::after {
+        right: 22%;
+    }
+}
+
+@media only screen and (max-width: 1320px) {
+    .greenSection {
+        padding: 23px 20px !important;
+    }
+
+    .newArrivalsSliderNew .owl-next,
+    .peopleWhoBought .owl-next {
+        transform: translateX(8px) !important;
+    }
+
+    .SimilarSlider .owl-prev,
+    .peopleWhoBought .owl-prev {
+        transform: translateX(0%) !important;
+        font-size: 28px !important;
+    }
+
+    .topBiddedSliderNew .owl-next,
+    .topBiddedSliderNew .owl-prev,
+    .continueToShopSliderNew .owl-next,
+    .continueToShopSliderNew .owl-prev {
+        width: 49px;
+        height: 49px;
+    }
+
+    .backToTop button::before {
+        left: 21%;
+    }
+
+    .backToTop button::after {
+        right: 21%;
+    }
+
+    .topBiddedSliderNew .owl-prev,
+    .continueToShopSliderNew .owl-prev {
+        transform: translateX(0%);
+    }
+
+    .topBiddedSliderNew .owl-next,
+    .continueToShopSliderNew .owl-next {
+        transform: translateX(15%);
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+
+    .topBiddedSliderNew .owl-next,
+    .topBiddedSliderNew .owl-prev,
+    .continueToShopSliderNew .owl-next,
+    .continueToShopSliderNew .owl-prev {
+        font-size: 22px !important;
+    }
+
+    .accordionNew .table {
+        width: 50% !important;
+    }
+
+    .greenSection p {
+        font-size: 11px !important;
+    }
+
+    .greenSection h3 {
+        font-size: 16px !important;
+    }
+
+    .SAP_successfulmid h2 {
+        font-size: 25px !important;
+    }
+
+    .SimilarSlider .owl-next,
+    .SimilarSlider .owl-prev,
+    .peopleWhoBought .owl-next,
+    .peopleWhoBought .owl-prev {
+        width: 39px !important;
+        height: 39px !important;
+    }
+
+    .similarProducts h2,
+    .people h2 {
+        font-size: 35px !important;
+    }
+
+    .similarProduct .owlNewArrival,
+    .peopleInnerContent .people {
+        padding: 0px 5px 0px 20px !important;
+    }
+
+    .newArrivalsSliderNew .owl-next,
+    .peopleWhoBought .owl-next {
+        transform: translateX(8px) !important;
+    }
+
+    .SimilarSlider .owl-prev,
+    .peopleWhoBought .owl-prev {
+        transform: translateX(4%) !important;
+    }
+
+    .topBiddedSliderNew .owl-next,
+    .topBiddedSliderNew .owl-prev,
+    .continueToShopSliderNew .owl-next,
+    .continueToShopSliderNew .owl-prev {
+        width: 39px;
+        height: 39px;
+    }
+
+    .topBiddedSliderNew .owl-next,
+    .continueToShopSliderNew .owl-next {
+        transform: translateX(21%);
+    }
+
+    .topBiddedSliderNew .owl-prev,
+    .continueToShopSliderNew .owl-prev {
+        transform: translateX(4%);
+    }
+
+    .backToTop button::before {
+        left: 19%;
+    }
+
+    .backToTop button::after {
+        right: 19%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .accordionNew1 table th tr,
+    table tr {
+        gap: 100px !important;
+    }
+
+    .accordionNew table .row4 {
+        font-size: 13px !important;
+    }
+
+    .table h4 {
+        font-size: 11px !important;
+    }
+
+    .greenSection span {
+        font-size: 10px !important;
+    }
+
+    .greenSection {
+        padding: 23px 15px !important;
+    }
+
+    .SAP_successfulmid h2 {
+        font-size: 21px !important;
+    }
+
+    .yourProduct .yourProductright a {
+        font-size: 15px !important;
+    }
+
+    .SAP_successful .SAP_successfulmid .yourProduct .yourProductleft {
+        padding: 10px 20px 14px 20px !important;
+    }
+
+    .goToMyOrders {
+        margin-top: 30px !important;
+        padding: 12px 30px !important;
+        font-size: 15px !important;
+    }
+
+    .greenSection h3 {
+        font-size: 12px !important;
+    }
+
+    .greenSection p {
+        font-size: 10px !important;
+    }
+
+    .similarProducts h2,
+    .people h2 {
+        font-size: 28px !important;
+    }
+
+    .newArrivalsSliderNew .owl-next,
+    .peopleWhoBought .owl-next {
+        transform: translateX(9px) !important;
+    }
+
+    .SimilarSlider .owl-prev,
+    .peopleWhoBought .owl-prev {
+        transform: translateX(4%) !important;
+    }
+
+    .backToTop button::before {
+        left: 14%;
+    }
+
+    .backToTop button::after {
+        right: 14%;
+    }
+
+    .SAP_successful .SAP_successfulTop {
+        width: 100%;
+    }
+
+    .productBox_contentNew {
+        width: 40% !important;
+    }
+
+    .paymentMode p {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .topBiddedSliderNew .owl-next,
+    .topBiddedSliderNew .owl-prev,
+    .continueToShopSliderNew .owl-next,
+    .continueToShopSliderNew .owl-prev {
+        font-size: 20px !important;
+    }
+
+    .SAP_successful .paymentMode {
+        width: 100% !important;
+    }
+
+    .bidMyOrders strong {
+        font-size: 14px !important;
+    }
+
+    .accordionNew {
+        padding: 15px !important;
+        gap: 30px !important;
+    }
+
+    .accordionNew .address {
+        width: 50% !important;
+    }
+
+    .table h4 {
+        font-size: 10px !important;
+    }
+
+    .table h4 span {
+        font-size: 14px !important;
+    }
+
+    .accordionNew .address p {
+        font-size: 10px !important;
+        padding-bottom: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .accordionNew1 table th tr,
+    table tr {
+        gap: 30px !important;
+    }
+
+    .goToMyOrders {
+        margin-top: 25px !important;
+        padding: 10px 20px !important;
+        font-size: 12px !important;
+    }
+
+    .greenSection p {
+        font-size: 8px !important;
+    }
+
+    .similarProducts h3 {
+        font-size: 20px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .similarProducts h2,
+    .people h2 {
+        font-size: 21px !important;
+    }
+
+    .SimilarSlider {
+        margin-top: 15px !important;
+    }
+
+    .similarProduct,
+    .peopleWhoBought {
+        padding-bottom: 15px !important;
+    }
+
+    .people a,
+    .owlNewArrival a {
+        font-size: 17px !important;
+    }
+
+    .SimilarSlider .owl-prev,
+    .peopleWhoBought .owl-prev {
+        font-size: 23px !important;
+    }
+
+    .newArrivalsSliderNew .owl-next,
+    .peopleWhoBought .owl-next {
+        transform: translateX(4px) !important;
+        font-size: 23px !important;
+    }
+
+    .SimilarSlider .owl-next,
+    .SimilarSlider .owl-prev {
+        font-size: 23px !important;
+    }
+
+    .yourProduct {
+        width: 100%;
+    }
+
+    .SAP_successfulmid .productBox img {
+        width: 100% !important;
+    }
+
+    .SAP_successful .SAP_successfulTop h2 {
+        font-size: 30px;
+    }
+
+    .SAP_successful .SAP_successfulTop {
+        width: 100%;
+    }
+
+    .SAP_successful .SAP_successfulTop p,
+    .SAP_successfulTop span {
+        font-size: 15px;
+    }
+
+    .SAP_successfulmid h2 {
+        font-size: 25px;
+        padding-top: 39px;
+        width: 100%;
+    }
+
+    .SAP_successful .SAP_successfulmid .yourProduct {
+        width: 100%;
+        margin-top: 12px;
+    }
+
+    .SAP_successfulmid .productBox_content .brand_nike {
+        font-size: 12px !important;
+        padding-top: 0px !important;
+    }
+
+    .SAP_successfulmid .yourProductHeader {
+        padding-top: 15px !important;
+    }
+
+    .yourProduct .yourProductright a {
+        font-size: 12px !important;
+    }
+
+    .yourProduct .yourProductright {
+        gap: 45px !important;
+    }
+
+    .SAP_successfulmid h2 {
+        font-size: 18px !important;
+        line-height: 24px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .SAP_successfulmid .productBox_content .productBox_para p {
+        font-size: 15px !important;
+        padding-top: 0px !important;
+    }
+
+    .SAP_successful .SAP_successfulmid .yourProduct .yourProductleft {
+        padding: 10px 15px 5px 15px !important;
+        gap: 10px !important;
+    }
+
+    .yourProduct .yourProductright .yourProductPara {
+        font-size: 12px !important;
+    }
+
+    .SAP_successful .SAP_successfulmid .yourProduct .yourProductleft .productBox {
+        width: 30% !important;
+    }
+
+    .yourProduct .yourProductright .yourProductPara span {
+        font-size: 26px;
+        padding-top: 8px;
+    }
+
+    .paymentMode p {
+        font-size: 11px;
+        padding-top: 10px;
+    }
+
+    .bidProductRight .bitButton {
+        padding-top: 0px !important;
+    }
+
+    .SAP_successful .bidProductRight {
+        gap: 30px !important;
+    }
+
+    .paymentMode span {
+        font-size: 9px;
+    }
+
+    .greenSection a {
+        font-size: 10px;
+    }
+
+    .greenSection h3 {
+        font-size: 9px !important;
+    }
+
+    .greenSection a {
+        font-size: 9px;
+    }
+
+    .greenSection {
+        padding: 15px 10px !important;
+    }
+
+    .bidMyOrders {
+        font-size: 12px !important;
+        padding-top: 25px !important;
+    }
+
+    .SAP_successful {
+        margin-bottom: 53px;
+        margin-top: 51px;
+    }
+
+    .topBiddedInnerContent h3 {
+        font-size: 21px;
+    }
+
+    .topBidded .owlTopBidded h2,
+    .continueToShop .owlcontinueToShop h2 {
+        font-size: 30px;
+    }
+
+    .topBidded .owlTopBidded a,
+    .continueToShop .owlcontinueToShop a {
+        font-size: 18px;
+    }
+
+    .topBidded,
+    .continueToShop {
+        padding-bottom: 35px;
+    }
+
+    .backToTop button::before {
+        left: 10%;
+    }
+
+    .backToTop button::after {
+        right: 10%;
+    }
+
+    .backToTop button {
+        margin-bottom: 59px;
+    }
+
+    .topBiddedSliderNew .owl-next,
+    .continueToShopSliderNew .owl-next {
+        transform: translateX(10%);
+    }
+
+    .owl-item {
+        padding-right: 25px;
+    }
+
+    .lightAndDarkButton {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 5px;
+    }
+
+    .bidProductRight .bitButton .light {
+        width: 50%;
+    }
+
+    .bidProductRight .bitButton .dark {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .newArrivalsSliderNew .owl-next,
+    .peopleWhoBought .owl-next {
+        transform: translateX(8px) !important;
+    }
+
+    .backToTop button::before {
+        left: 1%;
+    }
+
+    .backToTop button::after {
+        right: 1%;
+    }
+
+    .owl-item {
+        padding-right: 20px;
+    }
+
+    .topBiddedSliderNew .owl-next,
+    .continueToShopSliderNew .owl-next {
+        transform: translateX(15%);
+    }
+
+    .lightAndDarkButton {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 5px;
+    }
+
+    .bidProductRight .bitButton .light {
+        width: 50%;
+        padding: 8px 10px 8px 10px;
+    }
+
+    .bidProductRight .bitButton .dark {
+        width: 50%;
+        padding: 8px 10px;
+        border: none;
+        font-size: 9px !important;
+    }
+
+    .paymentMode p {
+        font-size: 6px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .SAP_successfulmid .Bid h3 {
+        padding-bottom: 0px !important;
+    }
+
+    .SAP_successfulmid .Bid {
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .accordionNew table .row1New td {
+        padding-bottom: 25px !important;
+    }
+
+    .accordionNew table .row2 {
+        gap: 115px !important;
+    }
+
+    .table h4 {
+        font-size: 9px !important;
+    }
+
+    .table h4 span {
+        font-size: 10px !important;
+    }
+
+    .accordionNew table .row4 td {
+        padding-bottom: 15px !important;
+    }
+
+    .accordionNew .table {
+        width: 100% !important;
+    }
+
+    .accordionNew .table table {
+        width: 100% !important;
+    }
+
+    .accordionNew {
+        gap: 15px !important;
+    }
+
+    .accordionNew .address .billing {
+        padding-top: 15px !important;
+    }
+
+    .accordionNew {
+        flex-direction: column !important;
+    }
+
+    .accordionNew .address {
+        width: 100% !important;
+    }
+
+    .accordionNew .horiLineNew {
+        width: 100% !important;
+    }
+
+    .accordionNew .address h3,
+    .accordionNew .address h3 span {
+        font-size: 10px;
+        padding-bottom: 10px !important;
+    }
+
+    .yourProduct .productBox_content>#mobileYourProductPara {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: end !important;
+        font-size: 9px !important;
+        line-height: 17px !important;
+        font-family: "Montserrat-SemiBold" !important;
+    }
+
+    .yourProduct .productBox_content .yourProductPara span {
+        font-size: 9px !important;
+        font-family: "Montserrat-Bold" !important;
+    }
+
+    .goToMyOrders {
+        padding: 9px 19px !important;
+        font-size: 10px !important;
+    }
+
+    .greenSection span {
+        font-size: 8px !important;
+    }
+
+    .yourProduct .yourProductright a {
+        font-size: 9px !important;
+    }
+
+    .yourProduct .yourProductright a img {
+        padding: 0px 5px !important;
+        width: 10% !important;
+        min-width: 18px !important;
+    }
+
+    .SAP_successfulmid {
+        width: 100% !important;
+    }
+
+    .similarProduct,
+    .peopleWhoBought {
+        padding-bottom: 0px !important;
+    }
+
+    .SimilarSlider,
+    .peopleWhoBought .hottestDropsSliderNew {
+        margin-top: 3px !important;
+    }
+
+    .people a,
+    .owlNewArrival a {
+        font-size: 12px !important;
+        padding-top: 24px !important;
+    }
+
+    .people h2 {
+        width: 70% !important;
+    }
+
+    .similarProducts h3 {
+        font-size: 14px !important;
+        padding-bottom: 6px !important;
+    }
+
+    .similarProducts h2,
+    .people h2 {
+        font-size: 16px !important;
+    }
+
+    .similarProduct .owlNewArrival,
+    .peopleInnerContent .people {
+        padding: 0px 0px 0px 6px !important;
+    }
+
+    .SimilarSlider .owl-next,
+    .SimilarSlider .owl-prev,
+    .peopleWhoBought .owl-next,
+    .peopleWhoBought .owl-prev {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .newArrivalsSliderNew .owl-next,
+    .peopleWhoBought .owl-next {
+        transform: translateX(4px) !important;
+    }
+
+    .SimilarSlider .owl-prev,
+    .peopleWhoBought .owl-prev {
+        transform: translateX(-27%) !important;
+    }
+
+    .owl-item {
+        padding-right: 16px;
+    }
+
+    .productBoxNew {
+        width: 50%;
+    }
+
+    p.yourProductPara {
+        display: none !important;
+    }
+
+    .yourProductParaMobile {
+        display: flex !important;
+    }
+
+    .SAP_successful .SAP_successfulmid .yourProduct .yourProductleft {
+        padding: 15px 15px 15px 15px !important;
+        gap: 10px !important;
+    }
+
+    .bidProductRight {
+        text-align: center !important;
+        padding-top: 0px !important;
+        padding-right: 0px !important;
+        width: 100% !important;
+    }
+
+    .SAP_successful {
+        margin-bottom: 25px;
+        margin-top: 130px;
+    }
+
+    .SAP_successful .SAP_successfulTop {
+        width: 100%;
+        padding-bottom: 25px !important;
+    }
+
+    .SAP_successful .SAP_successfulTop h2 {
+        font-size: 16px;
+        line-height: 20px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .SAP_successful .SAP_successfulTop p,
+    .SAP_successfulTop span {
+        font-size: 12px;
+        line-height: 17px !important;
+    }
+
+    hr {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 15px;
+    }
+
+    .SAP_successful .SAP_successfulmid .yourProduct .yourProductleft {
+        flex-wrap: wrap;
+    }
+
+    .SAP_successfulmid h2 {
+        font-size: 16px !important;
+    }
+
+    .greenSection {
+        display: block !important;
+        padding: 9px 10px !important;
+    }
+
+    .greenSection h3 {
+        font-size: 9px !important;
+        padding-bottom: 5px !important;
+    }
+
+    .greenSection a {
+        font-size: 11px;
+    }
+
+    .bidMyOrders {
+        margin: 0px auto !important;
+        width: 92% !important;
+        font-size: 10px !important;
+        padding-top: 15px !important;
+    }
+
+    .bidMyOrders strong {
+        font-size: 10px !important;
+    }
+
+    .topBiddedInnerContent .continueHeading {
+        font-size: 14px;
+        padding-left: 10px;
+    }
+
+    .topBidded .owlTopBidded h2,
+    .continueToShop .owlcontinueToShop h2 {
+        font-size: 16px;
+    }
+
+    .topBidded .owlTopBidded a,
+    .continueToShop .owlcontinueToShop a {
+        font-size: 12px;
+    }
+
+    .topBiddedSliderNew {
+        padding-top: 10px;
+    }
+
+    .topBiddedProducts,
+    .topBiddedInnerContent .continueHeading,
+    .continueToShop .owlcontinueToShop h2 {
+        padding-left: 0px;
+    }
+
+    .topBiddedProducts h2 {
+        padding: 6px 0px 0px 0px !important;
+    }
+
+    .product-box {
+        margin: 7px;
+    }
+
+    .topBidded {
+        padding-bottom: 0px;
+    }
+
+    .people {
+        padding-bottom: 0px !important;
+    }
+
+    .continueToShopSliderNew {
+        padding-top: 10px;
+    }
+
+    .continueToShop {
+        padding-bottom: 0px;
+    }
+
+    .backToTop {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .backToTop button {
+        font-size: 10px;
+    }
+
+    .backToTop button {
+        margin-bottom: 24px;
+    }
+
+    .backToTop button::before {
+        width: 38% !important;
+        opacity: 30% !important;
+        left: 1% !important;
+    }
+
+    .backToTop button::after {
+        width: 38% !important;
+        opacity: 30% !important;
+    }
+
+    .topBiddedSliderNew .owl-next,
+    .topBiddedSliderNew .owl-prev,
+    .continueToShopSliderNew .owl-next,
+    .continueToShopSliderNew .owl-prev {
+        width: 30px;
+        height: 30px;
+        font-size: 23px !important;
+    }
+
+    .topBiddedSliderNew .owl-next,
+    .continueToShopSliderNew .owl-next {
+        transform: translateX(12%);
+    }
+
+    .topBiddedSliderNew .owl-prev,
+    .continueToShopSliderNew .owl-prev {
+        transform: translateX(-24%);
+    }
+
+    /* .SAP_successfulmid .productBox img {
+        width: 117px !important;
+        height: auto;
+    } */
+
+    .productBox_contentNew {
+        width: 45% !important;
+    }
+
+    .SAP_successfulmid .productBox_content h2 {
+        font-size: 14px !important;
+        line-height: 20px !important;
+    }
+
+    .bitButton .lightAndDarkButton {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .bidProductRight .bitButton .light {
+        width: 100%;
+        padding: 10px 37px 10px 37px;
+    }
+
+    .bidProductRight .bitButton .dark {
+        padding: 11px 37px;
+        width: 100%;
+    }
+
+    .SAP_successfulmid .productBox_content .brand_nike {
+        font-size: 9px !important;
+        padding-top: 0px !important;
+    }
+
+    .SAP_successfulmid .productBox_content .productBox_para p {
+        font-size: 10px !important;
+        padding-top: 0px !important;
+    }
+
+    .yourProductParaMobile {
+        font-size: 11px !important;
+        width: 100%;
+    }
+
+    .yourProductParaMobile span {
+        font-size: 17px !important;
+        padding-top: 8px !important;
+    }
+
+    .SAP_successful .SAP_successfulmid .yourProduct {
+        width: 100%;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+    }
+
+    .paymentMode p {
+        font-size: 10px;
+        padding: 11px 0px 0px 0px;
+    }
+
+    .bidProductRight .bitButton {
+        padding-top: 15px;
+    }
+
+    .backToTop button::after {
+        right: 1%;
+    }
+
+}
+
+/*Successfull Responsive CSS Endss Here*/

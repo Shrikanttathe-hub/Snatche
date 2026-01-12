@@ -1,0 +1,193 @@
+
+body {
+  background-image: url("../Image/bidding_confirmation/Overlay1.png"); /* Ensure correct path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.selling_productPage1 {
+  background-color: #ffffff;
+  width: 948px;
+  margin: 0 auto;
+  margin-top: 86px;
+  padding-top: 99px;
+  margin-bottom: 185px;
+  box-shadow: -2px 0px 5px 3px #e5e5e54d;
+}
+.selling_productPage1 .sellingHeader p{
+  text-align: end;
+  margin-right: 48px; 
+  padding-bottom: 28px;
+  font-size: 19px;
+  align-items: 26px;
+  font-family: 'Montserrat-SemiBold';
+}
+.selling_productPage1 #sellingNext {
+  width: 189px;
+  height: 59px;
+  color: #ffffff;
+  background-color: #000000;
+  font-size: 19px;
+  line-height: 26px;
+  font-family: "Montserrat-Bold";
+  margin-bottom: 94px;
+  margin-left: 711px;
+}
+.selling_productPage_container {
+  width: 852px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: -2px 0px 5px 3px #e5e5e54d;
+  margin-bottom: 100px;
+  padding-bottom: 51px;
+}
+.selling_productPage_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.selling_productPage_container .shoesImg img {
+  width: 252px;
+  height: 252px;
+  margin: 32px 59px 24px 55px;
+}
+.selling_productPage_container .shoesContent h2 {
+  font-family: "Montserrat-ExtraBold";
+  font-size: 40px;
+  line-height: 51px;
+  padding-top: 54px;
+}
+.selling_productPage_container .shoesContent p {
+  font-family: "Montserrat-SemiBold";
+  font-size: 16px;
+  line-height: 22px;
+}
+.selling_productPage1 .shoesContent .brand_nike {
+  color: rgba(80, 80, 80, 1);
+  padding-bottom: 27px;
+  padding-top: 7px;
+}
+.shoesContent_size label {
+  padding: 7px 143px 3px 13px;
+  position: absolute;
+  z-index: 1;
+  color: #000000;
+  opacity: 50%;
+  font-size: 11px;
+  line-height: 14px;
+  font-family: "Montserrat-SemiBold";
+}
+.shoesContent_size select {
+  font-family: "Montserrat-SemiBold";
+  position: relative;
+  width: 335px;
+  height: 53px;
+  background: #fff;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  line-height: 21px;
+  padding-left: 10px;
+  margin-bottom: 57px;
+  padding-top: 5px;
+}
+.selling_productPage1 .sellingProductPage_divider a {
+  padding-left: 41px;
+  text-decoration: none;
+  color: #000000;
+  margin-right: 52px;
+  font-size: 22px;
+  line-height: 29px;
+  font-family: "Montserrat-SemiBold";
+}
+.selling_productPage1 .sellingProductPage_divider a:hover {
+  text-decoration-color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 17px;
+  text-decoration-thickness: 5px;
+}
+.selling_productPage_priceBreakdown .enterAmount {
+  padding-bottom: 74px;
+ display: flex;
+ flex-direction: row;
+}
+.selling_productPage_priceBreakdown .enterAmount label,
+.minimumAmount {
+  position: absolute;
+  font-family: "Montserrat-SemiBold";
+  font-size: 11px;
+  line-height: 14px;
+  padding-top: 7px;
+  padding-left: 13px;
+  opacity: 50%;
+}
+.selling_productPage_priceBreakdown .enterAmount .minimumAmount {
+  font-size: 13px;
+  padding-left: 0;
+  padding-top: 70px;
+}
+.selling_productPage_priceBreakdown .enterAmount input {
+  font-family: "Montserrat-Bold";
+  width: 259px;
+  height: 59px;
+  border: none;
+  padding-left: 14px;
+  padding-top: 9px;
+  font-size: 22px;
+  line-height: 29px;
+  box-shadow: -2px 0px 5px 3px #e5e5e54d;
+}
+.selling_productPage_priceBreakdown .enterAmount #amount::placeholder {
+  color: #000000;
+  font-size: 22px;
+  line-height: 29px;
+}
+
+.selling_productPage_priceBreakdown .enterAmount button {
+  width: 126px;
+  height: 59px;
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Montserrat-Bold";
+  margin-left: 13px;
+}
+.selling_productPage_priceBreakdown {
+  margin: 0px 59px 52px 41px;
+}
+
+.selling_productPage_priceBreakdown table {
+  width: 100%;
+}
+.selling_productPage_priceBreakdown table tr {
+  font-family: "Montserrat-SemiBold";
+  font-size: 18px;
+  line-height: 24px;
+  padding-top: 16px;
+  opacity: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.selling_productPage_priceBreakdown .selling_finalPrice {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 55px;
+  font-size: 29px;
+  line-height: 39px;
+  font-family: "Montserrat-Bold";
+}
+.selling_productPage_priceBreakdown table th a,td a {
+  text-decoration: none;
+  font-family: "Montserrat-SemiBold";
+  color: hsla(126, 100%, 27%, 1);
+  font-size: 15px;
+  line-height: 20px;
+  padding-left: 21px;
+}
+.selling_productPage_priceBreakdown table td .fee {
+  text-decoration: line-through;
+}

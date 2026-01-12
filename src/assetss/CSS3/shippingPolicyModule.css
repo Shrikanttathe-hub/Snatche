@@ -1,0 +1,44 @@
+.shipping {
+  width: 100%;
+}
+.shipping .shipping_main {
+  padding-bottom: 181px;
+  width: 100%;
+  max-width: 1436px;
+  margin: 0 auto;
+}
+.shipping .shipping_main .utility {
+  display: block;
+}
+.shipping .container .shippingContent p {
+  font-size: 17px;
+  line-height: 28px;
+  font-family: "Montserrat-Medium";
+  padding-bottom: 40px;
+}
+.shipping .container .shippingContent p:last-child {
+  padding-bottom: 0;
+}
+@media only screen and (max-width: 1024px) {
+  .shipping .shipping_main {
+    width: 100%;
+    padding-bottom: 100px;
+  }
+  .utility h1 {
+    padding-bottom: 40px;
+  }
+  .shipping .container .shippingContent p {
+    font-size: 15px;
+    padding-bottom: 35px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .shipping .shipping_main {
+    padding-bottom: 25px;
+  }
+  .shipping .container .shippingContent p {
+    font-size: 12px;
+    line-height: 20px;
+    padding-bottom: 25px;
+  }
+}

@@ -1,0 +1,492 @@
+.wrapper_main {
+    width: 100%;
+    text-align: center;
+}
+.wrapper_main .heading {
+    width: 100%;
+    background-color: #000000;
+    background-image: url('../Images/Login/SignUp_Backgroundhead.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.wrapper_main .heading p {
+    font-family: 'Montserrat-ExtraBold';
+    color: #FFFFFF;
+    font-size: 23px;
+    line-height: 28px;
+    text-transform: capitalize;
+    padding-top: 112px;
+}
+.wrapper_main .heading a {
+    text-decoration: none;
+}
+.wrapper_main .heading a img {
+    width: 100%;
+    max-height: 51px;
+    margin: 21px 0px 57px 0px;
+    object-fit: contain;
+}
+.form_container {
+    overflow: hidden;
+    position: relative;
+}
+.tab_button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.tab_button button {
+    font-family: 'Montserrat-ExtraBold';
+    text-transform: capitalize;
+    font-size: 22px;
+    line-height: 26px;
+    padding: 15px 33px;
+    color: #FFFFFF;
+    border: none;
+    background: transparent;
+}
+.tab_contentleft .checkbtn label {
+    font-size: 13px !important;
+    line-height: 1 !important;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.tab_contentleft .checkbtn {
+    font-family: 'Montserrat-SemiBold' !important;
+    display: flex !important;
+    justify-content: center !important;
+    line-height: 15px !important;
+    padding: 58px 0px 19px 0px !important;
+    column-gap: 37px !important;
+}
+input[type="radio"]:checked::before {
+    content: '';
+    width: 11px;
+    height: 11px;
+    background-color: black;
+    position: absolute;
+    top: 1.2px;
+    left: 1.3px;
+}
+.tab_content {
+    margin: 77px auto 197px auto;
+    width: 100%;
+    max-width: 1000px;
+}
+.tab_content .login_content,
+.signup_complete {
+    width: 100%;
+    display: flex;
+}
+.tab_contentleft {
+    width: 50%;
+    padding-right: 73px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.tab_contentleft .form-group {
+    margin-bottom: 31px;
+}
+.form-group input {
+    font-family: 'Montserrat-Medium';
+    width: 100%;
+    height: 62px;
+    border-radius: 2px;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+    border: none;
+    padding: 9px 0px 0px 14px;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+}
+.tab_contentleft .user {
+    position: relative;
+}
+.tab_contentleft .user label {
+    position: absolute;
+    font-size: 11px;
+    line-height: 14px;
+    font-family: 'Montserrat-SemiBold';
+    padding: 9px 30px 7px 14px;
+    color: #000000;
+}
+.tab_contentleft .user a {
+    position: absolute;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat-SemiBold';
+    bottom: -25px;
+    right: 0;
+}
+.tab_button button.tab.active {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-bottom: 8px solid #FFFFFF;
+}
+.tab_contentright {
+    width: 50%;
+    padding-left: 72px;
+    border-left: 2px solid rgba(0, 0, 0, 0.1);
+}
+.tab_contentright p {
+    font-family: 'Montserrat-Bold';
+    padding-bottom: 27px;
+    font-size: 19px;
+    line-height: 23px;
+    color: #000000;
+    text-transform: lowercase;
+    text-align: left;
+}
+.tab_contentright a {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 0;
+}
+.tab_contentright .social-linkbox {
+    display: flex;
+    flex-direction: column;
+}
+.tab_contentright .social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 17px;
+    border-radius: 2px;
+}
+.tab_contentright .social-link img {
+    width: 27px;
+    height: 27px;
+    margin: 0px 18px 5px 0px;
+}
+.social-link.google {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid #000000;
+}
+/* Facebook styling */
+.social-link.facebook {
+    background-color: #0068FF;
+    color: #ffffff;
+}
+/* Apple styling */
+.social-link.apple {
+    background-color: #000000;
+    color: #ffffff;
+}
+/* Twitter styling */
+.social-link.twitter {
+    background-color: #1D9BF0;
+    color: #ffffff;
+}
+.tab_content .submit button {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 18px;
+    line-height: 21px;
+    border: none;
+    width: 100%;
+    padding: 15px 0px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 2px;
+    cursor: pointer;
+}
+/* signup otp page-step1 */
+.signUp_body {
+    text-align: center;
+}
+.signUp_body h2 {
+    font-size: 30px;
+    line-height: 36px;
+    padding: 80px 0px 64px 0px;
+    font-family: 'Montserrat-Bold';
+}
+.signUp_body form button {
+    font-family: 'Montserrat-ExtraBold';
+    line-height: 21px;
+    border: none;
+    width: 100%;
+    padding: 13px 0px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.signUp_body .phone-input {
+    position: relative;
+}
+.signUp_body form input {
+    width: 100%;
+    height: 63px;
+    border-radius: 2px;
+    border: none;
+    padding: 14px 30px 0px 14px;
+    margin-bottom: 29px;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+    color: #000000;
+    font-size: 19px;
+    font-family: 'Montserrat-SemiBold';
+    line-height: 23px;
+}
+.signUp_body form label {
+    position: absolute;
+    font-size: 11px;
+    line-height: 14px;
+    font-family: 'Montserrat-SemiBold';
+    padding: 7px 30px 10px 14px;
+    color: #000000;
+}
+.signUp_body .phone-input input::placeholder {
+    color: #000000;
+}
+/*End signup otp page-step1 */
+/* signup otp page-step2 */
+.signup_NextStep {
+    text-align: center;
+    width: 100%;
+}
+.signup_NextStep .otp-input-field {
+    width: 100%;
+    margin: 29px auto 64px auto;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+}
+.signup_NextStep .otp-input-fields {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    padding: 0px 0px 10px 15px;
+}
+.signup_NextStep .otp-input-fields input {
+    height: 40px;
+    width: 30px;
+    border-radius: 0;
+    border: none;
+    text-align: center;
+    font-family: 'Montserrat-SemiBold';
+    outline: none;
+    font-size: 19px;
+}
+.signup_NextStep .otp-input-field h5 {
+    text-align: start;
+    font-size: 11px;
+    line-height: 14px;
+    font-family: 'Montserrat-SemiBold';
+    color: #000000;
+    padding: 10px 0px 5px 15px;
+}
+.signup_NextStep button {
+    font-family: 'Montserrat-ExtraBold';
+    line-height: 21px;
+    border: none;
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.signup_NextStep .signUp_body form {
+    padding-bottom: 0px;
+    margin-bottom: 0x;
+}
+.signUp_otp,.signup_nextstepContainer {
+    width: 100%;
+    max-width: 455px;
+    margin: 0 auto;
+}
+.tab_content1 .tab_contentleft .checkbtn {
+    padding: 30px 0px 19px 0px;
+}
+@media only screen and (max-width:1024px) {
+    .tab_content {
+        width: 100%;
+        margin: 60px auto 150px auto;
+    }
+    .tab_content .login_content,.signup_complete {
+        flex-direction: row;
+    }
+    .tab_contentleft,.tab_contentright {
+        width: 50%;
+    }
+    .tab_contentleft {
+        padding-right: 30px;
+    }
+    .tab_contentright {
+        padding-left: 30px;
+    }
+    .tab_contentright {
+        border-left: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .form-group input {
+        height: 56px;
+        font-size: 16px;
+    }
+    .tab_button button {
+        font-size: 20px;
+        width: 50%;
+        padding: 12px 0px;
+    }
+    .tab_content1 .tab_contentleft .checkbtn {
+        padding: 25px 0px 19px 0px;
+    }
+    .tab_contentleft .checkbtn label {
+        font-size: 11px !important;
+        gap: 10px !important;
+    }
+    .signUp_otp,.signup_nextstepContainer {
+        width: 40%;
+    }
+    .signUp_body h2 {
+        font-size: 26px;
+        line-height: 32px;
+        padding: 60px 0 50px 0;
+    }
+}
+@media only screen and (max-width:767px) {
+    .wrapper_main .heading {
+        background-image: url('../Images/Login/bgImage_mobile.png');
+    }
+    .wrapper_main .heading p {
+        display: none;
+    }
+    .tab_contentleft,.tab_contentright {
+        width: 100%;
+        padding: 0;
+    }
+    .tab_content .login_content,.signup_complete {
+        width: 100%;
+    }
+    .wrapper_main .heading a img {
+        margin: 72px 0px 37px 0px;
+        max-height: 26px;
+    }
+    .form_container {
+        margin-bottom: 17px;
+    }
+    .tab_content .login_content,.tab_content1,.signup_complete {
+        display: block;
+    }
+    .tab_content1 .tab_contentleft .checkbtn {
+        padding-top: 0;
+    }
+    .tab_content {
+        margin: 25px auto 33px auto;
+        width: 100%;
+    }
+    .tab_contentleft {
+        margin: 0;
+    }
+    .tab_contentright {
+        border: none;
+    }
+    .tab_contentleft .checkbtn {
+        column-gap: 15px;
+        padding: 26px 0px 16px 0px;
+    }
+    .tab_button button {
+        background: transparent;
+        padding: 15px 0;
+        width: 50%;
+        font-size: 11px;
+        line-height: 1;
+    }
+    .tab_button button.tab.active {
+        border-bottom: 5px solid #FFFFFF;
+    }
+    .form-group input {
+        font-size: 11px;
+        height: 50px;
+        box-shadow: 0px 0px 36.19px -1.39px rgba(0, 0, 0, 0.1);
+    }
+    .tab_contentleft .user a {
+        font-size: 10px;
+    }
+    .tab_contentleft .form-group {
+        margin-bottom: 25px;
+    }
+    .tab_contentleft .user label {
+        font-size: 8px;
+    }
+    .tab_content .submit button,.signup_NextStep button,.signUp_body form button {
+        font-size: 11px;
+        padding: 10px 0px;
+    }
+    .tab_contentleft .checkbtn label {
+        font-size: 10px !important;
+        padding: 0 !important;
+        gap: 4px;
+    }
+    .tab_contentright p {
+        width: 100%;
+        font-size: 9px;
+        background-color: #FFFFFF;
+        padding: 24px 0px;
+        display: flex;
+        align-items: center;
+    }
+    .tab_contentright p::before,.tab_contentright p::after {
+        content: '';
+        flex: 1;
+        margin: 0px 10px;
+        border: 1.5px solid rgba(0, 0, 0, 0.2);
+    }
+    .social-linkbox {
+        display: none !important;
+    }
+    .tab_contentright a {
+        padding: 0;
+    }
+    .mobileView_social {
+        display: flex;
+        column-gap: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .mobileView_social .mac img {
+        width: 37px;
+        height: 35px;
+    }
+    .mobileView_social .twit img {
+        margin-top: 5px;
+        height: 23px;
+    }
+    /* signup otp page step-1 */
+    .signUp_body h2 {
+        font-size: 15px;
+        line-height: 1;
+        padding: 4px 0px 25px 0px;
+    }
+    .signUp_body form input {
+        height: 50px;
+        margin-bottom: 25px;
+        font-size: 12px;
+    }
+    .signUp_body form {
+        padding-bottom: 0px;
+    }
+    .signUp_otp,.signup_nextstepContainer {
+        width: 100%;
+    }
+    /* signup otp page step-2 */
+    .signup_NextStep {
+        width: 100%;
+        padding-bottom: 0px;
+    }
+    .signup_NextStep .otp-input-field {
+        margin: 25px 0px 33px 0px;
+    }
+    .signup_NextStep .otp-input-fields {
+        margin: 0;
+        padding: 0px 0px 0px 15px;
+    }
+}

@@ -1,0 +1,360 @@
+.newOffer .container, .moreOption .container, .moreFrom .container{
+     width: 100% !important;
+    max-width: 1930px !important;
+    padding: 0px 15px !important;
+    margin: 0px auto !important;
+
+}
+.newOffer .product-box {
+    margin: 33px;
+}
+.slider-section {
+    position: relative;
+    width: 100%;
+}
+.slider-section .owl-carousel .owl-dots {
+    text-align: left;
+    position: absolute;
+    left: 2%;
+    bottom: 5%;
+}
+.owl-theme .owl-nav {
+    display: none;
+}
+.newOffer {
+    width: 100%;
+    overflow: hidden;
+}
+.newOffer a {
+    text-decoration: none;
+    color: #000000;
+}
+.newOffer h2 {
+    font-family: 'Montserrat-Bold';
+    font-size: 40px;
+    line-height: 48px;
+    padding: 102px 0px 60px 0px;
+}
+.newOffer .newOfferSlider {
+    display: flex;
+    width: 100%;
+    padding: 0px 20px;
+}
+.newOfferSlider .owl-stage-outer{
+    padding: 10px;
+    overflow: visible;
+}
+.newOffer .owl-stage {
+    padding-left: 0px !important;
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+}
+.newOffer .owl-item .item {
+    display: flex;
+}
+.newOffer .item img {
+    width: 100%;
+    object-fit: cover;
+}
+.moreOption {
+    width: 100%;
+    border-bottom: 1px solid rgba(139, 139, 139, 0.3);
+
+}
+.filter_heading {
+    display: none;
+}
+.moreFrom{
+    padding: 60px 0px 30px 0px !important;
+}
+.moreFromLoadMore{
+    display: none;
+    padding: 0px 0px 30px 0px !important;
+}
+.moreFrom_nike{
+    width: 100%;
+    padding: 102px 0px 60px 0px;
+
+}
+.moreOption h2 {
+    font-family: 'Montserrat-Bold';
+    font-size: 40px;
+    line-height: 48px;
+}
+.filter {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 28px;
+}
+.filterLeft {
+    width: 70%;
+    display: flex;
+    column-gap: 25px;
+}
+.filterRight {
+    width: 30%;
+    text-align: right;
+}
+.filter-item label {
+    color: #000000;
+    background-color: #FFFFFF;
+    font-family: 'Montserrat-Bold';
+    font-size: 18px;
+    line-height: 24px;
+    padding-right: 10px;
+}
+.filter-item select {
+    color: #000000;
+    background-color: #FFFFFF;
+    border: 1.5px solid #E5E5E54D;
+    box-shadow: -2px 0px 5px 3px #E5E5E54D;
+    font-family: 'Montserrat-Medium';
+    font-size: 18px;
+    line-height: 24px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+/* .moreFrom {
+    padding: 60px 0px;
+} */
+/* .moreFrom .row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+.loadMore {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.loadMore_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.loadMore_main::before,
+.loadMore_main::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: rgba(139, 139, 139, 0.3);
+    margin: 0px 10px;
+}
+.loadMore button {
+    border: none;
+    font-family: 'Montserrat-Bold';
+    font-size: 16px;
+    padding: 7px 22px;
+    color: #ffffff;
+    background-color: #000000;
+    line-height: 23px;
+    cursor: pointer;
+    outline: none;
+}
+@media only screen and (max-width: 1024px) {
+    .newOffer h2 {
+        font-size: 32px;
+        padding: 40px 0px;
+    }
+     .moreOption{
+        position: relative;
+     }
+    .moreOption h2 {
+        font-size: 32px;
+    }
+/* filter button on desktop */
+.moreFrom_nike{
+        padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    .filter,
+    .filterLeft,
+    .filter-item,
+    .filterRight {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: unset;
+    }
+    .filter,
+    .filter-item {
+        padding: 26px 0px 0px 0px
+    }
+    .filter-item label {
+        font-size: 21px;
+        line-height: 1.35;
+    }
+    .filter-item select {
+        font-size: 16px;
+        margin-top: 20px;
+        padding: 12px;
+    }
+    .searchResult_listingMain {
+        position: relative;
+    }
+    .filterImg {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 47px;
+    }
+    .filterImg button,
+    .filterContent button {
+        padding: 5px;
+        border: none;
+        background-color: transparent;
+    }
+    .filterContent {
+        display: block;
+        position: relative;
+        align-items: center;
+        border-bottom: 1px solid rgba(139, 139, 139, 0.3);
+        padding-bottom: 20px;
+    }
+    .filterContent button {
+        position: absolute;
+        top: 0;
+        right: 0px;
+    }
+    .filterContent button img {
+        width: 20px;
+    }
+    .filterContent h2 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 1.35;
+        font-family: 'Montserrat-Bold';
+    }
+    .filterImg button img {
+        width: 30px;
+    }
+    .filter {
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-color: #fff;
+        width: 100vw;
+        height: 100vh;
+        z-index: 10000;
+        padding: 25px;
+        overflow-y: scroll;
+        backdrop-filter: blur(10px);
+        display: none;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .owl-theme .owl-nav {
+        display: block;
+        position: absolute;
+        margin: 0;
+        top: 37%;
+        right: 0;
+    }
+    .owl-theme .owl-nav [class*=owl-] {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        font-size: 20px;
+        margin: 0px;
+        border-radius: 50%;
+        border: none;
+        color: #FFFFFF;
+        background-color: #000000;
+        cursor: pointer;
+    }
+    .owl-theme .owl-nav button.owl-prev {
+        display: none;
+    }
+    .loadMore {
+        margin-bottom: 30px;
+    }
+    .loadMore button {
+        font-size: 9px;
+        padding: 4px 9px;
+    }
+    .owl-theme .owl-dots .owl-dot span {
+        width: 4px;
+        height: 4px;
+        margin: 2px 3px;
+        background: rgba(255, 255, 255, 0.2);
+    }
+    .moreOption {
+        border-bottom: none;
+    }
+    .moreOption .moreFrom_nike {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid rgba(139, 139, 139, 0.3);
+        padding: 25px 0px 15px 0px;
+    }
+     /* filter options */
+    .filter {
+        padding: 15px;
+    }
+    .filterContent h2 {
+        font-size: 14px;
+    }
+    .filterContent button img {
+        width: 14px;
+        object-position: center;
+    }
+    .filter{
+        padding: 15px;
+    }
+    .filter-item {
+        padding-top: 20px;
+    }
+    .filter-item label {
+        padding: 0;
+        font-size: 12px;
+    }
+    .filter-item select {
+        font-size: 13px;
+        margin-top: 10px;
+        padding: 7px;
+    }
+    .filterImg button img {
+        width: 15px;
+    }
+    .filterImg {
+        top: 20px;
+    }
+    .filterContent button {
+        padding: 0px; 
+    }
+    .newOffer .newOfferSlider {
+        position: relative;
+        overflow: hidden;
+    }
+    .newOffer .newOfferSlider::after {
+        content: "";
+        position: absolute;
+        right: -15px;
+        top: 0;
+        width: 50px;
+        height: 100%;
+        background: linear-gradient(269.56deg, #FFFFFF 0.36%, rgba(255, 255, 255, 0) 79.67%);
+        z-index: 2;
+        pointer-events: none;
+    }
+    .newOffer h2,
+    .moreOption h2 {
+        font-size: 14px;
+        line-height: 1;
+        padding: 25px 0px 15px 0px;
+    }
+    .moreOption h2 {
+        padding: 0;
+    }
+}

@@ -1,0 +1,580 @@
+.sellingAddAndPayment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 99999;
+    display: none;
+    transition: 0.3 ease-in-out;
+    background: transparent;
+    backdrop-filter: blur(30px);
+}
+
+/* .selling_addAndPayShow{
+    display: flex !important;
+    pointer-events: fill;
+} */
+.sellingAddAndPaymentShow{
+    display: flex !important;
+    pointer-events: fill;
+}
+.selling_addAndPay {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+    max-width: 948px;
+    margin: 40px auto;
+    height: 80vh;
+    overflow-y: auto;
+}
+.selling_addAndPay_main {
+    width: 90%;
+    margin: 0 auto;
+    padding: 45px 0px;
+}
+.selling_addAndPay_main .sellingHeader {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+.selling_addAndPay_main .sellingHeader p {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 28px;
+    line-height: 36px;
+}
+.selling_addAndPay_Top {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.selling_addAndPay_Top .selectProduct {
+    padding: 53px 41px 46px 55px;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+}
+.selling_addAndPay_Top .selling_final_price {
+    padding:54px 0px 21px 0px;
+}
+.selling_addAndPay_Top .selling_final_price p {
+    font-family: 'Montserrat-Bold';
+    font-size: 30px;
+    line-height: 1.35;
+    display: flex;
+    justify-content: space-between;
+}
+.selling_addAndPay_Mid {
+    padding:18px 0px 60px 0px;
+}
+.selling_addAndPay_Mid .address-selection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+}
+.selling_addAndPay_Mid .selectAddress h2 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 30px;
+    line-height: 39px;
+}
+.selling_addAndPay_Mid .address-selection p {
+    font-size: 17px;
+    line-height: 24px;
+    font-family: 'Montserrat-SemiBold';
+}
+.selling_addAndPay_Mid .address-selection button {
+    padding: 11px 20px;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Montserrat-Bold';
+    color: #FFFFFF;
+    background-color: #000000;
+    border: none;
+    margin-right: 0px;
+}
+.accordion-item {
+    border: none;
+    margin: 20px auto;
+    background: #fff;
+    color: #000000;
+    overflow: hidden;
+    box-shadow: -2px 0px 5px 7px #E5E5E54D;
+}
+.accordion-item button {
+    position: relative;
+    width: 100%;
+    padding: 28px 35px;
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.accordion-item button .mainButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.accordion button[aria-expanded='true']+.accordion-content {
+    opacity: 1;
+    max-height: 300px;
+    transition: all 200ms linear;
+}
+.accordion .accordion-content {
+    position: relative;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 35px;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+}
+.accordion-item button .accordion-buttonLeft {
+    display: flex;
+    align-items: center;
+}
+.accordion-item button .accordion-buttonLeft h2 {
+    font-size: 25px;
+    line-height: 34px;
+    font-family: 'Montserrat-Bold';
+    color: #000000;
+}
+.accordion-item button .accordion-buttonLeft h3 {
+    padding-left: 28px;
+    font-size: 22px;
+    line-height: 29px;
+    font-family: 'Montserrat-SemiBold';
+    display: block;
+    color: #000000;
+}
+.accordion-item button .accordion-buttonLeft p {
+    font-size: 16px;
+    line-height: 21px;
+    opacity:0.4;
+    padding: 7px 0px 0px 12px;
+    font-family: 'Montserrat-SemiBold';
+    display: none;
+    color: #000000;
+}
+.accordion-buttonRight {
+    display: flex;
+    align-items: center;
+}
+.accordion-buttonRight p {
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Montserrat-SemiBold';
+    color: #000000;
+}
+.accordion-buttonRight img {
+    width: 14px;
+    height: 7px;
+    margin-left: 16px;
+}
+.accordion .accordion-content h3 {
+    font-family: 'Montserrat-Bold';
+    font-size: 25px;
+    line-height: 34px;
+    padding-bottom: 27px;
+}
+.accordion .accordion-content p {
+    font-size: 16px;
+    line-height: 21px;
+    font-family: 'Montserrat-SemiBold';
+    text-align: justify;
+}
+.accordion .accordion-content .edit {
+    width: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px 0px 20px 0px;
+}
+.accordion .accordion-content .edit a {
+    font-family: 'Montserrat-SemiBold';
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: underline;
+    text-underline-offset: auto;
+    text-decoration-thickness: auto;
+}
+.accordion .accordion-content .editSeparator {
+    margin: 0 8px;
+}
+.accordion .accordion-content .addressBox_selected {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    right: 36px;
+    bottom: 52PX;
+}
+.accordion .accordion-content .addressBox_selected p {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Montserrat-SemiBold';
+}
+.accordion .accordion-content .addressBox_selected img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -4px;
+}
+.selling_addAndPay_Mid .selectBilling {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 60px;
+}
+.selling_addAndPay_Mid .selectBilling p {
+    font-size: 17px;
+    line-height: 24px;
+    font-family: 'Montserrat-SemiBold';
+    padding-bottom: 32px;
+}
+.active {
+    border: 2px solid #008000;
+}
+.selling_addAndPay_priceBreakdown p,h2 {
+    display: flex;
+    justify-content: space-between;
+}
+.selling_addAndPay_priceBreakdown p {
+    font-size: 18px;
+    line-height: 23px;
+    font-family: 'Montserrat-SemiBold';
+    padding-bottom: 7px;
+}
+.selling_addAndPay_priceBreakdown h2 {
+    font-size: 40px;
+    line-height: 51px;
+    font-family: 'Montserrat-ExtraBold';
+    padding-bottom: 61px;
+}
+.selling_addAndPay_priceBreakdown p a {
+    color: rgba(0, 0, 0, 0.5);
+    padding-right: 217px;
+}
+.selling_addAndPay_bottom .payment_method p {
+    font-size: 25px;
+    line-height: 32px;
+    font-family: 'Montserrat-Bold';
+    padding-bottom: 31px;
+}
+.selling_addAndPay_bottom .payment_method button {
+    width: 100%;
+    max-height: 91px;
+    padding: 24px 0px;
+    font-family: 'Montserrat-Bold';
+    font-size: 21px;
+    line-height: 27px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.selling_addAndPay_bottom .payment_method .paypal {
+    background-image: linear-gradient(to right, rgba(0, 48, 135, 1), rgba(0, 156, 222, 1));
+    margin-bottom: 19px;
+}
+.selling_addAndPay_bottom .payment_method .Razorpay {
+    background-image: linear-gradient(to right, rgba(16, 28, 112, 1), rgba(11, 32, 98, 1));
+}
+/* .selling_addAndPay_bottom .payment_method .paypal img {
+    width: 180px;
+    height: 43px;
+}
+.selling_addAndPay_bottom .payment_method .Razorpay img {
+    width: 205px;
+    height: 91px;
+} */
+.selling_addrAndPayment_TAB {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 61px;
+}
+.selling_addAndPay_bottom .selling_addrAndPayment_TAB button {
+    font-family: 'Montserrat-Bold';
+    padding: 16px 60px;
+}
+.selling_addAndPay_bottom .selling_addrAndPayment_TAB .cancel {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+.selling_addAndPay_bottom .selling_addrAndPayment_TAB .next {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0%;
+}
+@media only screen and (max-width: 1024px) {
+    .selling_addAndPay_main {
+        width: 100%;
+        padding: 25px 0;
+    }
+    .selling_addrAndPayment .sellingHeader {
+        padding-bottom: 18px;
+    }
+    .selling_addAndPay_main .sellingHeader p {
+        font-size: 18;
+    }
+    .selling_addAndPay_priceBreakdown p a{
+        padding-right: 380px ;
+    }
+    .selling_addAndPay_Top .selling_final_price p,
+    .selling_addAndPay_Mid .selectAddress h2 {
+        font-size: 22px;
+    }
+    .selling_addAndPay_Mid .address-selection {
+        margin-top: 15px;
+    }
+    .selling_addAndPay_Top .selectProduct {
+        padding: 25px;
+        box-shadow: 0px 0px 12px -1px rgba(0, 0, 0, 0.1);
+    }
+    .selling_addAndPay_Top .selling_final_price {
+        padding: 30px 0px;
+    }
+    .selling_addAndPay_Mid {
+        padding-bottom: 30px;
+    }
+    .accordion-item {
+        margin: 10px auto;
+        box-shadow: 0px 0px 4px 1px #E5E5E5;
+    }
+    .accordion-item button {
+        padding: 20px;
+        font-size: 14px;
+    }
+    .accordion-item button .accordion-buttonLeft h2 {
+        font-size: 20px;
+    }
+    .accordion-item button .accordion-buttonLeft h3 {
+        font-size: 18px;
+        padding-left: 16px;
+    }
+    .accordion .accordion-content h3 {
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    .accordion .accordion-content .edit {
+        padding: 20px 0px;
+    }
+    .accordion .accordion-content .addressBox_selected img {
+        width: 16px;
+        height: 17px;
+    }
+    .accordion .accordion-content p {
+        font-size: 14px;
+    }
+    .accordion .accordion-content {
+        padding: 0px 20px;
+    }
+    .selling_addAndPay_Mid .selectBilling {
+        padding-bottom: 30px;
+    }
+    .selling_addAndPay_bottom {
+        padding: 0;
+    }
+    .selling_addAndPay_priceBreakdown p {
+        font-size: 16px;
+    }
+    .selling_addAndPay_priceBreakdown h2 {
+        font-size: 28px;
+        padding-bottom: 25px;
+    }
+    .selling_addAndPay_bottom .payment_method p {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    .selling_addAndPay_bottom .payment_method .Razorpay img {
+        width: 175px;
+        height: 90px;
+    }
+    .selling_addAndPay_bottom .payment_method button {
+        padding: 11px 0;
+        font-size: 16px;
+        max-height: 78px;
+    }
+    .selling_addrAndPayment_TAB {
+        gap: 10px;
+        margin-top: 40px;
+    }
+    .selling_addrAndPayment_TAB button {
+        padding: 12px 40px;
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .selling_addAndPay_priceBreakdown p a{
+        padding-right: 217px ;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .selling_addAndPay_main {
+        width: 100%;
+        padding: 25px 0px;
+    }
+    .selling_addAndPay_main .sellingHeader {
+        padding-bottom: 18px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .selling_addAndPay_main .sellingHeader p {
+        display: none;
+    }
+    .selling_addAndPay_main .sellingHeader button {
+        display: block;
+        font-size: 12px;
+        line-height: 1;
+        font-family: 'Montserrat-SemiBold';
+        border: none;
+        background-color: #FFFFFF;
+    }
+    .selling_addAndPay_Top .selectProduct {
+        padding: 40px 20px;
+    }
+    .selling_addAndPay_Top .selling_final_price {
+        padding: 15px 0px 24px 0px;
+    }
+    .selling_addAndPay_Top .selling_final_price p {
+        font-size: 15px;
+    }
+    .selling_addAndPay_Mid {
+        padding: 20px 0px;
+    }
+    .selling_addAndPay_Mid .selectBilling {
+        padding-bottom: 30px;
+    }
+    .selling_addAndPay_Mid .selectBilling p {
+        padding-bottom: 20px;
+        font-size: 11px;
+        line-height: 1;
+    }
+    .selling_addAndPay_Mid .selectAddress h2 {
+        font-size: 15px;
+    }
+    .selling_addAndPay_Mid .address-selection {
+        margin: 0;
+    }
+    .selling_addAndPay_Mid .address-selection,
+    .selling_addAndPay_Mid .address-selection p {
+        font-size: 10px;
+    }
+    .selling_addAndPay_Mid .address-selection button {
+        font-size: 8px;
+        padding: 5px;
+        line-height: 1.35;
+    }
+    .selling_addAndPay_bottom {
+        padding-top: 0px;
+    }
+    .selling_addAndPay_priceBreakdown p {
+        font-size: 10px;
+    }
+    .selling_addAndPay_priceBreakdown p a {
+        width: 100%;
+        order: 2;
+    }
+    .accordion-item {
+        margin: 15px auto;
+    }
+    .accordion-item button {
+        padding: 8px 10px;
+    }
+    .accordion-item button .accordion-buttonLeft h2 {
+        font-size: 10px;
+    }
+    .accordion-item button .accordion-buttonLeft h3 {
+        font-size: 8px;
+        padding-left: 8px;
+    }
+    .accordion-item button .accordion-buttonLeft p {
+        font-size: 6px;
+        padding-left: 5px;
+    }
+    .accordion-buttonRight p {
+        font-size: 7px;
+    }
+    .accordion-buttonRight img {
+        width: 7px;
+        height: 3px;
+        margin-left: 7px;
+    }
+    .accordion-item {
+        margin: 15px auto;
+    }
+    .accordion .accordion-content {
+        padding: 0px 10px;
+    }
+    .accordion .accordion-content h3 {
+        padding-bottom: 10px;
+        font-size: 10px;
+        line-height: 1.35;
+    }
+    .accordion .accordion-content p {
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .accordion .accordion-content .addressBox_selected p {
+        font-size: 6px;
+    }
+    .accordion .accordion-content .addressBox_selected img {
+        width: 7px;
+        height: 8px;
+        margin-bottom: -2px;
+    }
+    .accordion .accordion-content .addressBox_selected {
+        bottom: 35px;
+    }
+    .accordion .accordion-content .edit {
+        padding: 10px 0px 15px 0px;
+        max-width: 62px;
+    }
+    .accordion .accordion-content .edit a {
+        font-size: 8px;
+    }
+    .accordion .accordion-content .editSeparator {
+        margin: 0;
+    }
+    .selling_addAndPay_priceBreakdown p {
+        flex-wrap: wrap;
+    }
+    .selling_addAndPay_priceBreakdown h2 {
+        font-size: 15px;
+        line-height: 1;
+        padding-bottom: 25px;
+    }
+    .selling_addAndPay_bottom .payment_method p {
+        font-size: 10px;
+        line-height: 1;
+        padding-bottom: 11px;
+    }
+    .selling_addAndPay_bottom .payment_method .paypal {
+        margin-bottom: 10px;
+    }
+    .selling_addAndPay_bottom .payment_method button {
+        font-size: 7px;
+        padding: 8px 0px;
+        max-height: 33px;
+    }
+    .selling_addAndPay_bottom .payment_method button img {
+        width: 66px;
+        height: 15px;
+    }
+    .selling_addAndPay_bottom .payment_method .Razorpay img {
+        height: 33px;
+        width: 70px;
+    }
+    .selling_addrAndPayment_TAB {
+        margin-top: 15px;
+    }
+    .selling_addAndPay_bottom .selling_addrAndPayment_TAB button {
+        width: 50%;
+        padding: 11px 0px;
+        font-size: 10px;
+    }
+}

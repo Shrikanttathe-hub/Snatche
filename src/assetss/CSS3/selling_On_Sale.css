@@ -1,0 +1,331 @@
+#selling_on_salePage .selling_on_salepageMain {
+    width: 100%;
+    max-width: 1436px;
+    margin: 0 auto;
+}
+.utility {
+    width: 100%;
+    display: flex;
+}
+.selling_on_salepageMain .utilityLeft {
+    width: 50%;
+}
+.selling_on_salepageMain .utilityRight {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.selling_on_salepageMain .utilityRight .utilitydropdown {
+    width: 30%;
+    margin-right: 10px;
+}
+.selling_on_salepageMain .utilityRight .buyingSearch {
+    width: 70%;
+}
+.utilityRight .utilitydropdown label {
+    font-family: "Montserrat-SemiBold";
+    padding: 7px 0px 0px 13px;
+    color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    line-height: 1;
+    font-size: 11px;
+    z-index: 1;
+}
+.utilityRight .utilitydropdown select {
+    font-family: 'Montserrat-SemiBold';
+    position: relative;
+    width: 100%;
+    min-height: 52px;
+    background: #fff;
+    border: none;
+    box-shadow: 0px 0px 12.6px -0.48px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    line-height: 26px;
+    padding: 10px 0px 0px 10px;
+}
+.selling_on_salepageMain .utilityRight .buyingSearch input {
+    width: 100%;
+    padding: 17px 30% 17px 26px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'Montserrat-SemiBold';
+}
+.selling_on_salepageMain .utilityRight .buyingSearch button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 8px;
+    right: 0px;
+    border: none;
+    background-color: transparent;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 16px 50px;
+    font-family: 'Montserrat-Regular';
+    cursor: pointer;
+}
+.selling_on_salepageMain .utilityRight input::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+}
+.selling_on_salepageMain .utilityRight button img {
+    margin-right: 10px;
+    object-fit: cover;
+    margin-top: 3px;
+    width: 18px;
+    height: 18px;
+}
+.selling_tab .divider {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #000000;
+    margin-bottom: 44px;
+}
+.sale li {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px;
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 22px;
+}
+.sale li:last-child {
+    margin-bottom: 0;
+}
+.sale li .saleOnLeft {
+    display: flex;
+    align-items: center;
+}
+.sale li .saleOnRight {
+    text-align: right;
+}
+.sale li .saleOnRight p {
+    font-size: 20px;
+    color: #000000;
+    line-height: 1;
+    font-family: 'Montserrat-SemiBold';
+    padding-bottom: 80px;
+}
+.sale li .saleOnRight p span {
+    font-size: 40px;
+    line-height: 1;
+    color: #000000;
+    font-family: 'Montserrat-ExtraBold';
+}
+.sale li .saleOnRight a {
+    color: #000000;
+    font-size: 13px;
+    line-height: 1;
+    font-family: 'Montserrat-SemiBold';
+}
+.sale li .saleOnRight .saleOnButton {
+    gap: 5px;
+    margin-top: 15px;
+}
+.sale li .saleOnRight .saleOnButton button {
+    font-size: 10px;
+    line-height: 1;
+    padding: 10px 15px;
+    font-family: 'Montserrat-SemiBold';
+    border: 1px solid #000000;
+    background: #FFFFFF;
+    color: #000000;
+    cursor: pointer;
+}
+.sale li .saleOnRight .saleOnButton .salebtnLeft {
+    background: #000000;
+    color: #FFFFFF;
+}
+.saleOnRight .soldButton button {
+    margin-top: 15px;
+    padding: 10px 14px;
+    color: #FFFFFF;
+    background-color: #000000;
+    font-size: 10px;
+    line-height: 1;
+    font-family: 'Montserrat-SemiBold';
+    cursor: pointer;
+    border: none;
+}
+/* Hide radio buttons */
+/* input[type="radio"] {
+    display: none;
+} */
+/* Style tab buttons */
+label {
+    background-color: #FFFFFF;
+    display: inline-block;
+    padding: 10px 10px;
+    cursor: pointer;
+    line-height: 1.35;
+    font-size: 22px;
+    font-family: 'Montserrat-SemiBold';
+}
+input[type="radio"]:checked+label {
+    border-bottom: 7px solid rgba(0, 0, 0, 1);
+}
+.sale_on-tabsContent {
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    display: none;
+    padding: 45px 0px 130px 0px;
+}
+.sale_on-tabsContent #selectedSize {
+    color: rgba(0, 0, 0, 1);
+}
+#on_sale:checked~.sale_on_tabsContent #on_saleContent,
+#sold:checked~.sale_on_tabsContent #soldContent {
+    display: block;
+}
+@media only screen and (max-width: 1200px) {
+    .sale li {
+        padding: 40px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .utility {
+        flex-direction: column;
+        padding-bottom: 15px;
+    }
+    .selling_on_salepageMain .utilityLeft,
+    .selling_on_salepageMain .utilityRight {
+        width: 100%;
+    }
+    .selling_on_salepageMain .utilityRight {
+        padding-top: 23px;
+    }
+    .selling_on_salepageMain .utilityRight .buyingSearch button {
+        top: 23px;
+    }
+    .sale li {
+        padding: 30px;
+    }
+    label {
+        font-size: 18px;
+    }
+    input[type="radio"]:checked+label {
+        border-bottom: 5px solid rgba(0, 0, 0, 1);
+    }
+    .sale_on-tabsContent {
+        padding: 40px 0px 100px 0px;
+    }
+    .sale li .saleOnLeft {
+        width: 100%;
+    }
+    .sale li .saleOnRight {
+        display: none;
+        text-align: unset;
+    }
+    #saleOnRight_mobileView {
+        display: flex;
+        width: 100%;
+    }
+    .selectProduct {
+        flex-wrap: wrap;
+    }
+    .selectProduct .product_Img img,
+    .sale li .saleOnRight .saleOnButton {
+        width: 100%;
+    }
+    .selectProduct .product_Img {
+        width: 45%;
+    }
+    .selectProduct .productContent {
+        width: 50%;
+        margin: 0;
+    }
+    .sale li .saleOnRight p {
+        padding: 0;
+    }
+    .sale li .saleOnRight .saleOnButton button {
+        padding: 15px 0px;
+        width: 50%;
+        font-size: 15px;
+    }
+    .sale li .saleOnRight .saleOnButton {
+        display: flex;
+        margin-top: 25px;
+    }
+    .sale li .saleOnRight p span {
+        font-size: 30px;
+    }
+    .sale li .saleOnRight p {
+        font-size: 17px;
+        flex-direction: column;
+    }
+    .sale li .saleOnRight a {
+        width: 100%;
+        text-align: right;
+        font-size: 11px;
+        padding-top: 30px;
+    }
+    .soldButton {
+        width: 100%;
+    }
+    .saleOnRight .soldButton button {
+        width: 100%;
+        padding: 15px 0px;
+        font-size: 15px;
+        margin-top: 25px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .utilityRight .utilitydropdown label {
+        font-size: 7px;
+        padding: 7px 0px 1px 10px;
+    }
+    .utilityRight .utilitydropdown select {
+        font-size: 9px;
+        padding: 12px 0px 4px 7px;
+        min-height: 38px;
+    }
+    .selling_on_salepageMain .utilityRight .buyingSearch button {
+        padding: 11px 15px;
+        right: auto;
+        top: 14px;
+    }
+    .selling_on_salepageMain .utilityRight .buyingSearch input {
+        padding: 11px 11px 11px 90px;
+    }
+    .selling_on_salepageMain .utilityRight {
+        padding-top: 15px;
+    }
+    label {
+        font-size: 11px;
+        line-height: 1;
+    }
+    .sale_on-tabsContent {
+        padding: 15px 0px 25px 0px;
+    }
+    .sale li {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    .sale li .saleOnRight p {
+        font-size: 13px;
+    }
+    .sale li .saleOnRight p span {
+        font-size: 15px;
+    }
+    .sale li .saleOnRight a {
+        width: 47%;
+        padding-top: 15px;
+    }
+    .sale li .saleOnRight .saleOnButton {
+        margin-top: 15px;
+    }
+    .sale li .saleOnRight .saleOnButton button {
+        padding: 10px 0px;
+        font-size: 10px;
+    }
+    .saleOnRight .soldButton button {
+        margin-top: 15px;
+        padding: 10px 0px;
+        font-size: 10px;
+    }
+}

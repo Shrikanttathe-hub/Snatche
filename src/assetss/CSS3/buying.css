@@ -1,0 +1,827 @@
+.buying_pageMain {
+    width: 100%;
+    max-width: 1436px;
+    margin: 0 auto;
+}
+.buyingPage .utility {
+    width: 100%;
+    display: flex;
+}
+.buying_pageMain .utilityLeft {
+    width: 50%;
+}
+.buying_pageMain .utilityRight {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.buying_pageMain .utilityRight .utilitydropdown {
+    width: 30%;
+    margin-right: 10px;
+}
+.buying_pageMain .utilityRight .buyingSearch {
+    width: 70%;
+}
+.buying_pageMain .utilityRight .buyingSearch input {
+    width: 100%;
+    padding: 17px 30% 17px 26px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'Montserrat-SemiBold';
+}
+.buying_pageMain .utilityRight .buyingSearch button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 15px;
+    right: 0px;
+    border: none;
+    background-color: transparent;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 0px 24px;
+    font-family: 'Montserrat-Regular';
+    cursor: pointer;
+}
+.buying_pageMain .utilityRight button img {
+    margin-right: 10px;
+    object-fit: cover;
+    margin-top: 3px;
+    width: 15px;
+    height: 15px;
+}
+.buying_tab_content ul {
+    list-style-type: none;
+    padding: 45px 0px 134px 0px;
+    padding-bottom: 134px;
+}
+.buying_tab_content ul li {
+    box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 45px 0px;
+}
+.buying_tab_content ul li:first-child {
+    margin-top: 0;
+}
+.buying_tab_content ul li:last-child {
+    margin-bottom: 0;
+}
+.buying_tab_content ul li .buyingProduct_top {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px 20px 40px;
+}
+.buyingProduct_top .buying_top_Left {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+}
+.buyingProduct_top .buying_top_Left strong {
+    font-family: 'Montserrat-Bold';
+    font-size: 28px;
+    line-height: 1;
+    padding-right: 28px;
+}
+.buyingProduct_top .buying_top_Left p {
+    font-family: 'Montserrat-Medium';
+    font-size: 15px;
+    line-height: 1;
+}
+.buyingProduct_top .buying_top_Left strong span {
+    font-size: 15px;
+}
+.buyingProduct_top .buying_top_Right {
+    width: 30%;
+    display: flex;
+    justify-content: right;
+    column-gap: 11px;
+}
+.buyingProduct_top .buying_top_Right button {
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 1);
+    border: 1.5px solid rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 10px;
+    line-height: 1;
+    font-family: 'Montserrat-SemiBold';
+}
+.buyingProduct_top .buying_top_Right .downloadInvoice {
+    border: none;
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+.buying_tab_content ul li .buyingProduct_bottom {
+    display: flex;
+    padding: 58px 61px 35px 61px;
+}
+.buyingProduct_bottom .buying_bottom_Left {
+    width: 70%;
+}
+.purchase .buyingProduct_bottom .buying_bottom_Left .productContent p {
+    padding: 5px 0px;
+}
+.buyingProduct_bottom .buying_bottom_Left .productContent h2 {
+    font-family: 'Montserrat-Bold';
+}
+.buyingProduct_bottom .buying_bottom_Left .productContent .selectSize {
+    color: rgba(0, 0, 0, 1);
+    padding-top: 8px !important;
+}
+.buyingProduct_bottom .buying_bottom_Right {
+    width: 40%;
+}
+.purchase .buyingProduct_bottom .buying_bottom_Right p {
+    font-family: 'Montserrat-ExtraBold';
+    color: #000000;
+    font-size: 30px;
+    line-height: 1;
+    text-align: right;
+}
+.your_bid .buyingProduct_top a {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 16px;
+    line-height: 1.35;
+    color: rgba(255, 255, 255, 1);
+}
+.your_bid .buying_bottom_Right {
+    text-align: right;
+}
+.your_bid .buying_bottom_Right p,
+button {
+    font-family: 'Montserrat-SemiBold';
+    line-height: 1
+}
+.your_bid .buying_bottom_Right .youeBid {
+    font-size: 20px;
+    color: #000000;
+}
+.your_bid .buying_bottom_Right .price {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 40px;
+    color: #000000;
+}
+.your_bid .buying_bottom_Right .yourBid_buttons button {
+    padding: 10px 16px;
+    margin: 15px 5px;
+    font-size: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+}
+.your_bid .buying_bottom_Right .yourBid_buttons .changeBid {
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 1);
+}
+.your_bid .buying_bottom_Right .paymentMode {
+    line-height: 1.35;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 11px;
+}
+/* tabs */
+/* Hide radio buttons */
+.buying_tabs input[type="radio"] {
+    display: none;
+}
+.buying_tabs label {
+    background-color: #FFFFFF;
+    display: inline-block;
+    padding: 10px 10px;
+    cursor: pointer;
+    line-height: 1.35;
+    font-size: 22px;
+    font-family: 'Montserrat-SemiBold';
+}
+.buying_tabs input[type="radio"]:checked+label {
+    border-bottom: 7px solid rgba(0, 0, 0, 1);
+}
+.buying_tabs .buying_tab_content {
+    border-top: 2px solid rgba(0, 0, 0, 1);
+    display: none;
+}
+/* Show active tab content */
+#purchase_tab:checked~.buying-tab-content #purchase_tab_content,
+#your_bids_tab:checked~.buying-tab-content #your_bids_tab_content {
+    display: block;
+}
+/* POPUP Section */
+.orderDetails {
+    width: 100%;
+}
+.orderDetails .orderMain {
+    margin: 100px auto;
+}
+.orderMain .order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 12px;
+}
+.orderMain .order p {
+    font-size: 32px;
+    line-height: 1.80;
+    font-family: 'Montserrat-Bold';
+}
+.orderMain .order button {
+    font-family: 'Montserrat-SemiBold';
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    line-height: 1.43;
+    cursor: pointer;
+    text-decoration: underline;
+    border: none;
+}
+.orderMain .details {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+}
+.orderMain .details .selectProduct .selected_size #selectSize {
+    font-family: 'Montserrat-Bold';
+    font-size: 18px;
+    color: rgba(0, 0, 0, 1);
+}
+.orderMain .details .options {
+    display: flex;
+    padding-top: 8px;
+}
+.details .selectProduct {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 84px 55px 35px 55px;
+}
+.selectProduct .selected_size {
+    display: flex;
+    justify-content: space-between;
+}
+.orderMain .details .options a {
+    color: #000000;
+    line-height: 1.35;
+    font-size: 13px;
+    font-family: 'Montserrat-SemiBold';
+    padding: 15px 15px;
+    cursor: pointer;
+}
+.orderMain .details .options .goto_productPage {
+    text-decoration: none;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+#option_mobileView{
+    display: none;
+}
+.orderMain .details_Address {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 100px;
+    padding: 30px 55px 41px 55px;
+}
+.orderMain .details_Address .details_AddressLeft {
+    width: 50%;
+}
+.orderMain .details_Address .details_AddressLeft ul {
+    list-style-type: none;
+}
+.orderMain .details_Address .details_AddressLeft ul li {
+    padding-bottom: 18px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.orderMain .details_Address .details_AddressLeft ul li:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+}
+.orderMain .details_Address .details_AddressLeft ul li strong {
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 20px;
+    line-height: 1.22;
+    padding-bottom: 19px;
+}
+.orderMain .details_Address .details_AddressLeft ul li strong span {
+    font-family: 'Montserrat-SemiBold';
+    line-height: 1.35;
+    font-size: 15px;
+}
+.orderMain .details_Address .details_AddressLeft ul li p {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 1.61;
+}
+.orderMain .details_Address .details_AddressRight {
+    width: 50%;
+}
+.details_addrRight_priceBreakdown table {
+    width: 100%;
+}
+.details_addrRight_priceBreakdown table tr {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 22px;
+    line-height: 29px;
+    padding-bottom: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.details_addrRight_priceBreakdown table .taxes {
+    padding-bottom: 12px;
+}
+.details_addrRight_priceBreakdown table .gst,
+.delivery span {
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 0%;
+    opacity: 0.5;
+}
+.details_addrRight_priceBreakdown table .delivery {
+    padding-bottom: 30px;
+}
+.details_addrRight_priceBreakdown .totalPrice h2 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 15px;
+    line-height: 1.35;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(0, 137, 14, 1);
+}
+.details_addrRight_priceBreakdown .totalPrice p {
+    font-family: 'Montserrat-SemiBold';
+    color: #000000;
+    font-size: 12px;
+    line-height: 16px;
+    opacity: 50%;
+    padding-top: 8px;
+}
+.orderMain .detailsBottom {
+    width: 100%;
+}
+.orderMain .detailsBottom .orderDet {
+    padding: 22px 35px;
+    width: 100%;
+    background-color: rgba(0, 137, 14, 1);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.orderMain .detailsBottom h3 {
+    font-size: 18px;
+    line-height: 1.35;
+    font-family: 'Montserrat-Bold';
+}
+.orderMain .detailsBottom p {
+    font-family: 'Montserrat-Medium';
+    font-size: 12px;
+    line-height: 1.35;
+}
+.orderMain .detailsBottom .orderTracing {
+    width: 100%;
+    padding: 60px 63px;
+    background-color: rgba(0, 137, 14, 0.1);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.orderTracing .orderTracingLeft {
+    width: 50%;
+}
+.orderTracing .progress {
+    position: relative;
+}
+.orderTracing .orderTracingLeft li {
+    margin-bottom: 31px;
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 1.35;
+    font-family: 'Montserrat-Bold';
+    color: rgba(0, 137, 14, 1);
+    position: relative;
+    padding-left: 60px;
+}
+.orderTracing .orderTracingLeft li::after {
+    content: "";
+    position: absolute;
+    left: 13.5px;
+    top: 28px;
+    width: 2px;
+    border-radius: 3px;
+    height: 24px;
+    background-color: rgba(0, 137, 14, 1);
+}
+.orderTracing .orderTracingLeft li:before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    border-radius: 50%;
+    height: 18px;
+    background-color: rgba(0, 137, 14, 1);
+    outline: solid 2px rgba(0, 137, 14, 1);
+    outline-offset: 2px;
+}
+.orderTracing .orderTracingLeft li:last-child::after {
+    display: none;
+}
+.orderTracing .orderTracingLeft li:not(.active)::before {
+    background-color: transparent;
+}
+.orderTracing .orderTracingLeft li:not(.active) strong {
+    opacity: 0.5;
+}
+.orderTracing .orderTracingLeft span {
+    font-size: 12px;
+    font-family: 'Montserrat-Medium';
+}
+.orderTracing .orderTracingRight {
+    width: 60%;
+    display: flex;
+    justify-content: right;
+}
+.orderTracing .orderTracingRight ul {
+    width: 100%;
+}
+.orderTracing .orderTracingRight li {
+    list-style-type: none;
+    padding: 8px 0px 18px 0px;
+    color: rgba(0, 137, 14, 1);
+    border-bottom: 1px solid rgba(0, 137, 14, 1);
+}
+.orderTracing .orderTracingRight li strong {
+    font-family: 'Montserrat-Bold';
+    line-height: 1.35;
+    font-size: 18px;
+}
+.orderTracing .orderTracingRight li span {
+    display: inline-block;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 15px;
+    line-height: 1.35;
+    margin-bottom: 10px;
+}
+.orderTracing .orderTracingRight li p {
+    padding: 4px 0px;
+}
+.orderTracing .orderTracingRight li:last-child {
+    border-bottom: none;
+}
+/*pop up css*/
+body.noscroll {
+    overflow: hidden;
+}
+header.active {
+    filter: blur(10px);
+    pointer-events: none;
+    user-select: none;
+}
+footer.active {
+    filter: blur(10px);
+    pointer-events: none;
+    user-select: none;
+}
+#buyingPage.active {
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+}
+#progressBar.active {
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+}
+#orderDetails {
+    width: 70%;
+    max-width: 1920px;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+    z-index: 100;
+    max-height: 80vh;
+    overflow: auto;
+    padding: 20px;
+}
+#orderDetails.active {
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+}
+@media screen and (max-width: 1024px) {
+    .buying_pageMain {
+        width: 100%;
+    }
+    .utility {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .buying_pageMain .utilityLeft,
+    .buying_pageMain .utilityRight {
+        width: 100%;
+    }
+    .buying_pageMain .utilityRight .buyingSearch button {
+        top: 0;
+    }
+    .buying_tab_content ul li .buyingProduct_top {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .buyingProduct_top .buying_top_Left,
+    .buyingProduct_top .buying_top_Right {
+        width: 100%;
+        justify-content: flex-start;
+        margin-top: 10px;
+    }
+    .buyingProduct_top .buying_top_Right {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .buying_tab_content ul {
+        padding-bottom: 100px;
+    }
+    .buying_tab_content ul li {
+        box-shadow: 0px 0px 8.37px -0.32px rgba(0, 0, 0, 0.1);
+    }
+    .orderMain .detailsBottom p {
+        font-size: 11px;
+    }
+    .orderMain .detailsBottom h3 {
+        font-size: 14px;
+    }
+    .buying_tab_content ul li .buyingProduct_bottom {
+        padding: 20px;
+    }
+    .buyingProduct_bottom .buying_bottom_Left,
+    .buyingProduct_bottom .buying_bottom_Right {
+        width: 100%;
+    }
+    .buyingProduct_bottom .buying_bottom_Right {
+        display: none;
+    }
+    #buyingbottomRight_MobileView {
+        display: block;
+    }
+    .purchase .buyingProduct_bottom .buying_bottom_Right p {
+        text-align: unset;
+    }
+    .your_bid .buying_bottom_Right .yourBid_buttons {
+        display: flex;
+        width: 100%;
+        column-gap: 10px;
+    }
+    .your_bid .buying_bottom_Right {
+        text-align: unset;
+    }
+    .your_bid .buying_bottom_Right .paymentMode {
+        text-align: right;
+    }
+    .your_bid .buying_bottom_Right .yourBid_buttons button {
+        width: 50%;
+        padding: 20px 0px;
+        font-size: 15px;
+    }
+    .buying_tabs label {
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+    #orderDetails {
+        width: 100%;
+        padding: 15px 0px 25px 0px;
+        max-height: 100vh;
+    }
+    /* order details */
+    .orderMain .order p {
+        font-size: 27px;
+    }
+    .orderMain .order button {
+        font-size: 17px;
+    }
+    .details .selectProduct {
+        padding: 35px 30px 35px 30px;
+    }
+    .orderMain .details .options {
+        gap: 10px;
+    }
+    .orderMain .details .options a {
+        font-size: 12px;
+        padding: 10px 12px;
+    }
+    .orderMain .details_Address {
+        padding: 25px 35px 25px 35px;
+        column-gap: 25px;
+    }
+    .orderMain .details_Address .details_AddressRight {
+        padding-top: 0;
+    }
+    .details_addrRight_priceBreakdown table tr {
+        font-size: 18px;
+    }
+    .details_addrRight_priceBreakdown table .gst,
+    .delivery span {
+        font-size: 16px;
+    }
+    .details_addrRight_priceBreakdown .totalPrice h2 {
+        font-size: 14px;
+    }
+    .orderMain .detailsBottom .orderDet {
+        padding: 18px 25px;
+    }
+    .orderMain .detailsBottom .orderTracing {
+        padding: 40px 25px;
+    }
+    .orderTracing .orderTracingRight {
+        justify-content: flex-start;
+    }
+    .orderTracing .orderTracingLeft li {
+        font-size: 16px;
+        padding-left: 45px;
+    }
+    .orderTracing .orderTracingRight li strong {
+        font-size: 16px;
+    }
+    .orderTracing .orderTracingRight li span {
+        font-size: 14px;
+    }
+    .orderTracing .orderTracingRight li {
+        padding: 6px 0px 14px 0px;
+    }
+    .orderMain .details .selectProduct .selected_size #selectSize {
+        font-size: 16px;
+    }
+    .orderMain .details_Address .details_AddressLeft ul li strong {
+        font-size: 18px;
+    }
+    .orderMain .details_Address .details_AddressLeft ul li strong span {
+        font-size: 14px;
+    }
+    .orderTracing .orderTracingLeft li::after {
+        top: 25px;
+        left: 12.5px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .utility {
+        gap: 15px;
+    }
+    .buying_tabs label {
+        font-size: 10px;
+        line-height: 1.35;
+    }
+    .buying_tabs input[type="radio"]:checked+label {
+        border-bottom: 2px solid rgba(0, 0, 0, 1);
+    }
+    .buying_pageMain .utilityRight .buyingSearch input {
+        padding: 11px 11px 11px 90px;
+    }
+    .buying_pageMain .utilityRight .buyingSearch button {
+        padding: 11px 15px;
+        right: auto;
+    }
+    .buying_tab_content ul li {
+        margin: 15px 0px;
+    }
+    .buying_tab_content ul {
+        padding: 17px 0px 25px 0px;
+    }
+    .buyingProduct_top .buying_top_Left strong {
+        font-size: 10px;
+        line-height: 1;
+        padding-right: 5px;
+    }
+    .buyingProduct_top .buying_top_Left strong span {
+        font-size: 8px;
+    }
+    .buyingProduct_top .buying_top_Left p {
+        font-size: 7px;
+    }
+    .buying_tab_content ul li .buyingProduct_top {
+        padding: 10px 0px 10px 15px;
+    }
+    .buyingProduct_top .buying_top_Right button {
+        border: 1px solid rgba(255, 255, 255, 1);
+        padding: 5px 7px;
+        font-size: 6px;
+    }
+    .purchase .buyingProduct_bottom .buying_bottom_Right p {
+        font-size: 14px;
+    }
+    .your_bid .buyingProduct_top a {
+        font-size: 9px;
+        line-height: 1;
+    }
+    .buying_tab_content ul li .buyingProduct_bottom {
+        padding: 31px 15px 15px 15px;
+    }
+    .your_bid .buying_bottom_Right .youeBid,
+    .your_bid .buying_bottom_Right .price {
+        font-size: 15px;
+    }
+    .your_bid .buying_bottom_Right .yourBid_buttons button {
+        padding: 10px 0px;
+        font-size: 10px;
+    }
+    .your_bid .buying_bottom_Right .paymentMode {
+        font-size: 10px;
+    }
+    /* order details */
+    .orderMain .order p {
+        font-size: 13px;
+    }
+    .orderMain .order button {
+        font-size: 10px;
+    }
+    .orderMain .details .options {
+        display: none;
+    }
+    .orderMain .details .selectProduct .selected_size #selectSize {
+        font-size: 9px;
+        padding-top: 0px;
+    }
+    .details .selectProduct {
+        flex-wrap: wrap;
+        padding: 43px 15px 15px 15px;
+    }
+    .selectProduct .productContent {
+        width: 50%;
+    }
+    #option_mobileView {
+        padding-top: 43px;
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: center;
+    }
+    .orderMain .details .options a {
+        width: 50%;
+        padding: 10px 0px;
+        font-size: 10px;
+    }
+    .orderMain .details_Address {
+        padding: 25px 15px 15px 15px;
+        flex-direction: column;
+        column-gap: 0;
+    }
+    .orderMain .details_Address .details_AddressLeft,
+    .orderMain .details_Address .details_AddressRight {
+        width: 100%;
+    }
+    .orderMain .details_Address .details_AddressRight {
+        padding-top: 20px;
+    }
+    .details_addrRight_priceBreakdown table tr {
+        font-size: 15px;
+        line-height: 1;
+    }
+    .details_addrRight_priceBreakdown table .gst,
+    .delivery span {
+        font-size: 11px;
+        line-height: 1;
+    }
+    .details_addrRight_priceBreakdown table .delivery {
+        padding-bottom: 25px;
+    }
+    .details_addrRight_priceBreakdown .totalPrice p {
+        text-align: right;
+        padding-top: 15px;
+    }
+    .orderMain .detailsBottom .orderDet {
+        padding: 15px;
+        flex-direction: column;
+    }
+    .orderMain .detailsBottom h3 {
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+    .orderMain .detailsBottom p {
+        font-size: 8px;
+    }
+    .orderMain .detailsBottom .orderTracing {
+        padding: 10px;
+        flex-direction: column;
+    }
+    .orderTracing .orderTracingLeft,
+    .orderTracing .orderTracingRight
+     {
+        width: 100%;
+    }
+    .orderMain .details_Address .details_AddressLeft ul li strong {
+        padding-bottom: 10px;
+    }
+    .orderMain .details_Address .details_AddressLeft ul li {
+        margin-bottom: 18px;
+    }
+}
