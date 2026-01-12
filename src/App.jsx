@@ -19,7 +19,6 @@ import ProductListing from "./pages/ProductListing";
 import ProductPage from "./pages/ProductPage";
 import Refund from "./pages/Refund";
 import SapSuccessful from "./pages/SapSuccessful";
-import SearchResult from "./pages/searchResult";
 import SecureShopping from "./pages/SecureShopping";
 import SelectYourProductNoResult from "./pages/SelectYourProductNoResult";
 import SellFunction from "./pages/SellFunction";
